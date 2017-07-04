@@ -1,0 +1,150 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_chord_category_root"
+        >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.root.A"
+            android:title="@string/pref_chord_root_A" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.root.Am"
+            android:title="@string/pref_chord_root_Am" />
+        
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.root.B"
+            android:title="@string/pref_chord_root_B" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.root.Bm"
+            android:title="@string/pref_chord_root_Bm" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.root.C"
+            android:title="@string/pref_chord_root_C" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.root.Cm"
+            android:title="@string/pref_chord_root_Cm" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.root.D"
+            android:title="@string/pref_chord_root_D" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.root.Dm"
+            android:title="@string/pref_chord_root_Dm" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.root.E"
+            android:title="@string/pref_chord_root_E" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.root.Em"
+            android:title="@string/pref_chord_root_Em" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.root.F"
+            android:title="@string/pref_chord_root_F" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.root.Fm"
+            android:title="@string/pref_chord_root_Fm" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.root.G"
+            android:title="@string/pref_chord_root_G" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.root.Gm"
+            android:title="@string/pref_chord_root_Gm" />
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/pref_chord_category_variation">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.variation.sus4"
+            android:title="@string/pref_chord_variation_sus4" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.variation.f5"
+            android:title="@string/pref_chord_variation_f5" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.variation.s5"
+            android:title="@string/pref_chord_variation_s5" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.variation.M7"
+            android:title="@string/pref_chord_variation_M7" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.variation.6"
+            android:title="@string/pref_chord_variation_6" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.variation.7"
+            android:title="@string/pref_chord_variation_7" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.variation.9"
+            android:title="@string/pref_chord_variation_9" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.variation.11"
+            android:title="@string/pref_chord_variation_11" />
+
+        <!--<CheckBoxPreference-->
+            <!--android:defaultValue="true"-->
+            <!--android:key="pref.chord.variation.13"-->
+            <!--android:title="@string/pref_chord_variation_13" />-->
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_chord_category_plusminus">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref.chord.plusminus.sharp"
+            android:title="@string/pref_chord_plusminus_sharp" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.plusminus.natural"
+            android:title="@string/pref_chord_plusminus_natural" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="pref.chord.plusminus.flat"
+            android:title="@string/pref_chord_plusminus_flat" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

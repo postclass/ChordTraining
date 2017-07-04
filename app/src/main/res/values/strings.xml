@@ -1,0 +1,215 @@
+<resources>
+    <string name="common_positive_button">O K</string>
+    <string name="common_error_input_title">Error</string>
+    <string name="common_error_input_required_any_flag">require any</string>
+
+    <string name="app_name">Training</string>
+
+    <string name="main_tone_button">Key</string>
+    <string name="main_chord_root_button">Chord(Root)</string>
+    <string name="main_chord_degree_button">Chord(Degree)</string>
+    <string name="main_viewer_button">Reference</string>
+
+    <string name="qa1_start_button_default">Start</string>
+    <string name="qa1_start_button_started">Listen collect sound.</string>
+    <string name="qa1_answer1_button_default">Answer1</string>
+    <string name="qa1_answer2_button_default">Answer2</string>
+    <string name="qa1_answer3_button_default">Answer3</string>
+    <string name="qa1_result_title">Result</string>
+    <string name="qa1_result_message">
+今回の得点：%1$d
+\n
+最高点：%2$d（%3$s）
+    </string>
+
+    <string name="qa1_listen_collect">Listen collect sound.</string>
+
+    <string name="tone_title">answer bellow key (%1$s)</string>
+    <string name="chord_root_title">Chord(root) training</string>
+    <string name="chord_degree_title">Chord(degree) training</string>
+
+    <string name="reference_key_button">Key</string>
+    <string name="reference_degree_absolute_button">Degree absolute</string>
+
+
+
+
+    <!-- pref start -->
+
+    <string name="pref_header_common">Common settings</string>
+    <string name="pref_header_tone">Key training settings</string>
+    <string name="pref_header_chord_root">Chord(root) training settings</string>
+    <string name="pref_header_chord_degree">Chord(degree) training settings</string>
+
+    <string name="pref_common_countdown_second_title">count down second</string>
+    <string-array name="pref_common_countdown_second_list_values">
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+    </string-array>
+
+    <string name="pref_tone_keymode_title">keymode</string>
+    <string-array name="pref_tone_keymode_list_values">
+        <item>major</item>
+        <item>minor</item>
+    </string-array>
+
+    <string name="pref_tone_includeHigh_title">Include high</string>
+    <string name="pref_tone_includeHigh_description">高</string>
+
+    <string name="pref_tone_includeMiddle_title">Include middle</string>
+    <string name="pref_tone_includeMiddle_description">中</string>
+
+    <string name="pref_tone_includeLow_title">Include low</string>
+    <string name="pref_tone_includeLow_description">低</string>
+
+
+    <string name="pref_chord_category_root">Root</string>
+    <string name="pref_chord_root_A">A</string>
+    <string name="pref_chord_root_Am">Am</string>
+    <string name="pref_chord_root_B">B</string>
+    <string name="pref_chord_root_Bm">Bm</string>
+    <string name="pref_chord_root_C">C</string>
+    <string name="pref_chord_root_Cm">Cm</string>
+    <string name="pref_chord_root_D">D</string>
+    <string name="pref_chord_root_Dm">Dm</string>
+    <string name="pref_chord_root_E">E</string>
+    <string name="pref_chord_root_Em">Em</string>
+    <string name="pref_chord_root_F">F</string>
+    <string name="pref_chord_root_Fm">Fm</string>
+    <string name="pref_chord_root_G">G</string>
+    <string name="pref_chord_root_Gm">Gm</string>
+
+
+    <string name="pref_chord_category_variation">Variation</string>
+    <string name="pref_chord_variation_M7">M7</string>
+    <string name="pref_chord_variation_sus4">sus4</string>
+    <string name="pref_chord_variation_f5">-5</string>
+    <string name="pref_chord_variation_s5">+5</string>
+    <string name="pref_chord_variation_6">6</string>
+    <string name="pref_chord_variation_7">7</string>
+    <string name="pref_chord_variation_9">9</string>
+    <string name="pref_chord_variation_11">11</string>
+    <string name="pref_chord_variation_13">13</string>
+
+    <string name="pref_chord_category_plusminus">+-</string>
+    <string name="pref_chord_plusminus_sharp">#</string>
+    <string name="pref_chord_plusminus_natural">♮</string>
+    <string name="pref_chord_plusminus_flat">b</string>
+
+
+    <string name="pref_chord_category_key">Key</string>
+    <string-array name="pref_chord_key_list_values">
+
+        <item>Cb</item>
+        <item>C</item>
+        <item>Cs</item>
+        <item>Db</item>
+        <item>D</item>
+        <item>Eb</item>
+        <item>E</item>
+        <item>F</item>
+        <item>Fs</item>
+        <item>Gb</item>
+        <item>G</item>
+        <item>A</item>
+        <item>Ab</item>
+        <item>B</item>
+        <item>Bb</item>
+
+        <item>Cm</item>
+        <item>Csm</item>
+        <item>Dm</item>
+        <item>Dsm</item>
+        <item>Ebm</item>
+        <item>Em</item>
+        <item>Fm</item>
+        <item>Fsm</item>
+        <item>Gm</item>
+        <item>Gsm</item>
+        <item>Abm</item>
+        <item>Am</item>
+        <item>Asm</item>
+        <item>Bbm</item>
+        <item>Bm</item>
+
+
+    </string-array>
+
+
+    <string-array name="multi_select_list_preference_default_value" />
+    <string name="pref_ringtone_silent">Silent</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- pred end -->
+
+
+    <string name="key_name_Cs">嬰ハ長調(C#)</string>
+    <string name="key_name_Fs">嬰ヘ長調(F#)</string>
+    <string name="key_name_B">ロ長調(B)</string>
+    <string name="key_name_E">ホ長調(E)</string>
+    <string name="key_name_A">イ長調(A)</string>
+    <string name="key_name_D">ニ長調(D)</string>
+    <string name="key_name_G">ト長調(G)</string>
+    <string name="key_name_C">ハ長調(C)</string>
+    <string name="key_name_F">ヘ長調(F)</string>
+    <string name="key_name_Bb">変ロ長調(Bb)</string>
+    <string name="key_name_Eb">変ホ長調(Eb)</string>
+    <string name="key_name_Ab">変イ長調(Ab)</string>
+    <string name="key_name_Db">変ニ長調(Db)</string>
+    <string name="key_name_Gb">変ト長調(Gb)</string>
+    <string name="key_name_Cb">変ハ長調(Cb)</string>
+
+    <string name="key_name_Asm">嬰イ短調(A#m)</string>
+    <string name="key_name_Dsm">嬰ニ短調(D#m)</string>
+    <string name="key_name_Gsm">嬰ト短調(G#m)</string>
+    <string name="key_name_Csm">嬰ハ短調(C#m)</string>
+    <string name="key_name_Fsm">嬰ヘ短調(F#m)</string>
+    <string name="key_name_Bm">ロ短調(Bm)</string>
+    <string name="key_name_Em">ホ短調(Em)</string>
+    <string name="key_name_Am">イ短調(Am)</string>
+    <string name="key_name_Dm">ニ短調(Dm)</string>
+    <string name="key_name_Gm">ト短調(Gm)</string>
+    <string name="key_name_Cm">ハ短調(Cm)</string>
+    <string name="key_name_Fm">ヘ短調(Fm)</string>
+    <string name="key_name_Bbm">変ロ短調(Bbm)</string>
+    <string name="key_name_Ebm">変ホ短調(Ebm)</string>
+    <string name="key_name_Abm">変イ短調(Abm)</string>
+
+    <string name="title_activity_reference">ReferenceActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!--<string name="chord_name_Cs">C#</string>-->
+    <!--<string name="chord_name_Fs">F#</string>-->
+    <!--<string name="chord_name_B">B</string>-->
+    <!--<string name="chord_name_E">E</string>-->
+    <!--<string name="chord_name_A">A</string>-->
+    <!--<string name="chord_name_D">D</string>-->
+    <!--<string name="chord_name_G">G</string>-->
+    <!--<string name="chord_name_C">C</string>-->
+    <!--<string name="chord_name_F">F</string>-->
+    <!--<string name="chord_name_Bb">Bb</string>-->
+    <!--<string name="chord_name_Eb">Eb</string>-->
+    <!--<string name="chord_name_Ab">Ab</string>-->
+    <!--<string name="chord_name_Db">Db</string>-->
+    <!--<string name="chord_name_Gb">Gb</string>-->
+    <!--<string name="chord_name_Cb">Cb</string>-->
+    <!--<string name="chord_name_Asm">A#m</string>-->
+    <!--<string name="chord_name_Dsm">D#m</string>-->
+    <!--<string name="chord_name_Gsm">G#m</string>-->
+    <!--<string name="chord_name_Csm">C#m</string>-->
+    <!--<string name="chord_name_Fsm">F#m</string>-->
+    <!--<string name="chord_name_Bm">Bm</string>-->
+    <!--<string name="chord_name_Em">Em</string>-->
+    <!--<string name="chord_name_Am">Am</string>-->
+    <!--<string name="chord_name_Dm">Dm</string>-->
+    <!--<string name="chord_name_Gm">Gm</string>-->
+    <!--<string name="chord_name_Cm">Cm</string>-->
+    <!--<string name="chord_name_Fm">Fm</string>-->
+    <!--<string name="chord_name_Bbm">Bbm</string>-->
+    <!--<string name="chord_name_Ebm">Ebm</string>-->
+    <!--<string name="chord_name_Abm">Abm</string>-->
+
+</resources>

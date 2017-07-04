@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jp.postclass.qa1training.activity.QA1Activity">
+
+    <Button
+        android:id="@+id/qa1ButtonStart"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/qa1_start_button_default"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_margin="0dp"
+        android:onClick="onClickStart"
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    <WebView
+        android:id="@+id/qa1WebView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/qa1ButtonStart"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <Button
+        android:id="@+id/qa1ButtonAns1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height_answer"
+        android:layout_margin="0dp"
+        android:text="@string/qa1_answer1_button_default"
+        android:onClick="onClickAnswer1"
+        android:enabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/qa1ButtonAns2"
+        app:layout_constraintLeft_toLeftOf="@+id/qa1ButtonStart"
+        app:layout_constraintRight_toLeftOf="@+id/qa1ImageButtonSound1" />
+
+    <ImageButton
+        android:id="@+id/qa1ImageButtonSound1"
+        android:layout_width="@dimen/button_height_answer"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/ic_audiotrack_black_24dp"
+        android:padding="0dp"
+        android:layout_margin="0dp"
+        android:onClick="onClickSound1"
+        app:layout_constraintTop_toTopOf="@+id/qa1ButtonAns1"
+        app:layout_constraintBottom_toBottomOf="@+id/qa1ButtonAns1"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/qa1ButtonAns2"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height_answer"
+        android:layout_margin="0dp"
+        android:text="@string/qa1_answer2_button_default"
+        android:onClick="onClickAnswer2"
+        android:enabled="false"
+        app:layout_constraintBottom_toTopOf="@+id/qa1ButtonAns3"
+        app:layout_constraintLeft_toLeftOf="@+id/qa1ButtonAns1"
+        app:layout_constraintRight_toLeftOf="@+id/qa1ImageButtonSound2" />
+
+    <ImageButton
+        android:id="@+id/qa1ImageButtonSound2"
+        android:layout_width="@dimen/button_height_answer"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/ic_audiotrack_black_24dp"
+        android:layout_margin="0dp"
+        android:onClick="onClickSound2"
+        app:layout_constraintTop_toTopOf="@+id/qa1ButtonAns2"
+        app:layout_constraintBottom_toBottomOf="@+id/qa1ButtonAns2"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <Button
+        android:id="@+id/qa1ButtonAns3"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/button_height_answer"
+        android:layout_margin="0dp"
+        android:text="@string/qa1_answer3_button_default"
+        android:onClick="onClickAnswer3"
+        android:enabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/qa1ButtonAns2"
+        app:layout_constraintRight_toLeftOf="@+id/qa1ImageButtonSound3" />
+
+    <ImageButton
+        android:id="@+id/qa1ImageButtonSound3"
+        android:layout_width="@dimen/button_height_answer"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/ic_audiotrack_black_24dp"
+        android:layout_margin="0dp"
+        android:onClick="onClickSound3"
+        app:layout_constraintTop_toTopOf="@+id/qa1ButtonAns3"
+        app:layout_constraintBottom_toBottomOf="@+id/qa1ButtonAns3"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/qa1TextViewCountDown"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="@+id/qa1WebView"
+        app:layout_constraintTop_toTopOf="@+id/qa1WebView" />
+
+
+
+
+</android.support.constraint.ConstraintLayout>

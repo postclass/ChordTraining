@@ -1,0 +1,30 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="major"
+        android:entries="@array/pref_tone_keymode_list_values"
+        android:entryValues="@array/pref_tone_keymode_list_values"
+        android:key="pref.tone.keymode"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_tone_keymode_title" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="pref.tone.includeHigh"
+        android:summary="@string/pref_tone_includeHigh_description"
+        android:title="@string/pref_tone_includeHigh_title" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="pref.tone.includeMiddle"
+        android:summary="@string/pref_tone_includeMiddle_description"
+        android:title="@string/pref_tone_includeMiddle_title" />
+
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="pref.tone.includeLow"
+        android:summary="@string/pref_tone_includeLow_description"
+        android:title="@string/pref_tone_includeLow_title" />
+
+</PreferenceScreen>
