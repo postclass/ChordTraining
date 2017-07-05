@@ -172,12 +172,12 @@ public class ReferenceActivity extends AppCompatActivity {
     }
 
     public void onClickReferenceKey(View view) {
-        mContentView.loadUrl("file:///android_asset/reference_key.html");
+        mContentView.loadUrl("file:///android_asset/reference/reference_key.html");
         mContentView.setOnTouchListener(onToucheReferenceListener);
     }
 
     public void onClickReferenceDegreeAbsolute(View view) {
-        mContentView.loadUrl("file:///android_asset/reference_degree_absolute.html");
+        mContentView.loadUrl("file:///android_asset/reference/reference_degree_absolute.html");
         mContentView.setOnTouchListener(onToucheReferenceListener);
     }
 

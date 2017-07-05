@@ -27,9 +27,9 @@ public class Qa1Activity extends AppCompatActivity {
 
         if (Constants.CATEGORY_TONE.equals(Globals.category)) {
             this.helper = new ToneActivityHelper(this);
-        } else if (Constants.CATEGORY_CODE_ROOT.equals(Globals.category)) {
+        } else if (Constants.CATEGORY_CHORD_ROOT.equals(Globals.category)) {
             this.helper = new ChordRootActivityHelper(this);
-        } else if (Constants.CATEGORY_CODE_DEGREE.equals(Globals.category)) {
+        } else if (Constants.CATEGORY_CHORD_DEGREE.equals(Globals.category)) {
             this.helper = new ChordDegreeActivityHelper(this);
         } else {
             throw new ApplicationRuntimeException("illegal state : category : " + Globals.category);

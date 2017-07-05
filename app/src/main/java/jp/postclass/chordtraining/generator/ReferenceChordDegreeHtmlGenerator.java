@@ -30,7 +30,7 @@ public class ReferenceChordDegreeHtmlGenerator {
 
         ChordDegreeActivityHelper.setRootMap(this.rootMapS, this.rootMapF);
 
-        try (FileOutputStream outputStream = new FileOutputStream(new File(baseDir, "reference_degree_absolute.html"))) {
+        try (FileOutputStream outputStream = new FileOutputStream(new File(baseDir, "reference/reference_degree_absolute.html"))) {
             try (OutputStreamWriter writer = new OutputStreamWriter(outputStream, "utf-8")) {
 
                 writer.write("<html><table border='1' cellspacing='0'>" + newLine);

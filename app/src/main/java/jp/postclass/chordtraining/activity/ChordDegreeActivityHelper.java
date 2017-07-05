@@ -38,11 +38,11 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
     @Override
     protected void init() {
 
-        this.key = preferences.getString(Constants.PREF_CODE_KEY, Constants.KEY_C);
+        this.key = preferences.getString(Constants.PREF_CHORD_KEY, Constants.KEY_C);
 
         this.highestScorePrefKeySuffix = "_" + this.key + "_" + this.countDownSecond;
-        this.highestScore = preferences.getInt(Constants.DATA_CODE_HIGHESTSCORE + this.highestScorePrefKeySuffix, 0);
-        this.highestScoreDate = preferences.getString(Constants.DATA_CODE_HIGHESTSCORE_DATE + this.highestScorePrefKeySuffix, "");
+        this.highestScore = preferences.getInt(Constants.DATA_CHORD_HIGHESTSCORE + this.highestScorePrefKeySuffix, 0);
+        this.highestScoreDate = preferences.getString(Constants.DATA_CHORD_HIGHESTSCORE_DATE + this.highestScorePrefKeySuffix, "");
 
         ActionBar actionBar = getSupportActionBar();
 //        actionBar.setTitle(R.string.chord_degree_title);
@@ -183,8 +183,8 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
                                     highestScore = currentScore;
                                     highestScoreDate = UtCommon.getCurrentDateString(Constants.DATE_FORMAT_YYYYslMMslDD);
                                     SharedPreferences.Editor preferences = ChordDegreeActivityHelper.super.preferences.edit();
-                                    preferences.putInt(Constants.DATA_CODE_HIGHESTSCORE + highestScorePrefKeySuffix, highestScore);
-                                    preferences.putString(Constants.DATA_CODE_HIGHESTSCORE_DATE + highestScorePrefKeySuffix, highestScoreDate);
+                                    preferences.putInt(Constants.DATA_CHORD_HIGHESTSCORE + highestScorePrefKeySuffix, highestScore);
+                                    preferences.putString(Constants.DATA_CHORD_HIGHESTSCORE_DATE + highestScorePrefKeySuffix, highestScoreDate);
                                     preferences.commit();
                                 }
 

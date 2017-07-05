@@ -44,13 +44,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClickChordRoot(View view) {
-        Globals.category = Constants.CATEGORY_CODE_ROOT;
+        Globals.category = Constants.CATEGORY_CHORD_ROOT;
         Intent intent = new Intent(getApplication(), Qa1Activity.class);
         startActivity(intent);
     }
 
     public void onClickChordDegree(View view) {
-        Globals.category = Constants.CATEGORY_CODE_DEGREE;
+        Globals.category = Constants.CATEGORY_CHORD_DEGREE;
         Intent intent = new Intent(getApplication(), Qa1Activity.class);
         startActivity(intent);
     }

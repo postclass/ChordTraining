@@ -104,7 +104,7 @@ public class ChordConstantsGenerator {
 
     private String getOneString(String root, String chord) {
         String name = root + "_" + chord;
-        return "    public static final String CODE_" + name + " = \"" + name + "\";" + newLine;
+        return "    public static final String CHORD_" + name + " = \"" + name + "\";" + newLine;
     }
 
 

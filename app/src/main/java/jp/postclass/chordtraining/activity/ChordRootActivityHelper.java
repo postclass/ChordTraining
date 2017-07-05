@@ -62,38 +62,38 @@ public class ChordRootActivityHelper extends Qa1ActivityHelper {
     @Override
     protected void init() {
 
-        this.includeRootA = preferences.getBoolean(Constants.PREF_CODE_ROOT_A, true);
-        this.includeRootAm = preferences.getBoolean(Constants.PREF_CODE_ROOT_Am, true);
-        this.includeRootB = preferences.getBoolean(Constants.PREF_CODE_ROOT_B, true);
-        this.includeRootBm = preferences.getBoolean(Constants.PREF_CODE_ROOT_Bm, true);
-        this.includeRootC = preferences.getBoolean(Constants.PREF_CODE_ROOT_C, true);
-        this.includeRootCm = preferences.getBoolean(Constants.PREF_CODE_ROOT_Cm, true);
-        this.includeRootD = preferences.getBoolean(Constants.PREF_CODE_ROOT_D, true);
-        this.includeRootDm = preferences.getBoolean(Constants.PREF_CODE_ROOT_Dm, true);
-        this.includeRootE = preferences.getBoolean(Constants.PREF_CODE_ROOT_E, true);
-        this.includeRootEm = preferences.getBoolean(Constants.PREF_CODE_ROOT_Em, true);
-        this.includeRootF = preferences.getBoolean(Constants.PREF_CODE_ROOT_F, true);
-        this.includeRootFm = preferences.getBoolean(Constants.PREF_CODE_ROOT_Fm, true);
-        this.includeRootG = preferences.getBoolean(Constants.PREF_CODE_ROOT_G, true);
-        this.includeRootGm = preferences.getBoolean(Constants.PREF_CODE_ROOT_Gm, true);
+        this.includeRootA = preferences.getBoolean(Constants.PREF_CHORD_ROOT_A, true);
+        this.includeRootAm = preferences.getBoolean(Constants.PREF_CHORD_ROOT_Am, true);
+        this.includeRootB = preferences.getBoolean(Constants.PREF_CHORD_ROOT_B, true);
+        this.includeRootBm = preferences.getBoolean(Constants.PREF_CHORD_ROOT_Bm, true);
+        this.includeRootC = preferences.getBoolean(Constants.PREF_CHORD_ROOT_C, true);
+        this.includeRootCm = preferences.getBoolean(Constants.PREF_CHORD_ROOT_Cm, true);
+        this.includeRootD = preferences.getBoolean(Constants.PREF_CHORD_ROOT_D, true);
+        this.includeRootDm = preferences.getBoolean(Constants.PREF_CHORD_ROOT_Dm, true);
+        this.includeRootE = preferences.getBoolean(Constants.PREF_CHORD_ROOT_E, true);
+        this.includeRootEm = preferences.getBoolean(Constants.PREF_CHORD_ROOT_Em, true);
+        this.includeRootF = preferences.getBoolean(Constants.PREF_CHORD_ROOT_F, true);
+        this.includeRootFm = preferences.getBoolean(Constants.PREF_CHORD_ROOT_Fm, true);
+        this.includeRootG = preferences.getBoolean(Constants.PREF_CHORD_ROOT_G, true);
+        this.includeRootGm = preferences.getBoolean(Constants.PREF_CHORD_ROOT_Gm, true);
 
-        this.variation_M7 = preferences.getBoolean(Constants.PREF_CODE_VARIATION_M7, false);
-        this.variation_sus4 = preferences.getBoolean(Constants.PREF_CODE_VARIATION_sus4, false);
-        this.variation_f5 = preferences.getBoolean(Constants.PREF_CODE_VARIATION_f5, false);
-        this.variation_s5 = preferences.getBoolean(Constants.PREF_CODE_VARIATION_s5, false);
-        this.variation_6 = preferences.getBoolean(Constants.PREF_CODE_VARIATION_6, false);
-        this.variation_7 = preferences.getBoolean(Constants.PREF_CODE_VARIATION_7, false);
-        this.variation_9 = preferences.getBoolean(Constants.PREF_CODE_VARIATION_9, false);
-        this.variation_11 = preferences.getBoolean(Constants.PREF_CODE_VARIATION_11, false);
-//        this.variation_13 = preferences.getBoolean(Constants.PREF_CODE_VARIATION_13, false);
+        this.variation_M7 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_M7, false);
+        this.variation_sus4 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_sus4, false);
+        this.variation_f5 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_f5, false);
+        this.variation_s5 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_s5, false);
+        this.variation_6 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_6, false);
+        this.variation_7 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_7, false);
+        this.variation_9 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_9, false);
+        this.variation_11 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_11, false);
+//        this.variation_13 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_13, false);
 
-        this.plusminusSharp = preferences.getBoolean(Constants.PREF_CODE_PLUSMINUS_SHARP, false);
-        this.plusminusNatural = preferences.getBoolean(Constants.PREF_CODE_PLUSMINUS_NATURAL, true);
-        this.plusminusFlat = preferences.getBoolean(Constants.PREF_CODE_PLUSMINUS_FLAT, false);
+        this.plusminusSharp = preferences.getBoolean(Constants.PREF_CHORD_PLUSMINUS_SHARP, false);
+        this.plusminusNatural = preferences.getBoolean(Constants.PREF_CHORD_PLUSMINUS_NATURAL, true);
+        this.plusminusFlat = preferences.getBoolean(Constants.PREF_CHORD_PLUSMINUS_FLAT, false);
 
         this.highestScorePrefKeySuffix = "_" + includeRootA +"_" + includeRootAm +"_" + includeRootB +"_" + includeRootBm +"_" + includeRootC +"_" + includeRootCm +"_" + includeRootD +"_" + includeRootDm +"_" + includeRootE +"_" + includeRootEm +"_" + includeRootF +"_" + includeRootFm +"_" + includeRootG +"_" + includeRootGm +"_" + variation_M7 +"_" + variation_sus4 +"_" + variation_f5 +"_" + variation_s5 +"_" + variation_6 +"_" + variation_7 +"_" + variation_9 +"_" + variation_11 +"_" +  this.countDownSecond;
-        this.highestScore = preferences.getInt(Constants.DATA_CODE_HIGHESTSCORE + this.highestScorePrefKeySuffix, 0);
-        this.highestScoreDate = preferences.getString(Constants.DATA_CODE_HIGHESTSCORE_DATE + this.highestScorePrefKeySuffix, "");
+        this.highestScore = preferences.getInt(Constants.DATA_CHORD_HIGHESTSCORE + this.highestScorePrefKeySuffix, 0);
+        this.highestScoreDate = preferences.getString(Constants.DATA_CHORD_HIGHESTSCORE_DATE + this.highestScorePrefKeySuffix, "");
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle(R.string.chord_root_title);
@@ -317,8 +317,8 @@ public class ChordRootActivityHelper extends Qa1ActivityHelper {
                                     highestScore = currentScore;
                                     highestScoreDate = UtCommon.getCurrentDateString(Constants.DATE_FORMAT_YYYYslMMslDD);
                                     SharedPreferences.Editor preferences = ChordRootActivityHelper.super.preferences.edit();
-                                    preferences.putInt(Constants.DATA_CODE_HIGHESTSCORE + highestScorePrefKeySuffix, highestScore);
-                                    preferences.putString(Constants.DATA_CODE_HIGHESTSCORE_DATE + highestScorePrefKeySuffix, highestScoreDate);
+                                    preferences.putInt(Constants.DATA_CHORD_HIGHESTSCORE + highestScorePrefKeySuffix, highestScore);
+                                    preferences.putString(Constants.DATA_CHORD_HIGHESTSCORE_DATE + highestScorePrefKeySuffix, highestScoreDate);
                                     preferences.commit();
                                 }
 

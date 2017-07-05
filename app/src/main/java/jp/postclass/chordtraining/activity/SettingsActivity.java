@@ -279,62 +279,62 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             public boolean onPreferenceChange(Preference preference, Object newValue) {
 
                 SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
-                boolean rootA = preferences.getBoolean(Constants.PREF_CODE_ROOT_A, false);
-                boolean rootAm = preferences.getBoolean(Constants.PREF_CODE_ROOT_Am, false);
-                boolean rootB = preferences.getBoolean(Constants.PREF_CODE_ROOT_B, false);
-                boolean rootBm = preferences.getBoolean(Constants.PREF_CODE_ROOT_Bm, false);
-                boolean rootC = preferences.getBoolean(Constants.PREF_CODE_ROOT_C, false);
-                boolean rootCm = preferences.getBoolean(Constants.PREF_CODE_ROOT_Cm, false);
-                boolean rootD = preferences.getBoolean(Constants.PREF_CODE_ROOT_D, false);
-                boolean rootDm = preferences.getBoolean(Constants.PREF_CODE_ROOT_Dm, false);
-                boolean rootE = preferences.getBoolean(Constants.PREF_CODE_ROOT_E, false);
-                boolean rootEm = preferences.getBoolean(Constants.PREF_CODE_ROOT_Em, false);
-                boolean rootF = preferences.getBoolean(Constants.PREF_CODE_ROOT_F, false);
-                boolean rootFm = preferences.getBoolean(Constants.PREF_CODE_ROOT_Fm, false);
-                boolean rootG = preferences.getBoolean(Constants.PREF_CODE_ROOT_G, false);
-                boolean rootGm = preferences.getBoolean(Constants.PREF_CODE_ROOT_Gm, false);
+                boolean rootA = preferences.getBoolean(Constants.PREF_CHORD_ROOT_A, false);
+                boolean rootAm = preferences.getBoolean(Constants.PREF_CHORD_ROOT_Am, false);
+                boolean rootB = preferences.getBoolean(Constants.PREF_CHORD_ROOT_B, false);
+                boolean rootBm = preferences.getBoolean(Constants.PREF_CHORD_ROOT_Bm, false);
+                boolean rootC = preferences.getBoolean(Constants.PREF_CHORD_ROOT_C, false);
+                boolean rootCm = preferences.getBoolean(Constants.PREF_CHORD_ROOT_Cm, false);
+                boolean rootD = preferences.getBoolean(Constants.PREF_CHORD_ROOT_D, false);
+                boolean rootDm = preferences.getBoolean(Constants.PREF_CHORD_ROOT_Dm, false);
+                boolean rootE = preferences.getBoolean(Constants.PREF_CHORD_ROOT_E, false);
+                boolean rootEm = preferences.getBoolean(Constants.PREF_CHORD_ROOT_Em, false);
+                boolean rootF = preferences.getBoolean(Constants.PREF_CHORD_ROOT_F, false);
+                boolean rootFm = preferences.getBoolean(Constants.PREF_CHORD_ROOT_Fm, false);
+                boolean rootG = preferences.getBoolean(Constants.PREF_CHORD_ROOT_G, false);
+                boolean rootGm = preferences.getBoolean(Constants.PREF_CHORD_ROOT_Gm, false);
 
                 switch (preference.getKey()) {
-                    case Constants.PREF_CODE_ROOT_A:
+                    case Constants.PREF_CHORD_ROOT_A:
                         rootA = (boolean) newValue;
                         break;
-                    case Constants.PREF_CODE_ROOT_Am:
+                    case Constants.PREF_CHORD_ROOT_Am:
                         rootAm = (boolean) newValue;
                         break;
-                    case Constants.PREF_CODE_ROOT_B:
+                    case Constants.PREF_CHORD_ROOT_B:
                         rootB = (boolean) newValue;
                         break;
-                    case Constants.PREF_CODE_ROOT_Bm:
+                    case Constants.PREF_CHORD_ROOT_Bm:
                         rootBm = (boolean) newValue;
                         break;
-                    case Constants.PREF_CODE_ROOT_C:
+                    case Constants.PREF_CHORD_ROOT_C:
                         rootC = (boolean) newValue;
                         break;
-                    case Constants.PREF_CODE_ROOT_Cm:
+                    case Constants.PREF_CHORD_ROOT_Cm:
                         rootCm = (boolean) newValue;
                         break;
-                    case Constants.PREF_CODE_ROOT_D:
+                    case Constants.PREF_CHORD_ROOT_D:
                         rootD = (boolean) newValue;
                         break;
-                    case Constants.PREF_CODE_ROOT_Dm:
+                    case Constants.PREF_CHORD_ROOT_Dm:
                         rootDm = (boolean) newValue;
                         break;
-                    case Constants.PREF_CODE_ROOT_E:
+                    case Constants.PREF_CHORD_ROOT_E:
                         rootE = (boolean) newValue;
                         break;
-                    case Constants.PREF_CODE_ROOT_Em:
+                    case Constants.PREF_CHORD_ROOT_Em:
                         rootEm = (boolean) newValue;
                         break;
-                    case Constants.PREF_CODE_ROOT_F:
+                    case Constants.PREF_CHORD_ROOT_F:
                         rootF = (boolean) newValue;
                         break;
-                    case Constants.PREF_CODE_ROOT_Fm:
+                    case Constants.PREF_CHORD_ROOT_Fm:
                         rootFm = (boolean) newValue;
                         break;
-                    case Constants.PREF_CODE_ROOT_G:
+                    case Constants.PREF_CHORD_ROOT_G:
                         rootG = (boolean) newValue;
                         break;
-                    case Constants.PREF_CODE_ROOT_Gm:
+                    case Constants.PREF_CHORD_ROOT_Gm:
                         rootGm = (boolean) newValue;
                         break;
 
@@ -352,20 +352,20 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             addPreferencesFromResource(R.xml.pref_chord_root);
             setHasOptionsMenu(true);
 
-            findPreference(Constants.PREF_CODE_ROOT_A).setOnPreferenceChangeListener(rootChangeListener);
-            findPreference(Constants.PREF_CODE_ROOT_Am).setOnPreferenceChangeListener(rootChangeListener);
-            findPreference(Constants.PREF_CODE_ROOT_B).setOnPreferenceChangeListener(rootChangeListener);
-            findPreference(Constants.PREF_CODE_ROOT_Bm).setOnPreferenceChangeListener(rootChangeListener);
-            findPreference(Constants.PREF_CODE_ROOT_C).setOnPreferenceChangeListener(rootChangeListener);
-            findPreference(Constants.PREF_CODE_ROOT_Cm).setOnPreferenceChangeListener(rootChangeListener);
-            findPreference(Constants.PREF_CODE_ROOT_D).setOnPreferenceChangeListener(rootChangeListener);
-            findPreference(Constants.PREF_CODE_ROOT_Dm).setOnPreferenceChangeListener(rootChangeListener);
-            findPreference(Constants.PREF_CODE_ROOT_E).setOnPreferenceChangeListener(rootChangeListener);
-            findPreference(Constants.PREF_CODE_ROOT_Em).setOnPreferenceChangeListener(rootChangeListener);
-            findPreference(Constants.PREF_CODE_ROOT_F).setOnPreferenceChangeListener(rootChangeListener);
-            findPreference(Constants.PREF_CODE_ROOT_Fm).setOnPreferenceChangeListener(rootChangeListener);
-            findPreference(Constants.PREF_CODE_ROOT_G).setOnPreferenceChangeListener(rootChangeListener);
-            findPreference(Constants.PREF_CODE_ROOT_Gm).setOnPreferenceChangeListener(rootChangeListener);
+            findPreference(Constants.PREF_CHORD_ROOT_A).setOnPreferenceChangeListener(rootChangeListener);
+            findPreference(Constants.PREF_CHORD_ROOT_Am).setOnPreferenceChangeListener(rootChangeListener);
+            findPreference(Constants.PREF_CHORD_ROOT_B).setOnPreferenceChangeListener(rootChangeListener);
+            findPreference(Constants.PREF_CHORD_ROOT_Bm).setOnPreferenceChangeListener(rootChangeListener);
+            findPreference(Constants.PREF_CHORD_ROOT_C).setOnPreferenceChangeListener(rootChangeListener);
+            findPreference(Constants.PREF_CHORD_ROOT_Cm).setOnPreferenceChangeListener(rootChangeListener);
+            findPreference(Constants.PREF_CHORD_ROOT_D).setOnPreferenceChangeListener(rootChangeListener);
+            findPreference(Constants.PREF_CHORD_ROOT_Dm).setOnPreferenceChangeListener(rootChangeListener);
+            findPreference(Constants.PREF_CHORD_ROOT_E).setOnPreferenceChangeListener(rootChangeListener);
+            findPreference(Constants.PREF_CHORD_ROOT_Em).setOnPreferenceChangeListener(rootChangeListener);
+            findPreference(Constants.PREF_CHORD_ROOT_F).setOnPreferenceChangeListener(rootChangeListener);
+            findPreference(Constants.PREF_CHORD_ROOT_Fm).setOnPreferenceChangeListener(rootChangeListener);
+            findPreference(Constants.PREF_CHORD_ROOT_G).setOnPreferenceChangeListener(rootChangeListener);
+            findPreference(Constants.PREF_CHORD_ROOT_Gm).setOnPreferenceChangeListener(rootChangeListener);
         }
 
         @Override
@@ -394,7 +394,7 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             addPreferencesFromResource(R.xml.pref_chord_degree);
             setHasOptionsMenu(true);
 
-            bindPreferenceSummaryToValue(findPreference(Constants.PREF_CODE_KEY));
+            bindPreferenceSummaryToValue(findPreference(Constants.PREF_CHORD_KEY));
         }
 
         @Override
