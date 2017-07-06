@@ -1,0 +1,423 @@
+<!--auto generated.-->
+<resources>
+    <string name="chord_name_A_A">A</string>
+    <string name="chord_name_A_Asus4">Asus4</string>
+    <string name="chord_name_A_Af5">A-5</string>
+    <string name="chord_name_A_Aaug">Aaug</string>
+    <string name="chord_name_A_A6">A6</string>
+    <string name="chord_name_A_A7">A7</string>
+    <string name="chord_name_A_AM7">AM7</string>
+    <string name="chord_name_A_Aadd9">Aadd9</string>
+    <string name="chord_name_A_A11">A11</string>
+
+    <string name="chord_name_Am_Am">Am</string>
+    <string name="chord_name_Am_Adim">Adim</string>
+    <string name="chord_name_Am_Ams5">Am+5</string>
+    <string name="chord_name_Am_Am6">Am6</string>
+    <string name="chord_name_Am_Am7">Am7</string>
+    <string name="chord_name_Am_Am7f5">Am7-5</string>
+    <string name="chord_name_Am_AmM7">AmM7</string>
+    <string name="chord_name_Am_Amadd9">Amadd9</string>
+    <string name="chord_name_Am_Am11">Am11</string>
+
+    <string name="chord_name_Ab_Ab">Ab</string>
+    <string name="chord_name_Ab_Absus4">Absus4</string>
+    <string name="chord_name_Ab_Abf5">Ab-5</string>
+    <string name="chord_name_Ab_Abaug">Abaug</string>
+    <string name="chord_name_Ab_Ab6">Ab6</string>
+    <string name="chord_name_Ab_Ab7">Ab7</string>
+    <string name="chord_name_Ab_AbM7">AbM7</string>
+    <string name="chord_name_Ab_Abadd9">Abadd9</string>
+    <string name="chord_name_Ab_Ab11">Ab11</string>
+
+    <string name="chord_name_Abm_Abm">Abm</string>
+    <string name="chord_name_Abm_Abdim">Abdim</string>
+    <string name="chord_name_Abm_Abms5">Abm+5</string>
+    <string name="chord_name_Abm_Abm6">Abm6</string>
+    <string name="chord_name_Abm_Abm7">Abm7</string>
+    <string name="chord_name_Abm_Abm7f5">Abm7-5</string>
+    <string name="chord_name_Abm_AbmM7">AbmM7</string>
+    <string name="chord_name_Abm_Abmadd9">Abmadd9</string>
+    <string name="chord_name_Abm_Abm11">Abm11</string>
+
+    <string name="chord_name_As_As">A#</string>
+    <string name="chord_name_As_Assus4">A#sus4</string>
+    <string name="chord_name_As_Asf5">A#-5</string>
+    <string name="chord_name_As_Asaug">A#aug</string>
+    <string name="chord_name_As_As6">A#6</string>
+    <string name="chord_name_As_As7">A#7</string>
+    <string name="chord_name_As_AsM7">A#M7</string>
+    <string name="chord_name_As_Asadd9">A#add9</string>
+    <string name="chord_name_As_As11">A#11</string>
+
+    <string name="chord_name_Asm_Asm">A#m</string>
+    <string name="chord_name_Asm_Asdim">A#dim</string>
+    <string name="chord_name_Asm_Asms5">A#m+5</string>
+    <string name="chord_name_Asm_Asm6">A#m6</string>
+    <string name="chord_name_Asm_Asm7">A#m7</string>
+    <string name="chord_name_Asm_Asm7f5">A#m7-5</string>
+    <string name="chord_name_Asm_AsmM7">A#mM7</string>
+    <string name="chord_name_Asm_Asmadd9">A#madd9</string>
+    <string name="chord_name_Asm_Asm11">A#m11</string>
+
+    <string name="chord_name_B_B">B</string>
+    <string name="chord_name_B_Bsus4">Bsus4</string>
+    <string name="chord_name_B_Bf5">B-5</string>
+    <string name="chord_name_B_Baug">Baug</string>
+    <string name="chord_name_B_B6">B6</string>
+    <string name="chord_name_B_B7">B7</string>
+    <string name="chord_name_B_BM7">BM7</string>
+    <string name="chord_name_B_Badd9">Badd9</string>
+    <string name="chord_name_B_B11">B11</string>
+
+    <string name="chord_name_Bm_Bm">Bm</string>
+    <string name="chord_name_Bm_Bdim">Bdim</string>
+    <string name="chord_name_Bm_Bms5">Bm+5</string>
+    <string name="chord_name_Bm_Bm6">Bm6</string>
+    <string name="chord_name_Bm_Bm7">Bm7</string>
+    <string name="chord_name_Bm_Bm7f5">Bm7-5</string>
+    <string name="chord_name_Bm_BmM7">BmM7</string>
+    <string name="chord_name_Bm_Bmadd9">Bmadd9</string>
+    <string name="chord_name_Bm_Bm11">Bm11</string>
+
+    <string name="chord_name_Bb_Bb">Bb</string>
+    <string name="chord_name_Bb_Bbsus4">Bbsus4</string>
+    <string name="chord_name_Bb_Bbf5">Bb-5</string>
+    <string name="chord_name_Bb_Bbaug">Bbaug</string>
+    <string name="chord_name_Bb_Bb6">Bb6</string>
+    <string name="chord_name_Bb_Bb7">Bb7</string>
+    <string name="chord_name_Bb_BbM7">BbM7</string>
+    <string name="chord_name_Bb_Bbadd9">Bbadd9</string>
+    <string name="chord_name_Bb_Bb11">Bb11</string>
+
+    <string name="chord_name_Bbm_Bbm">Bbm</string>
+    <string name="chord_name_Bbm_Bbdim">Bbdim</string>
+    <string name="chord_name_Bbm_Bbms5">Bbm+5</string>
+    <string name="chord_name_Bbm_Bbm6">Bbm6</string>
+    <string name="chord_name_Bbm_Bbm7">Bbm7</string>
+    <string name="chord_name_Bbm_Bbm7f5">Bbm7-5</string>
+    <string name="chord_name_Bbm_BbmM7">BbmM7</string>
+    <string name="chord_name_Bbm_Bbmadd9">Bbmadd9</string>
+    <string name="chord_name_Bbm_Bbm11">Bbm11</string>
+
+    <string name="chord_name_Bs_Bs">B#</string>
+    <string name="chord_name_Bs_Bssus4">B#sus4</string>
+    <string name="chord_name_Bs_Bsf5">B#-5</string>
+    <string name="chord_name_Bs_Bsaug">B#aug</string>
+    <string name="chord_name_Bs_Bs6">B#6</string>
+    <string name="chord_name_Bs_Bs7">B#7</string>
+    <string name="chord_name_Bs_BsM7">B#M7</string>
+    <string name="chord_name_Bs_Bsadd9">B#add9</string>
+    <string name="chord_name_Bs_Bs11">B#11</string>
+
+    <string name="chord_name_Bsm_Bsm">B#m</string>
+    <string name="chord_name_Bsm_Bsdim">B#dim</string>
+    <string name="chord_name_Bsm_Bsms5">B#m+5</string>
+    <string name="chord_name_Bsm_Bsm6">B#m6</string>
+    <string name="chord_name_Bsm_Bsm7">B#m7</string>
+    <string name="chord_name_Bsm_Bsm7f5">B#m7-5</string>
+    <string name="chord_name_Bsm_BsmM7">B#mM7</string>
+    <string name="chord_name_Bsm_Bsmadd9">B#madd9</string>
+    <string name="chord_name_Bsm_Bsm11">B#m11</string>
+
+    <string name="chord_name_C_C">C</string>
+    <string name="chord_name_C_Csus4">Csus4</string>
+    <string name="chord_name_C_Cf5">C-5</string>
+    <string name="chord_name_C_Caug">Caug</string>
+    <string name="chord_name_C_C6">C6</string>
+    <string name="chord_name_C_C7">C7</string>
+    <string name="chord_name_C_CM7">CM7</string>
+    <string name="chord_name_C_Cadd9">Cadd9</string>
+    <string name="chord_name_C_C11">C11</string>
+
+    <string name="chord_name_Cm_Cm">Cm</string>
+    <string name="chord_name_Cm_Cdim">Cdim</string>
+    <string name="chord_name_Cm_Cms5">Cm+5</string>
+    <string name="chord_name_Cm_Cm6">Cm6</string>
+    <string name="chord_name_Cm_Cm7">Cm7</string>
+    <string name="chord_name_Cm_Cm7f5">Cm7-5</string>
+    <string name="chord_name_Cm_CmM7">CmM7</string>
+    <string name="chord_name_Cm_Cmadd9">Cmadd9</string>
+    <string name="chord_name_Cm_Cm11">Cm11</string>
+
+    <string name="chord_name_Cb_Cb">Cb</string>
+    <string name="chord_name_Cb_Cbsus4">Cbsus4</string>
+    <string name="chord_name_Cb_Cbf5">Cb-5</string>
+    <string name="chord_name_Cb_Cbaug">Cbaug</string>
+    <string name="chord_name_Cb_Cb6">Cb6</string>
+    <string name="chord_name_Cb_Cb7">Cb7</string>
+    <string name="chord_name_Cb_CbM7">CbM7</string>
+    <string name="chord_name_Cb_Cbadd9">Cbadd9</string>
+    <string name="chord_name_Cb_Cb11">Cb11</string>
+
+    <string name="chord_name_Cbm_Cbm">Cbm</string>
+    <string name="chord_name_Cbm_Cbdim">Cbdim</string>
+    <string name="chord_name_Cbm_Cbms5">Cbm+5</string>
+    <string name="chord_name_Cbm_Cbm6">Cbm6</string>
+    <string name="chord_name_Cbm_Cbm7">Cbm7</string>
+    <string name="chord_name_Cbm_Cbm7f5">Cbm7-5</string>
+    <string name="chord_name_Cbm_CbmM7">CbmM7</string>
+    <string name="chord_name_Cbm_Cbmadd9">Cbmadd9</string>
+    <string name="chord_name_Cbm_Cbm11">Cbm11</string>
+
+    <string name="chord_name_Cs_Cs">C#</string>
+    <string name="chord_name_Cs_Cssus4">C#sus4</string>
+    <string name="chord_name_Cs_Csf5">C#-5</string>
+    <string name="chord_name_Cs_Csaug">C#aug</string>
+    <string name="chord_name_Cs_Cs6">C#6</string>
+    <string name="chord_name_Cs_Cs7">C#7</string>
+    <string name="chord_name_Cs_CsM7">C#M7</string>
+    <string name="chord_name_Cs_Csadd9">C#add9</string>
+    <string name="chord_name_Cs_Cs11">C#11</string>
+
+    <string name="chord_name_Csm_Csm">C#m</string>
+    <string name="chord_name_Csm_Csdim">C#dim</string>
+    <string name="chord_name_Csm_Csms5">C#m+5</string>
+    <string name="chord_name_Csm_Csm6">C#m6</string>
+    <string name="chord_name_Csm_Csm7">C#m7</string>
+    <string name="chord_name_Csm_Csm7f5">C#m7-5</string>
+    <string name="chord_name_Csm_CsmM7">C#mM7</string>
+    <string name="chord_name_Csm_Csmadd9">C#madd9</string>
+    <string name="chord_name_Csm_Csm11">C#m11</string>
+
+    <string name="chord_name_D_D">D</string>
+    <string name="chord_name_D_Dsus4">Dsus4</string>
+    <string name="chord_name_D_Df5">D-5</string>
+    <string name="chord_name_D_Daug">Daug</string>
+    <string name="chord_name_D_D6">D6</string>
+    <string name="chord_name_D_D7">D7</string>
+    <string name="chord_name_D_DM7">DM7</string>
+    <string name="chord_name_D_Dadd9">Dadd9</string>
+    <string name="chord_name_D_D11">D11</string>
+
+    <string name="chord_name_Dm_Dm">Dm</string>
+    <string name="chord_name_Dm_Ddim">Ddim</string>
+    <string name="chord_name_Dm_Dms5">Dm+5</string>
+    <string name="chord_name_Dm_Dm6">Dm6</string>
+    <string name="chord_name_Dm_Dm7">Dm7</string>
+    <string name="chord_name_Dm_Dm7f5">Dm7-5</string>
+    <string name="chord_name_Dm_DmM7">DmM7</string>
+    <string name="chord_name_Dm_Dmadd9">Dmadd9</string>
+    <string name="chord_name_Dm_Dm11">Dm11</string>
+
+    <string name="chord_name_Db_Db">Db</string>
+    <string name="chord_name_Db_Dbsus4">Dbsus4</string>
+    <string name="chord_name_Db_Dbf5">Db-5</string>
+    <string name="chord_name_Db_Dbaug">Dbaug</string>
+    <string name="chord_name_Db_Db6">Db6</string>
+    <string name="chord_name_Db_Db7">Db7</string>
+    <string name="chord_name_Db_DbM7">DbM7</string>
+    <string name="chord_name_Db_Dbadd9">Dbadd9</string>
+    <string name="chord_name_Db_Db11">Db11</string>
+
+    <string name="chord_name_Dbm_Dbm">Dbm</string>
+    <string name="chord_name_Dbm_Dbdim">Dbdim</string>
+    <string name="chord_name_Dbm_Dbms5">Dbm+5</string>
+    <string name="chord_name_Dbm_Dbm6">Dbm6</string>
+    <string name="chord_name_Dbm_Dbm7">Dbm7</string>
+    <string name="chord_name_Dbm_Dbm7f5">Dbm7-5</string>
+    <string name="chord_name_Dbm_DbmM7">DbmM7</string>
+    <string name="chord_name_Dbm_Dbmadd9">Dbmadd9</string>
+    <string name="chord_name_Dbm_Dbm11">Dbm11</string>
+
+    <string name="chord_name_Ds_Ds">D#</string>
+    <string name="chord_name_Ds_Dssus4">D#sus4</string>
+    <string name="chord_name_Ds_Dsf5">D#-5</string>
+    <string name="chord_name_Ds_Dsaug">D#aug</string>
+    <string name="chord_name_Ds_Ds6">D#6</string>
+    <string name="chord_name_Ds_Ds7">D#7</string>
+    <string name="chord_name_Ds_DsM7">D#M7</string>
+    <string name="chord_name_Ds_Dsadd9">D#add9</string>
+    <string name="chord_name_Ds_Ds11">D#11</string>
+
+    <string name="chord_name_Dsm_Dsm">D#m</string>
+    <string name="chord_name_Dsm_Dsdim">D#dim</string>
+    <string name="chord_name_Dsm_Dsms5">D#m+5</string>
+    <string name="chord_name_Dsm_Dsm6">D#m6</string>
+    <string name="chord_name_Dsm_Dsm7">D#m7</string>
+    <string name="chord_name_Dsm_Dsm7f5">D#m7-5</string>
+    <string name="chord_name_Dsm_DsmM7">D#mM7</string>
+    <string name="chord_name_Dsm_Dsmadd9">D#madd9</string>
+    <string name="chord_name_Dsm_Dsm11">D#m11</string>
+
+    <string name="chord_name_E_E">E</string>
+    <string name="chord_name_E_Esus4">Esus4</string>
+    <string name="chord_name_E_Ef5">E-5</string>
+    <string name="chord_name_E_Eaug">Eaug</string>
+    <string name="chord_name_E_E6">E6</string>
+    <string name="chord_name_E_E7">E7</string>
+    <string name="chord_name_E_EM7">EM7</string>
+    <string name="chord_name_E_Eadd9">Eadd9</string>
+    <string name="chord_name_E_E11">E11</string>
+
+    <string name="chord_name_Em_Em">Em</string>
+    <string name="chord_name_Em_Edim">Edim</string>
+    <string name="chord_name_Em_Ems5">Em+5</string>
+    <string name="chord_name_Em_Em6">Em6</string>
+    <string name="chord_name_Em_Em7">Em7</string>
+    <string name="chord_name_Em_Em7f5">Em7-5</string>
+    <string name="chord_name_Em_EmM7">EmM7</string>
+    <string name="chord_name_Em_Emadd9">Emadd9</string>
+    <string name="chord_name_Em_Em11">Em11</string>
+
+    <string name="chord_name_Eb_Eb">Eb</string>
+    <string name="chord_name_Eb_Ebsus4">Ebsus4</string>
+    <string name="chord_name_Eb_Ebf5">Eb-5</string>
+    <string name="chord_name_Eb_Ebaug">Ebaug</string>
+    <string name="chord_name_Eb_Eb6">Eb6</string>
+    <string name="chord_name_Eb_Eb7">Eb7</string>
+    <string name="chord_name_Eb_EbM7">EbM7</string>
+    <string name="chord_name_Eb_Ebadd9">Ebadd9</string>
+    <string name="chord_name_Eb_Eb11">Eb11</string>
+
+    <string name="chord_name_Ebm_Ebm">Ebm</string>
+    <string name="chord_name_Ebm_Ebdim">Ebdim</string>
+    <string name="chord_name_Ebm_Ebms5">Ebm+5</string>
+    <string name="chord_name_Ebm_Ebm6">Ebm6</string>
+    <string name="chord_name_Ebm_Ebm7">Ebm7</string>
+    <string name="chord_name_Ebm_Ebm7f5">Ebm7-5</string>
+    <string name="chord_name_Ebm_EbmM7">EbmM7</string>
+    <string name="chord_name_Ebm_Ebmadd9">Ebmadd9</string>
+    <string name="chord_name_Ebm_Ebm11">Ebm11</string>
+
+    <string name="chord_name_Es_Es">E#</string>
+    <string name="chord_name_Es_Essus4">E#sus4</string>
+    <string name="chord_name_Es_Esf5">E#-5</string>
+    <string name="chord_name_Es_Esaug">E#aug</string>
+    <string name="chord_name_Es_Es6">E#6</string>
+    <string name="chord_name_Es_Es7">E#7</string>
+    <string name="chord_name_Es_EsM7">E#M7</string>
+    <string name="chord_name_Es_Esadd9">E#add9</string>
+    <string name="chord_name_Es_Es11">E#11</string>
+
+    <string name="chord_name_Esm_Esm">E#m</string>
+    <string name="chord_name_Esm_Esdim">E#dim</string>
+    <string name="chord_name_Esm_Esms5">E#m+5</string>
+    <string name="chord_name_Esm_Esm6">E#m6</string>
+    <string name="chord_name_Esm_Esm7">E#m7</string>
+    <string name="chord_name_Esm_Esm7f5">E#m7-5</string>
+    <string name="chord_name_Esm_EsmM7">E#mM7</string>
+    <string name="chord_name_Esm_Esmadd9">E#madd9</string>
+    <string name="chord_name_Esm_Esm11">E#m11</string>
+
+    <string name="chord_name_F_F">F</string>
+    <string name="chord_name_F_Fsus4">Fsus4</string>
+    <string name="chord_name_F_Ff5">F-5</string>
+    <string name="chord_name_F_Faug">Faug</string>
+    <string name="chord_name_F_F6">F6</string>
+    <string name="chord_name_F_F7">F7</string>
+    <string name="chord_name_F_FM7">FM7</string>
+    <string name="chord_name_F_Fadd9">Fadd9</string>
+    <string name="chord_name_F_F11">F11</string>
+
+    <string name="chord_name_Fm_Fm">Fm</string>
+    <string name="chord_name_Fm_Fdim">Fdim</string>
+    <string name="chord_name_Fm_Fms5">Fm+5</string>
+    <string name="chord_name_Fm_Fm6">Fm6</string>
+    <string name="chord_name_Fm_Fm7">Fm7</string>
+    <string name="chord_name_Fm_Fm7f5">Fm7-5</string>
+    <string name="chord_name_Fm_FmM7">FmM7</string>
+    <string name="chord_name_Fm_Fmadd9">Fmadd9</string>
+    <string name="chord_name_Fm_Fm11">Fm11</string>
+
+    <string name="chord_name_Fb_Fb">Fb</string>
+    <string name="chord_name_Fb_Fbsus4">Fbsus4</string>
+    <string name="chord_name_Fb_Fbf5">Fb-5</string>
+    <string name="chord_name_Fb_Fbaug">Fbaug</string>
+    <string name="chord_name_Fb_Fb6">Fb6</string>
+    <string name="chord_name_Fb_Fb7">Fb7</string>
+    <string name="chord_name_Fb_FbM7">FbM7</string>
+    <string name="chord_name_Fb_Fbadd9">Fbadd9</string>
+    <string name="chord_name_Fb_Fb11">Fb11</string>
+
+    <string name="chord_name_Fbm_Fbm">Fbm</string>
+    <string name="chord_name_Fbm_Fbdim">Fbdim</string>
+    <string name="chord_name_Fbm_Fbms5">Fbm+5</string>
+    <string name="chord_name_Fbm_Fbm6">Fbm6</string>
+    <string name="chord_name_Fbm_Fbm7">Fbm7</string>
+    <string name="chord_name_Fbm_Fbm7f5">Fbm7-5</string>
+    <string name="chord_name_Fbm_FbmM7">FbmM7</string>
+    <string name="chord_name_Fbm_Fbmadd9">Fbmadd9</string>
+    <string name="chord_name_Fbm_Fbm11">Fbm11</string>
+
+    <string name="chord_name_Fs_Fs">F#</string>
+    <string name="chord_name_Fs_Fssus4">F#sus4</string>
+    <string name="chord_name_Fs_Fsf5">F#-5</string>
+    <string name="chord_name_Fs_Fsaug">F#aug</string>
+    <string name="chord_name_Fs_Fs6">F#6</string>
+    <string name="chord_name_Fs_Fs7">F#7</string>
+    <string name="chord_name_Fs_FsM7">F#M7</string>
+    <string name="chord_name_Fs_Fsadd9">F#add9</string>
+    <string name="chord_name_Fs_Fs11">F#11</string>
+
+    <string name="chord_name_Fsm_Fsm">F#m</string>
+    <string name="chord_name_Fsm_Fsdim">F#dim</string>
+    <string name="chord_name_Fsm_Fsms5">F#m+5</string>
+    <string name="chord_name_Fsm_Fsm6">F#m6</string>
+    <string name="chord_name_Fsm_Fsm7">F#m7</string>
+    <string name="chord_name_Fsm_Fsm7f5">F#m7-5</string>
+    <string name="chord_name_Fsm_FsmM7">F#mM7</string>
+    <string name="chord_name_Fsm_Fsmadd9">F#madd9</string>
+    <string name="chord_name_Fsm_Fsm11">F#m11</string>
+
+    <string name="chord_name_G_G">G</string>
+    <string name="chord_name_G_Gsus4">Gsus4</string>
+    <string name="chord_name_G_Gf5">G-5</string>
+    <string name="chord_name_G_Gaug">Gaug</string>
+    <string name="chord_name_G_G6">G6</string>
+    <string name="chord_name_G_G7">G7</string>
+    <string name="chord_name_G_GM7">GM7</string>
+    <string name="chord_name_G_Gadd9">Gadd9</string>
+    <string name="chord_name_G_G11">G11</string>
+
+    <string name="chord_name_Gm_Gm">Gm</string>
+    <string name="chord_name_Gm_Gdim">Gdim</string>
+    <string name="chord_name_Gm_Gms5">Gm+5</string>
+    <string name="chord_name_Gm_Gm6">Gm6</string>
+    <string name="chord_name_Gm_Gm7">Gm7</string>
+    <string name="chord_name_Gm_Gm7f5">Gm7-5</string>
+    <string name="chord_name_Gm_GmM7">GmM7</string>
+    <string name="chord_name_Gm_Gmadd9">Gmadd9</string>
+    <string name="chord_name_Gm_Gm11">Gm11</string>
+
+    <string name="chord_name_Gb_Gb">Gb</string>
+    <string name="chord_name_Gb_Gbsus4">Gbsus4</string>
+    <string name="chord_name_Gb_Gbf5">Gb-5</string>
+    <string name="chord_name_Gb_Gbaug">Gbaug</string>
+    <string name="chord_name_Gb_Gb6">Gb6</string>
+    <string name="chord_name_Gb_Gb7">Gb7</string>
+    <string name="chord_name_Gb_GbM7">GbM7</string>
+    <string name="chord_name_Gb_Gbadd9">Gbadd9</string>
+    <string name="chord_name_Gb_Gb11">Gb11</string>
+
+    <string name="chord_name_Gbm_Gbm">Gbm</string>
+    <string name="chord_name_Gbm_Gbdim">Gbdim</string>
+    <string name="chord_name_Gbm_Gbms5">Gbm+5</string>
+    <string name="chord_name_Gbm_Gbm6">Gbm6</string>
+    <string name="chord_name_Gbm_Gbm7">Gbm7</string>
+    <string name="chord_name_Gbm_Gbm7f5">Gbm7-5</string>
+    <string name="chord_name_Gbm_GbmM7">GbmM7</string>
+    <string name="chord_name_Gbm_Gbmadd9">Gbmadd9</string>
+    <string name="chord_name_Gbm_Gbm11">Gbm11</string>
+
+    <string name="chord_name_Gs_Gs">G#</string>
+    <string name="chord_name_Gs_Gssus4">G#sus4</string>
+    <string name="chord_name_Gs_Gsf5">G#-5</string>
+    <string name="chord_name_Gs_Gsaug">G#aug</string>
+    <string name="chord_name_Gs_Gs6">G#6</string>
+    <string name="chord_name_Gs_Gs7">G#7</string>
+    <string name="chord_name_Gs_GsM7">G#M7</string>
+    <string name="chord_name_Gs_Gsadd9">G#add9</string>
+    <string name="chord_name_Gs_Gs11">G#11</string>
+
+    <string name="chord_name_Gsm_Gsm">G#m</string>
+    <string name="chord_name_Gsm_Gsdim">G#dim</string>
+    <string name="chord_name_Gsm_Gsms5">G#m+5</string>
+    <string name="chord_name_Gsm_Gsm6">G#m6</string>
+    <string name="chord_name_Gsm_Gsm7">G#m7</string>
+    <string name="chord_name_Gsm_Gsm7f5">G#m7-5</string>
+    <string name="chord_name_Gsm_GsmM7">G#mM7</string>
+    <string name="chord_name_Gsm_Gsmadd9">G#madd9</string>
+    <string name="chord_name_Gsm_Gsm11">G#m11</string>
+
+</resources>

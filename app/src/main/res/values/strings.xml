@@ -83,12 +83,13 @@
 
 
     <string name="pref_chord_category_variation">Variation</string>
-    <string name="pref_chord_variation_M7">M7</string>
+
     <string name="pref_chord_variation_sus4">sus4</string>
     <string name="pref_chord_variation_f5">-5</string>
     <string name="pref_chord_variation_s5">+5</string>
-    <string name="pref_chord_variation_6">6</string>
+    <string name="pref_chord_variation_M7">M7</string>
     <string name="pref_chord_variation_7">7</string>
+    <string name="pref_chord_variation_6">6</string>
     <string name="pref_chord_variation_9">9</string>
     <string name="pref_chord_variation_11">11</string>
     <string name="pref_chord_variation_13">13</string>

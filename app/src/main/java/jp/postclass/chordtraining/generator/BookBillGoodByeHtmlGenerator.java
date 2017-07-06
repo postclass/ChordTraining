@@ -4,18 +4,18 @@ package jp.postclass.chordtraining.generator;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
-import java.util.HashMap;
-import java.util.Map;
+import java.security.cert.CertificateNotYetValidException;
 
-import jp.postclass.chordtraining.activity.ChordDegreeActivityHelper;
 import jp.postclass.chordtraining.common.ChordConstants;
-import jp.postclass.chordtraining.common.Constants;
+import static jp.postclass.chordtraining.common.Constants.*;
+
+import jp.postclass.chordtraining.common.UtAbc;
 import jp.postclass.chordtraining.common.UtCommon;
 
 public class BookBillGoodByeHtmlGenerator {
 
     private static final String newLine = "\r\n";
-    private static final File baseDir = new File("D:/tmp/a");
+    private static final File baseDir = new File("D:/tmp/a/book/bill");
 
 
     public static void main(String[] args) throws Exception{
@@ -27,61 +27,165 @@ public class BookBillGoodByeHtmlGenerator {
         try (FileOutputStream outputStream = new FileOutputStream(new File(baseDir, "book_bill_good_bye.html"))) {
             try (OutputStreamWriter writer = new OutputStreamWriter(outputStream, "utf-8")) {
 
-                writer.write("<!DOCTYPE html>" + newLine +
-                        "<html>" + newLine +
-                        "<head>" + newLine +
-                        "<meta charset=\"utf-8\"/>" + newLine +
-                        "<style type=\"text/css\">" + newLine +
-                        ".main {" + newLine +
-                        "display: -webkit-flex; /* Safari */" + newLine +
-                        "display: flex;" + newLine +
-                        "" + newLine +
-                        "-webkit-flex-direction: row; /* Safari */" + newLine +
-                        "flex-direction:         row;" + newLine +
-                        "" + newLine +
-                        "-webkit-flex-wrap: wrap; /* Safari */" + newLine +
-                        "flex-wrap:         wrap;" + newLine +
-                        "" + newLine +
-                        "}" + newLine +
-                        ".main span {" + newLine +
-                                "border: 1px solid #ccc;" + newLine +
-                                "padding-left: 2px;" + newLine +
-                                "}" + newLine +
-                        "</style>" + newLine +
-                        "</head>" + newLine +
-                        "<body>" + newLine +
-                        "<div class=\"main\">" + newLine);
 
-                writer.write(getChordHtml(ChordConstants.CHORD_A_A));
-                writer.write(getChordHtml(ChordConstants.CHORD_B_B11));
-                writer.write(getChordHtml(ChordConstants.CHORD_A_A));
-                writer.write(getChordHtml(ChordConstants.CHORD_B_B11));
-                writer.write(getChordHtml(ChordConstants.CHORD_A_A));
-                writer.write(getChordHtml(ChordConstants.CHORD_B_B11));
-                writer.write(getChordHtml(ChordConstants.CHORD_A_A));
-                writer.write(getChordHtml(ChordConstants.CHORD_B_B11));
+                String chordAbc = "";
+                chordAbc += "z2 z2 ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_G__G7b5, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_C__C7, TENSION_NONE, TENSION_SH, TENSION_NONE, TENSION_NONE, 2);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Fm__Fm7, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_B__B7, TENSION_NONE, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Bb__Bb7sus4, TENSION_NONE, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Em__Em7, 2);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Eb__EbM7, 3);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_A__A7, TENSION_NONE, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 1);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Ab__AbM7, 4);
+                chordAbc += "| \n";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Dm__Dm7b5, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_G__G7, TENSION_NONE, TENSION_FL, TENSION_NONE, TENSION_NONE, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Db__Db7, TENSION_NONE, TENSION_NATURAL, TENSION_SH, TENSION_NONE, 2);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Cm__Cm7, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_G__G7b5, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_C__C7, TENSION_NONE, TENSION_SH, TENSION_NONE, TENSION_NONE, 2);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Fm__Fm7, 3);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_B__B7, TENSION_NONE, TENSION_NATURAL, TENSION_SH, TENSION_NATURAL, 1);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Bb__Bb7sus4, 3);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_E__E7, TENSION_NONE, TENSION_NATURAL, TENSION_SH, TENSION_NATURAL, 1);
+                chordAbc += "| \n";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Eb__EbM7, 3);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_A__A7, 1);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Ab__AbM7, 4);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Dm__Dm7b5, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_G__G7, TENSION_NONE, TENSION_FL, TENSION_NONE, TENSION_NONE, 4);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Cm__Cm7, TENSION_NONE, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Eb__EbM7, 4);
+                chordAbc += "| \n";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Ab__AbM7, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Eb__Eb, 4);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Fm__Fm7, TENSION_NONE, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Eb__Eb, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, TENSION_NONE, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Ab__AbM7, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_G__G7, TENSION_NONE, TENSION_FL, TENSION_NONE, TENSION_NONE, 2);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Cm__Cm7, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Cm__Cm, 4);
+                chordAbc += "| \n";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Am__Am7b5, 8);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_D__D7, TENSION_NONE, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 8);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_C__CM7, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_D__D7, 4);
+                chordAbc += "| \n";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Bm__Bm7b5, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_E__E7, TENSION_NONE, TENSION_SH, TENSION_NONE, TENSION_NONE, 4);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Am__Am7, TENSION_NONE, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Am__AmM7, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Am__Am7, 2);
+                chordAbc += "| \n";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Fshm__Fshm7b5, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_C__C7, TENSION_NONE, TENSION_NONE, TENSION_NONE, TENSION_NATURAL, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_B__B7, TENSION_NONE, TENSION_NONE, TENSION_NONE, TENSION_NATURAL, 2);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Em__Em, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Em__Em, 4);
+                chordAbc += "| \n";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Cshm__Cshm7b5, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Fsh__Fsh7, 4);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Bm__Bm7b5, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_E__E7, 4);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Bbm__Bbm7b5, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Eb__Eb7, 4);
+                chordAbc += "| \n";
 
-                writer.write("</div>" + newLine +
-                                        "</body>" + newLine +
-                                        "</html>");
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Am__Am7b5, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_G__G7, TENSION_NONE, TENSION_SH, TENSION_NONE, TENSION_NONE, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_C__C7, TENSION_NONE, TENSION_NONE, TENSION_NONE, TENSION_SH, 2);
+                chordAbc += "| \n";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Fm__Fm7, TENSION_NONE, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_F__F7, TENSION_NONE, TENSION_SH, TENSION_NONE, TENSION_NONE, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Fm__Fm7, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Bb__Bb7, TENSION_NONE, TENSION_NONE, TENSION_NONE, TENSION_NATURAL, 2);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Eb__Eb, TENSION_NATURAL, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Ab__AbM7, 4);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Dm__Dm7b5, TENSION_NONE, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_G__G7, TENSION_NONE, TENSION_NONE, TENSION_NONE, TENSION_FL, 4);
+                chordAbc += "| \n";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Cm__Cm, TENSION_NATURAL, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_G__G7, TENSION_NONE, TENSION_NONE, TENSION_NONE, TENSION_FL, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_C__C7, TENSION_NONE, TENSION_SH, TENSION_NONE, TENSION_NONE, 2);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Fm__Fm7, TENSION_NONE, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_F__F7, TENSION_NONE, TENSION_SH, TENSION_NONE, TENSION_NONE, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Fm__Fm7, TENSION_NONE, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Bb__Bb7, TENSION_NONE, TENSION_NONE, TENSION_NONE, TENSION_NATURAL, 2);
+                chordAbc += "| \n";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Eb__Eb, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, TENSION_NONE, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Ab__AbM7, 4);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Db__DbM7, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_G__G7,  TENSION_NONE, TENSION_NONE, TENSION_NONE, TENSION_FL, 4);
+                chordAbc += "| \n";
+
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Cm__Cm, TENSION_NATURAL, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 8);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Ab__AbM7, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Gm__Gm7, TENSION_NONE, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 4);
+                chordAbc += "| \n";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Fm__Fm7,  TENSION_NONE, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 6);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_G__G7, TENSION_NONE, TENSION_NONE, TENSION_NONE, TENSION_FL, 2);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Cm__Cm, TENSION_NATURAL, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 8);
+                chordAbc += "| \n";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Am__Am7b5, 8);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_D__D7, TENSION_NATURAL, TENSION_FL, TENSION_NATURAL, TENSION_NATURAL, 8);
+                chordAbc += "| \n";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Am__Am7, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_D__D7, 4);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Bm__Bm7b5, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Bm__Bm7b5, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_D__D7, TENSION_NONE, TENSION_SH, TENSION_NONE, TENSION_NONE, 2);
+                chordAbc += "| \n";
+
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Am__Am7, TENSION_NONE, TENSION_NATURAL, TENSION_NONE, TENSION_NONE, 8);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Fshm__Fshm7b5, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_C__C7, TENSION_NONE, TENSION_NONE, TENSION_NONE, TENSION_NATURAL, 2);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_B__B7, TENSION_NONE, TENSION_NONE, TENSION_NONE, TENSION_NATURAL, 2);
+                chordAbc += "| \n";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Em__Em7, 6);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Em__Em, 2);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Cshm__Cshm7b5, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Fsh__Fsh7, 4);
+                chordAbc += "| \n";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Bm__Bm7b5, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_E__E7, 4);
+                chordAbc += "| ";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Bbm__Bbm7b5, 4);
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Eb__Eb7, 4);
+                chordAbc += "| \n";
+                chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Am__Am7b5, 8);
+
+
+                writer.write(UtAbc.getHtml(UtAbc.getScoreTag(chordAbc), "../../abcjs/"));
 
                 writer.flush();
             }
         }
     }
-
-
-
-    private String getChordHtml(String chordName) {
-        String chordLabel = chordName.split("_")[1];
-        chordLabel = chordLabel.replace("f5", "-5");
-        chordLabel = chordLabel.replace("s", "#");
-        String result = "<span>" + chordLabel + "<br/>";
-        result += "<img src='" + UtCommon.getChordPath(chordName) + "_001.svg' width='120' height='120'></img>";
-        result += "</span>" + newLine;
-        return result;
-    }
-
-
 
 }

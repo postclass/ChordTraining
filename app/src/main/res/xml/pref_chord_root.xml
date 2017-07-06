@@ -87,12 +87,12 @@
 
         <CheckBoxPreference
             android:defaultValue="true"
-            android:key="pref.chord.variation.f5"
+            android:key="pref.chord.variation.b5"
             android:title="@string/pref_chord_variation_f5" />
 
         <CheckBoxPreference
             android:defaultValue="true"
-            android:key="pref.chord.variation.s5"
+            android:key="pref.chord.variation.sh5"
             android:title="@string/pref_chord_variation_s5" />
 
         <CheckBoxPreference
@@ -120,10 +120,10 @@
             android:key="pref.chord.variation.11"
             android:title="@string/pref_chord_variation_11" />
 
-        <!--<CheckBoxPreference-->
-            <!--android:defaultValue="true"-->
-            <!--android:key="pref.chord.variation.13"-->
-            <!--android:title="@string/pref_chord_variation_13" />-->
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.chord.variation.13"
+            android:title="@string/pref_chord_variation_13" />
 
     </PreferenceCategory>
 

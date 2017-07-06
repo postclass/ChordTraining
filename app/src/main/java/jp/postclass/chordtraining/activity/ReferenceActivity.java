@@ -97,9 +97,13 @@ public class ReferenceActivity extends AppCompatActivity {
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);
         mContentView = (WebView) findViewById(R.id.viewerWebView);
-        mContentView.getSettings().setJavaScriptEnabled(false);
+        mContentView.getSettings().setJavaScriptEnabled(true);
         mContentView.getSettings().setBuiltInZoomControls(true);
         mContentView.getSettings().setDisplayZoomControls(false);
+//        mContentView.getSettings().setAllowContentAccess(true);
+//        mContentView.getSettings().setAllowFileAccess(true);
+//        mContentView.getSettings().setAllowFileAccessFromFileURLs(true);
+//        mContentView.getSettings().setAllowUniversalAccessFromFileURLs(true);
         onToucheReferenceListener = new OnToucheReferenceListener();
 
         onClickReferenceDegreeAbsolute(null);
@@ -172,7 +176,8 @@ public class ReferenceActivity extends AppCompatActivity {
     }
 
     public void onClickReferenceKey(View view) {
-        mContentView.loadUrl("file:///android_asset/reference/reference_key.html");
+        mContentView.loadUrl("file:///android_asset/abcjs.html");
+//        mContentView.loadUrl("file:///android_asset/reference/reference_key.html");
         mContentView.setOnTouchListener(onToucheReferenceListener);
     }
 

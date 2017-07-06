@@ -74,8 +74,8 @@ public final class Constants {
 
     public static final String PREF_CHORD_VARIATION_M7 = "pref.chord.variation.M7";
     public static final String PREF_CHORD_VARIATION_sus4 = "pref.chord.variation.sus4";
-    public static final String PREF_CHORD_VARIATION_f5 = "pref.chord.variation.f5";
-    public static final String PREF_CHORD_VARIATION_s5 = "pref.chord.variation.s5";
+    public static final String PREF_CHORD_VARIATION_b5 = "pref.chord.variation.b5";
+    public static final String PREF_CHORD_VARIATION_sh5 = "pref.chord.variation.sh5";
     public static final String PREF_CHORD_VARIATION_6 = "pref.chord.variation.6";
     public static final String PREF_CHORD_VARIATION_7 = "pref.chord.variation.7";
     public static final String PREF_CHORD_VARIATION_9 = "pref.chord.variation.9";
@@ -89,8 +89,8 @@ public final class Constants {
     public static final String PREF_CHORD_KEY = "pref.chord.key";
 
 
-
-
-
-
+    public static final int TENSION_NONE = 0;
+    public static final int TENSION_NATURAL = 1;
+    public static final int TENSION_SH = 2;
+    public static final int TENSION_FL = 3;
 }

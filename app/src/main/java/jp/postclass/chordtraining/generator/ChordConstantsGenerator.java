@@ -5,6 +5,8 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 
+import jp.postclass.chordtraining.common.Constants;
+
 public class ChordConstantsGenerator {
 
     private static final String newLine = "\r\n";
@@ -28,44 +30,44 @@ public class ChordConstantsGenerator {
                 writer.write(getMinorString("A"));
                 writer.write(getMajorString("Ab"));
                 writer.write(getMinorString("Ab"));
-                writer.write(getMajorString("As"));
-                writer.write(getMinorString("As"));
+                writer.write(getMajorString("Ash"));
+                writer.write(getMinorString("Ash"));
                 writer.write(getMajorString("B"));
                 writer.write(getMinorString("B"));
                 writer.write(getMajorString("Bb"));
                 writer.write(getMinorString("Bb"));
-                writer.write(getMajorString("Bs"));
-                writer.write(getMinorString("Bs"));
+                writer.write(getMajorString("Bsh"));
+                writer.write(getMinorString("Bsh"));
                 writer.write(getMajorString("C"));
                 writer.write(getMinorString("C"));
                 writer.write(getMajorString("Cb"));
                 writer.write(getMinorString("Cb"));
-                writer.write(getMajorString("Cs"));
-                writer.write(getMinorString("Cs"));
+                writer.write(getMajorString("Csh"));
+                writer.write(getMinorString("Csh"));
                 writer.write(getMajorString("D"));
                 writer.write(getMinorString("D"));
                 writer.write(getMajorString("Db"));
                 writer.write(getMinorString("Db"));
-                writer.write(getMajorString("Ds"));
-                writer.write(getMinorString("Ds"));
+                writer.write(getMajorString("Dsh"));
+                writer.write(getMinorString("Dsh"));
                 writer.write(getMajorString("E"));
                 writer.write(getMinorString("E"));
                 writer.write(getMajorString("Eb"));
                 writer.write(getMinorString("Eb"));
-                writer.write(getMajorString("Es"));
-                writer.write(getMinorString("Es"));
+                writer.write(getMajorString("Esh"));
+                writer.write(getMinorString("Esh"));
                 writer.write(getMajorString("F"));
                 writer.write(getMinorString("F"));
                 writer.write(getMajorString("Fb"));
                 writer.write(getMinorString("Fb"));
-                writer.write(getMajorString("Fs"));
-                writer.write(getMinorString("Fs"));
+                writer.write(getMajorString("Fsh"));
+                writer.write(getMinorString("Fsh"));
                 writer.write(getMajorString("G"));
                 writer.write(getMinorString("G"));
                 writer.write(getMajorString("Gb"));
                 writer.write(getMinorString("Gb"));
-                writer.write(getMajorString("Gs"));
-                writer.write(getMinorString("Gs"));
+                writer.write(getMajorString("Gsh"));
+                writer.write(getMinorString("Gsh"));
 
                 writer.write("}");
 
@@ -75,37 +77,55 @@ public class ChordConstantsGenerator {
     }
 
     private String getMajorString(String root) {
-        return getOneString(root, root)
-                + getOneString(root, root + "sus4")
-                + getOneString(root, root + "f5")
-                + getOneString(root, root + "aug")
-                + getOneString(root, root + "6")
-                + getOneString(root, root + "7")
-                + getOneString(root, root + "M7")
-                + getOneString(root, root + "add9")
-                + getOneString(root, root + "11")
+        return getTensionCombination(root, root)
+                + getTensionCombination(root, root + "sus4")
+                + getTensionCombination(root, root + "b5")
+                + getTensionCombination(root, root + "aug")
+                + getTensionCombination(root, root + "7")
+                + getTensionCombination(root, root + "7b5")
+                + getTensionCombination(root, root + "7sh5")
+                + getTensionCombination(root, root + "7sus4")
+                + getTensionCombination(root, root + "M7")
                 + newLine
                 ;
     }
 
     private String getMinorString(String root) {
-        return getOneString(root + "m", root + "m")
-                + getOneString(root + "m", root + "dim")
-                + getOneString(root + "m", root + "ms5")
-                + getOneString(root + "m", root + "m6")
-                + getOneString(root + "m", root + "m7")
-                + getOneString(root + "m", root + "m7f5")
-                + getOneString(root + "m", root + "mM7")
-                + getOneString(root + "m", root + "madd9")
-                + getOneString(root + "m", root + "m11")
+        return getTensionCombination(root + "m", root + "m")
+                + getTensionCombination(root + "m", root + "dim")
+                + getTensionCombination(root + "m", root + "msh5")
+                + getTensionCombination(root + "m", root + "m7")
+                + getTensionCombination(root + "m", root + "m7b5")
+                + getTensionCombination(root + "m", root + "m7sh5")
+                + getTensionCombination(root + "m", root + "mM7")
                 + newLine
                 ;
     }
 
     private String getOneString(String root, String chord) {
-        String name = root + "_" + chord;
+        String name = root + "__" + chord;
         return "    public static final String CHORD_" + name + " = \"" + name + "\";" + newLine;
     }
 
+    private String getTensionCombination(String root, String chord) {
+        
+        String result = "";
 
+//        for (int i6 = Constants.TENSION_NONE; i6 <= Constants.TENSION_FL; i6++) {
+//            for (int i9 = Constants.TENSION_NONE; i9 <= Constants.TENSION_FL; i9++) {
+//                for (int i11 = Constants.TENSION_NONE; i11 <= Constants.TENSION_FL; i11++) {
+//                    for (int i13 = Constants.TENSION_NONE; i13 <= Constants.TENSION_FL; i13++) {
+//
+//                        String tensionString = getTension(i6, i9, i11, i13);
+//
+//                        result += getOneString(root, chord + tensionString);
+//                    }
+//                }
+//            }
+//        }
+
+        result += getOneString(root, chord);
+
+        return result;
+    }
 }

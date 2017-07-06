@@ -80,8 +80,12 @@ public class ChordResourcesGenerator {
                 + getOneString(root, root + "aug",rootLabel + "aug")
                 + getOneString(root, root + "6",rootLabel + "6")
                 + getOneString(root, root + "7",rootLabel + "7")
+                + getOneString(root, root + "7f5",rootLabel + "7-5")
+                + getOneString(root, root + "7sus4",rootLabel + "7sus4")
+                + getOneString(root, root + "7sus4_9",rootLabel + "7sus4/9")
                 + getOneString(root, root + "M7",rootLabel + "M7")
-                + getOneString(root, root + "add9",rootLabel + "add9")
+                + getOneString(root, root + "M7_9",rootLabel + "M7/9")
+                + getOneString(root, root + "9",rootLabel + "9")
                 + getOneString(root, root + "11",rootLabel + "11")
                 + newLine
                 ;
@@ -97,7 +101,8 @@ public class ChordResourcesGenerator {
                 + getOneString(root + "m", root + "m7",rootLabel + "m7")
                 + getOneString(root + "m", root + "m7f5",rootLabel + "m7-5")
                 + getOneString(root + "m", root + "mM7",rootLabel + "mM7")
-                + getOneString(root + "m", root + "madd9",rootLabel + "madd9")
+                + getOneString(root + "m", root + "mM7_9",rootLabel + "mM7/9")
+                + getOneString(root + "m", root + "m9",rootLabel + "m9")
                 + getOneString(root + "m", root + "m11",rootLabel + "m11")
                 + newLine
                 ;

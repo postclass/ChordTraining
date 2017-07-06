@@ -49,7 +49,7 @@ public class ChordRootActivityHelper extends Qa1ActivityHelper {
     private boolean variation_7;
     private boolean variation_9;
     private boolean variation_11;
-//    private boolean variation_13;
+    private boolean variation_13;
 
     private boolean plusminusSharp;
     private boolean plusminusNatural;
@@ -79,13 +79,13 @@ public class ChordRootActivityHelper extends Qa1ActivityHelper {
 
         this.variation_M7 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_M7, false);
         this.variation_sus4 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_sus4, false);
-        this.variation_f5 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_f5, false);
-        this.variation_s5 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_s5, false);
+        this.variation_f5 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_b5, false);
+        this.variation_s5 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_sh5, false);
         this.variation_6 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_6, false);
         this.variation_7 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_7, false);
         this.variation_9 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_9, false);
         this.variation_11 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_11, false);
-//        this.variation_13 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_13, false);
+        this.variation_13 = preferences.getBoolean(Constants.PREF_CHORD_VARIATION_13, false);
 
         this.plusminusSharp = preferences.getBoolean(Constants.PREF_CHORD_PLUSMINUS_SHARP, false);
         this.plusminusNatural = preferences.getBoolean(Constants.PREF_CHORD_PLUSMINUS_NATURAL, true);
@@ -179,50 +179,46 @@ public class ChordRootActivityHelper extends Qa1ActivityHelper {
 
     private int includeChordMajor(String rootString, int tmpChordNo) {
 
-        this.noChordnameMap.put(tmpChordNo++, rootString + "_" + rootString);
+        String baseChordConstant = rootString + "__" + rootString;
+
+        this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString);
 
         if (this.variation_M7) {
-//            this.noChordnameMap.put(tmpChordNo++, Constants.C_CM7);
-            this.noChordnameMap.put(tmpChordNo++, rootString + "_" + rootString + "M7");
+            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "M7");
         }
 
         if (this.variation_sus4) {
-//            this.noChordnameMap.put(tmpChordNo++, Constants.C_Csus4);
-            this.noChordnameMap.put(tmpChordNo++, rootString + "_" + rootString + "sus4");
+            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "sus4");
         }
 
         if (variation_f5) {
-//            this.noChordnameMap.put(tmpChordNo++, Constants.C_Cf5);
-            this.noChordnameMap.put(tmpChordNo++, rootString + "_" + rootString + "f5");
+            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "b5");
         }
 
         if (variation_s5) {
-//            this.noChordnameMap.put(tmpChordNo++, Constants.C_Caug);
-            this.noChordnameMap.put(tmpChordNo++, rootString + "_" + rootString + "aug");
-        }
-
-        if (variation_6) {
-//            this.noChordnameMap.put(tmpChordNo++, Constants.C_C6);
-            this.noChordnameMap.put(tmpChordNo++, rootString + "_" + rootString + "6");
+            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "aug");
         }
 
         if (variation_7) {
-//            this.noChordnameMap.put(tmpChordNo++, Constants.C_C7);
-            this.noChordnameMap.put(tmpChordNo++, rootString + "_" + rootString + "7");
+            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "7");
+        }
+
+        if (variation_6) {
+            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "6");
         }
 
         if (variation_9) {
 //            this.noChordnameMap.put(tmpChordNo++, Constants.C_Cadd9);
-            this.noChordnameMap.put(tmpChordNo++, rootString + "_" + rootString + "add9");
+            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "add9");
         }
 
         if (variation_11) {
 //            this.noChordnameMap.put(tmpChordNo++, Constants.C_C11);
-            this.noChordnameMap.put(tmpChordNo++, rootString + "_" + rootString + "11");
+            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "11");
         }
 
 //        if (variation_13) {
-//            this.noChordnameMap.put(tmpChordNo++, rootString + "_" + rootString + "13");
+//            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "13");
 //        }
 
         return tmpChordNo;
@@ -370,9 +366,12 @@ public class ChordRootActivityHelper extends Qa1ActivityHelper {
         this.answerNo2 = answerList.get(1);
         this.answerNo3 = answerList.get(2);
 
-        btnAnswer1.setText(getResources().getIdentifier("chord_name_" + this.noChordnameMap.get(this.answerNo1), "string", getPackageName()));
-        btnAnswer2.setText(getResources().getIdentifier("chord_name_" + this.noChordnameMap.get(this.answerNo2), "string", getPackageName()));
-        btnAnswer3.setText(getResources().getIdentifier("chord_name_" + this.noChordnameMap.get(this.answerNo3), "string", getPackageName()));
+//        btnAnswer1.setText(getResources().getIdentifier("chord_name_" + this.noChordnameMap.get(this.answerNo1), "string", getPackageName()));
+//        btnAnswer2.setText(getResources().getIdentifier("chord_name_" + this.noChordnameMap.get(this.answerNo2), "string", getPackageName()));
+//        btnAnswer3.setText(getResources().getIdentifier("chord_name_" + this.noChordnameMap.get(this.answerNo3), "string", getPackageName()));
+        btnAnswer1.setText(UtCommon.getChordLabel(this.noChordnameMap.get(this.answerNo1)));
+        btnAnswer2.setText(UtCommon.getChordLabel(this.noChordnameMap.get(this.answerNo2)));
+        btnAnswer3.setText(UtCommon.getChordLabel(this.noChordnameMap.get(this.answerNo3)));
 
         btnAnswer1.setEnabled(true);
         btnAnswer2.setEnabled(true);

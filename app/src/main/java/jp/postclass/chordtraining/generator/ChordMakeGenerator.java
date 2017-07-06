@@ -5,6 +5,9 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 
+import jp.postclass.chordtraining.common.Constants;
+import jp.postclass.chordtraining.common.UtCommon;
+
 public class ChordMakeGenerator {
 
     private static final String newLine = "\r\n";
@@ -24,44 +27,44 @@ public class ChordMakeGenerator {
                 writer.write(getMinorString("A"));
                 writer.write(getMajorString("Ab"));
                 writer.write(getMinorString("Ab"));
-                writer.write(getMajorString("As"));
-                writer.write(getMinorString("As"));
+                writer.write(getMajorString("Ash"));
+                writer.write(getMinorString("Ash"));
                 writer.write(getMajorString("B"));
                 writer.write(getMinorString("B"));
                 writer.write(getMajorString("Bb"));
                 writer.write(getMinorString("Bb"));
-                writer.write(getMajorString("Bs"));
-                writer.write(getMinorString("Bs"));
+                writer.write(getMajorString("Bsh"));
+                writer.write(getMinorString("Bsh"));
                 writer.write(getMajorString("C"));
                 writer.write(getMinorString("C"));
                 writer.write(getMajorString("Cb"));
                 writer.write(getMinorString("Cb"));
-                writer.write(getMajorString("Cs"));
-                writer.write(getMinorString("Cs"));
+                writer.write(getMajorString("Csh"));
+                writer.write(getMinorString("Csh"));
                 writer.write(getMajorString("D"));
                 writer.write(getMinorString("D"));
                 writer.write(getMajorString("Db"));
                 writer.write(getMinorString("Db"));
-                writer.write(getMajorString("Ds"));
-                writer.write(getMinorString("Ds"));
+                writer.write(getMajorString("Dsh"));
+                writer.write(getMinorString("Dsh"));
                 writer.write(getMajorString("E"));
                 writer.write(getMinorString("E"));
                 writer.write(getMajorString("Eb"));
                 writer.write(getMinorString("Eb"));
-                writer.write(getMajorString("Es"));
-                writer.write(getMinorString("Es"));
+                writer.write(getMajorString("Esh"));
+                writer.write(getMinorString("Esh"));
                 writer.write(getMajorString("F"));
                 writer.write(getMinorString("F"));
                 writer.write(getMajorString("Fb"));
                 writer.write(getMinorString("Fb"));
-                writer.write(getMajorString("Fs"));
-                writer.write(getMinorString("Fs"));
+                writer.write(getMajorString("Fsh"));
+                writer.write(getMinorString("Fsh"));
                 writer.write(getMajorString("G"));
                 writer.write(getMinorString("G"));
                 writer.write(getMajorString("Gb"));
                 writer.write(getMinorString("Gb"));
-                writer.write(getMajorString("Gs"));
-                writer.write(getMinorString("Gs"));
+                writer.write(getMajorString("Gsh"));
+                writer.write(getMinorString("Gsh"));
                 writer.flush();
             }
         }
@@ -69,60 +72,64 @@ public class ChordMakeGenerator {
 
     private String getMajorString(String root) {
         return baseDrive + newLine
-                + "cd " + baseDir.getAbsolutePath() + "\\" + root + newLine
+                + "cd " + baseDir.getAbsolutePath() + "\\chord\\root\\" + root + newLine
                 + newLine
-                + getSvgString(root)
-                + getSvgString(root + "sus4")
-                + getSvgString(root + "f5")
-                + getSvgString(root + "aug")
-                + getSvgString(root + "6")
-                + getSvgString(root + "7")
-                + getSvgString(root + "M7")
-                + getSvgString(root + "add9")
-                + getSvgString(root + "11")
+                + getTensionCombination(root)
+                + getTensionCombination(root + "sus4")
+                + getTensionCombination(root + "b5")
+                + getTensionCombination(root + "aug")
+                + getTensionCombination(root + "7")
+                + getTensionCombination(root + "7b5")
+                + getTensionCombination(root + "7sh5")
+                + getTensionCombination(root + "7sus4")
+                + getTensionCombination(root + "M7")
 
-                + newLine
-                + getMdString(root)
-                + getMdString(root + "sus4")
-                + getMdString(root + "f5")
-                + getMdString(root + "aug")
-                + getMdString(root + "6")
-                + getMdString(root + "7")
-                + getMdString(root + "M7")
-                + getMdString(root + "add9")
-                + getMdString(root + "11")
-                + newLine
-                + newLine
+//
+//                + newLine
+//                + getMdString(root)
+//                + getMdString(root + "sus4")
+//                + getMdString(root + "f5")
+//                + getMdString(root + "aug")
+//                + getMdString(root + "6")
+//                + getMdString(root + "7")
+//                + getMdString(root + "7f5")
+//                + getMdString(root + "7sus4")
+//                + getMdString(root + "7sus4_9")
+//                + getMdString(root + "M7")
+//                + getMdString(root + "M7_9")
+//                + getMdString(root + "9")
+//                + getMdString(root + "11")
+//                + newLine
+//                + newLine
                 + newLine
                 ;
     }
 
     private String getMinorString(String root) {
         return baseDrive + newLine
-                + "cd " + baseDir.getAbsolutePath() + "\\" + root + "m" + newLine
+                + "cd " + baseDir.getAbsolutePath() + "\\chord\\root\\" + root + "m" + newLine
                 + newLine
-                + getSvgString(root + "m")
-                + getSvgString(root + "dim")
-                + getSvgString(root + "ms5")
-                + getSvgString(root + "m6")
-                + getSvgString(root + "m7")
-                + getSvgString(root + "m7f5")
-                + getSvgString(root + "mM7")
-                + getSvgString(root + "madd9")
-                + getSvgString(root + "m11")
+                + getTensionCombination(root + "m")
+                + getTensionCombination(root + "dim")
+                + getTensionCombination(root + "msh5")
+                + getTensionCombination(root + "m7")
+                + getTensionCombination(root + "m7b5")
+                + getTensionCombination(root + "m7sh5")
+                + getTensionCombination(root + "mM7")
 
-                + newLine
-                + getMdString(root + "m")
-                + getMdString(root + "dim")
-                + getMdString(root + "ms5")
-                + getMdString(root + "m6")
-                + getMdString(root + "m7")
-                + getMdString(root + "m7f5")
-                + getMdString(root + "mM7")
-                + getMdString(root + "madd9")
-                + getMdString(root + "m11")
-                + newLine
-                + newLine
+//                + newLine
+//                + getMdString(root + "m")
+//                + getMdString(root + "dim")
+//                + getMdString(root + "ms5")
+//                + getMdString(root + "m6")
+//                + getMdString(root + "m7")
+//                + getMdString(root + "m7f5")
+//                + getMdString(root + "mM7")
+//                + getMdString(root + "mM7_9")
+//                + getMdString(root + "m9")
+//                + getMdString(root + "m11")
+//                + newLine
+//                + newLine
                 + newLine
                 ;
     }
@@ -135,4 +142,38 @@ public class ChordMakeGenerator {
         return mdPath + " " + chord + ".abc -o " + chord + ".mid" + newLine;
     }
 
+
+    private String getTensionCombination(String chord) {
+
+        String result = "";
+
+        for (int i6 = Constants.TENSION_NONE; i6 <= Constants.TENSION_FL; i6++) {
+            for (int i9 = Constants.TENSION_NONE; i9 <= Constants.TENSION_FL; i9++) {
+                for (int i11 = Constants.TENSION_NONE; i11 <= Constants.TENSION_FL; i11++) {
+                    for (int i13 = Constants.TENSION_NONE; i13 <= Constants.TENSION_FL; i13++) {
+                        String tensionString = UtCommon.getTensionChordName(i6, i9, i11, i13);
+                        result += getSvgString(chord + tensionString);
+                    }
+                }
+            }
+        }
+
+        for (int i6 = Constants.TENSION_NONE; i6 <= Constants.TENSION_FL; i6++) {
+            for (int i9 = Constants.TENSION_NONE; i9 <= Constants.TENSION_FL; i9++) {
+                for (int i11 = Constants.TENSION_NONE; i11 <= Constants.TENSION_FL; i11++) {
+                    for (int i13 = Constants.TENSION_NONE; i13 <= Constants.TENSION_FL; i13++) {
+                        String tensionString = UtCommon.getTensionChordName(i6, i9, i11, i13);
+                        result += getMdString(chord + tensionString);
+                    }
+                }
+            }
+        }
+        
+        result += newLine;
+
+        return result;
+    }
+
+
+    
 }
