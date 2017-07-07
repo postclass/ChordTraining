@@ -176,8 +176,7 @@ public class ReferenceActivity extends AppCompatActivity {
     }
 
     public void onClickReferenceKey(View view) {
-        mContentView.loadUrl("file:///android_asset/abcjs.html");
-//        mContentView.loadUrl("file:///android_asset/reference/reference_key.html");
+        mContentView.loadUrl("file:///android_asset/reference/reference_key.html");
         mContentView.setOnTouchListener(onToucheReferenceListener);
     }
 

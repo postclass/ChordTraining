@@ -106,20 +106,20 @@ public class ChordRootActivityHelper extends Qa1ActivityHelper {
         int tmpChordNo = 0;
 
         if (this.plusminusSharp) {
-            if (this.includeRootA) { tmpChordNo = this.includeChordMajor("As", tmpChordNo); }
-            if (this.includeRootAm) { tmpChordNo = this.includeChordMinor("As", tmpChordNo); }
-            if (this.includeRootB) { tmpChordNo = this.includeChordMajor("Bs", tmpChordNo); }
-            if (this.includeRootBm) { tmpChordNo = this.includeChordMinor("Bs", tmpChordNo); }
-            if (this.includeRootC) { tmpChordNo = this.includeChordMajor("Cs", tmpChordNo); }
-            if (this.includeRootCm) { tmpChordNo = this.includeChordMinor("Cs", tmpChordNo); }
-            if (this.includeRootD) { tmpChordNo = this.includeChordMajor("Ds", tmpChordNo); }
-            if (this.includeRootDm) { tmpChordNo = this.includeChordMinor("Ds", tmpChordNo); }
-            if (this.includeRootE) { tmpChordNo = this.includeChordMajor("Es", tmpChordNo); }
-            if (this.includeRootEm) { tmpChordNo = this.includeChordMinor("Es", tmpChordNo); }
-            if (this.includeRootF) { tmpChordNo = this.includeChordMajor("Fs", tmpChordNo); }
-            if (this.includeRootFm) { tmpChordNo = this.includeChordMinor("Fs", tmpChordNo); }
-            if (this.includeRootG) { tmpChordNo = this.includeChordMajor("Gs", tmpChordNo); }
-            if (this.includeRootGm) { tmpChordNo = this.includeChordMinor("Gs", tmpChordNo); }
+            if (this.includeRootA) { tmpChordNo = this.includeChordMajor("Ash", tmpChordNo); }
+            if (this.includeRootAm) { tmpChordNo = this.includeChordMinor("Ash", tmpChordNo); }
+            if (this.includeRootB) { tmpChordNo = this.includeChordMajor("Bsh", tmpChordNo); }
+            if (this.includeRootBm) { tmpChordNo = this.includeChordMinor("Bsh", tmpChordNo); }
+            if (this.includeRootC) { tmpChordNo = this.includeChordMajor("Csh", tmpChordNo); }
+            if (this.includeRootCm) { tmpChordNo = this.includeChordMinor("Csh", tmpChordNo); }
+            if (this.includeRootD) { tmpChordNo = this.includeChordMajor("Dsh", tmpChordNo); }
+            if (this.includeRootDm) { tmpChordNo = this.includeChordMinor("Dsh", tmpChordNo); }
+            if (this.includeRootE) { tmpChordNo = this.includeChordMajor("Esh", tmpChordNo); }
+            if (this.includeRootEm) { tmpChordNo = this.includeChordMinor("Esh", tmpChordNo); }
+            if (this.includeRootF) { tmpChordNo = this.includeChordMajor("Fsh", tmpChordNo); }
+            if (this.includeRootFm) { tmpChordNo = this.includeChordMinor("Fsh", tmpChordNo); }
+            if (this.includeRootG) { tmpChordNo = this.includeChordMajor("Gsh", tmpChordNo); }
+            if (this.includeRootGm) { tmpChordNo = this.includeChordMinor("Gsh", tmpChordNo); }
         }
 
         if (this.plusminusNatural) {
@@ -226,50 +226,57 @@ public class ChordRootActivityHelper extends Qa1ActivityHelper {
 
         String rootStringMinor = rootString + "m";
 
-        this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor) ;
+        this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "__" + rootStringMinor) ;
 
         if (this.variation_M7) {
-            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "M7");
+            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "__" + rootStringMinor + "M7");
         }
 
         if (variation_f5) {
-            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootString + "dim");
+            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "__" + rootString + "dim");
         }
 
         if (variation_s5) {
-            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "sh5");
+            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "__" + rootStringMinor + "sh5");
         }
 
         if (variation_6) {
-            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "_6");
+            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "__" + rootStringMinor + "_6");
         }
 
         if (variation_7) {
-            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "7");
+            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "__" + rootStringMinor + "7");
         }
 
         if (variation_9) {
-            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "_9");
+            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "__" + rootStringMinor + "_9");
         }
 
         if (variation_11) {
-            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "_11");
+            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "__" + rootStringMinor + "_11");
         }
 
         if (variation_13) {
-            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "_13");
+            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "__" + rootStringMinor + "_13");
         }
 
         return tmpChordNo;
     }
 
     @Override
-    public void onDestroy() {
-        super.onDestroy();
-
+    public void onPause() {
         this.soundPool.release();
         this.soundPool = null;
+        super.onPause();
     }
+
+//    @Override
+//    public void onDestroy() {
+//        super.onDestroy();
+//
+//        this.soundPool.release();
+//        this.soundPool = null;
+//    }
 
 
 

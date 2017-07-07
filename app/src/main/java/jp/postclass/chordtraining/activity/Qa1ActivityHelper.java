@@ -65,7 +65,7 @@ public abstract class Qa1ActivityHelper extends ActivityHelper {
         super(activity);
 
         this.preferences = PreferenceManager.getDefaultSharedPreferences(this.activity);
-        this.countDownSecond = Integer.parseInt(preferences.getString(Constants.PREF_COMMON_COUNTDOWN_SECOND, "30"));
+
 
         this.btnStart = (Button) findViewById(R.id.qa1ButtonStart);
         this.btnAnswer1 = (Button) findViewById(R.id.qa1ButtonAns1);
@@ -95,14 +95,21 @@ public abstract class Qa1ActivityHelper extends ActivityHelper {
         this.correctImageViewLayoutParams.format  = PixelFormat.TRANSPARENT;
     }
 
+    public void onResume() {
+        this.countDownSecond = Integer.parseInt(preferences.getString(Constants.PREF_COMMON_COUNTDOWN_SECOND, "30"));
+        init();
+    }
 
-    public void onDestroy() {
+    public void onPause() {
         if (this.countDownTimer != null) {
             this.countDownTimer.cancel();
             this.countDownTimer.purge();
             this.countDownTimer = null;
         }
     }
+
+//    public void onDestroy() {
+//    }
 
     protected void stopCountdown() {
 
@@ -244,4 +251,9 @@ public abstract class Qa1ActivityHelper extends ActivityHelper {
     abstract void onClickSound3(View view);
 
     abstract void nextQuestion();
+
+
+
+
+
 }

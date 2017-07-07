@@ -34,8 +34,12 @@ public class Qa1Activity extends AppCompatActivity {
         } else {
             throw new ApplicationRuntimeException("illegal state : category : " + Globals.category);
         }
+    }
 
-        this.helper.init();
+    @Override
+    protected void onResume() {
+        super.onResume();
+        this.helper.onResume();
     }
 
     @Override
@@ -62,10 +66,16 @@ public class Qa1Activity extends AppCompatActivity {
     }
 
     @Override
-    protected void onDestroy() {
-        this.helper.onDestroy();
-        super.onDestroy();
+    protected void onPause() {
+        this.helper.onPause();
+        super.onPause();
     }
+
+//    @Override
+//    protected void onDestroy() {
+//        this.helper.onDestroy();
+//        super.onDestroy();
+//    }
 
     public void onClickStart(View view) { this.helper.onClickStart(view); }
 

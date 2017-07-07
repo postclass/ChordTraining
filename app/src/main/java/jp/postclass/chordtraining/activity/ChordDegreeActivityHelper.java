@@ -143,14 +143,20 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         stopCountdown();
     }
 
-
     @Override
-    public void onDestroy() {
-        super.onDestroy();
-
+    public void onPause() {
         this.soundPool.release();
         this.soundPool = null;
+        super.onPause();
     }
+
+//    @Override
+//    public void onDestroy() {
+//        super.onDestroy();
+//
+//        this.soundPool.release();
+//        this.soundPool = null;
+//    }
 
 
     @Override
@@ -239,9 +245,13 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         String degreeName2 = getDegreeName(this.answerNo2, this.key);
         String degreeName3 = getDegreeName(this.answerNo3, this.key);
 
-        String chordName1 = getString(getResources().getIdentifier("chord_name_" + this.noChordnameMap.get(this.answerNo1), "string", getPackageName()));
-        String chordName2 = getString(getResources().getIdentifier("chord_name_" + this.noChordnameMap.get(this.answerNo2), "string", getPackageName()));
-        String chordName3 = getString(getResources().getIdentifier("chord_name_" + this.noChordnameMap.get(this.answerNo3), "string", getPackageName()));
+//        String chordName1 = getString(getResources().getIdentifier("chord_name_" + this.noChordnameMap.get(this.answerNo1), "string", getPackageName()));
+//        String chordName2 = getString(getResources().getIdentifier("chord_name_" + this.noChordnameMap.get(this.answerNo2), "string", getPackageName()));
+//        String chordName3 = getString(getResources().getIdentifier("chord_name_" + this.noChordnameMap.get(this.answerNo3), "string", getPackageName()));
+        String chordName1 = UtCommon.getChordLabel(this.noChordnameMap.get(this.answerNo1));
+        String chordName2 = UtCommon.getChordLabel(this.noChordnameMap.get(this.answerNo2));
+        String chordName3 = UtCommon.getChordLabel(this.noChordnameMap.get(this.answerNo3));
+
 
         btnAnswer1.setText(degreeName1 + " (" + chordName1 + ")");
         btnAnswer2.setText(degreeName2 + " (" + chordName2 + ")");

@@ -146,8 +146,8 @@
     <!-- pred end -->
 
 
-    <string name="key_name_Cs">嬰ハ長調(C#)</string>
-    <string name="key_name_Fs">嬰ヘ長調(F#)</string>
+    <string name="key_name_Csh">嬰ハ長調(C#)</string>
+    <string name="key_name_Fsh">嬰ヘ長調(F#)</string>
     <string name="key_name_B">ロ長調(B)</string>
     <string name="key_name_E">ホ長調(E)</string>
     <string name="key_name_A">イ長調(A)</string>
@@ -162,11 +162,11 @@
     <string name="key_name_Gb">変ト長調(Gb)</string>
     <string name="key_name_Cb">変ハ長調(Cb)</string>
 
-    <string name="key_name_Asm">嬰イ短調(A#m)</string>
-    <string name="key_name_Dsm">嬰ニ短調(D#m)</string>
-    <string name="key_name_Gsm">嬰ト短調(G#m)</string>
-    <string name="key_name_Csm">嬰ハ短調(C#m)</string>
-    <string name="key_name_Fsm">嬰ヘ短調(F#m)</string>
+    <string name="key_name_Ashm">嬰イ短調(A#m)</string>
+    <string name="key_name_Dshm">嬰ニ短調(D#m)</string>
+    <string name="key_name_Gshm">嬰ト短調(G#m)</string>
+    <string name="key_name_Cshm">嬰ハ短調(C#m)</string>
+    <string name="key_name_Fshm">嬰ヘ短調(F#m)</string>
     <string name="key_name_Bm">ロ短調(Bm)</string>
     <string name="key_name_Em">ホ短調(Em)</string>
     <string name="key_name_Am">イ短調(Am)</string>

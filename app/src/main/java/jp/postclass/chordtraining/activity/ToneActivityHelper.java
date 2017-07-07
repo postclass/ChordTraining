@@ -3,6 +3,7 @@ package jp.postclass.chordtraining.activity;
 
 import android.content.SharedPreferences;
 import android.media.AudioAttributes;
+import android.media.AudioTrack;
 import android.media.SoundPool;
 import android.support.v7.app.ActionBar;
 import android.view.View;
@@ -125,14 +126,11 @@ public class ToneActivityHelper extends Qa1ActivityHelper {
     }
 
     @Override
-    public void onDestroy() {
-        super.onDestroy();
-
+    public void onPause() {
         this.soundPool.release();
         this.soundPool = null;
+        super.onPause();
     }
-
-
 
     @Override
     public void onClickStart(View view) {
