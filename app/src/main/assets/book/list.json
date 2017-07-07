@@ -1,0 +1,31 @@
+{
+    composers : [
+        {
+            label : "b a",
+            value : "bill",
+
+            pieces : [
+                {
+                    label: "i w",
+                    value: "i_will"
+                },
+                {
+                    label: "i w2",
+                    value: "i_will2"
+                }
+            ]
+        },
+
+        {
+            label : "hoge c",
+            value : "hogec",
+
+            pieces : [
+                {
+                    label: "hoge p",
+                    value: "hogep"
+                }
+            ]
+        }
+    ]
+}

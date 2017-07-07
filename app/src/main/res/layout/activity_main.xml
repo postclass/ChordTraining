@@ -40,14 +40,25 @@
         app:layout_constraintTop_toBottomOf="@+id/mainButtonChordRoot" />
 
     <Button
+        android:id="@+id/mainButtonBook"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_margin="0dp"
+        android:onClick="onClickBook"
+        android:text="@string/main_reference_button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mainButtonChordDegree" />
+
+    <Button
         android:id="@+id/mainButtonReference"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_margin="0dp"
         android:onClick="onClickReference"
-        android:text="@string/main_viewer_button"
+        android:text="@string/main_reference_button"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/mainButtonChordDegree" />
+        app:layout_constraintTop_toBottomOf="@+id/mainButtonBook" />
 
 </android.support.constraint.ConstraintLayout>

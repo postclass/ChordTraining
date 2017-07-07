@@ -8,7 +8,8 @@
     <string name="main_tone_button">Key</string>
     <string name="main_chord_root_button">Chord(Root)</string>
     <string name="main_chord_degree_button">Chord(Degree)</string>
-    <string name="main_viewer_button">Reference</string>
+    <string name="main_book_button">Book</string>
+    <string name="main_reference_button">Reference</string>
 
     <string name="qa1_start_button_default">Start</string>
     <string name="qa1_start_button_started">Listen collect sound.</string>
@@ -30,8 +31,6 @@
 
     <string name="reference_key_button">Key</string>
     <string name="reference_degree_absolute_button">Degree absolute</string>
-
-
 
 
     <!-- pref start -->
@@ -181,36 +180,5 @@
     <string name="title_activity_reference">ReferenceActivity</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
-
-    <!--<string name="chord_name_Cs">C#</string>-->
-    <!--<string name="chord_name_Fs">F#</string>-->
-    <!--<string name="chord_name_B">B</string>-->
-    <!--<string name="chord_name_E">E</string>-->
-    <!--<string name="chord_name_A">A</string>-->
-    <!--<string name="chord_name_D">D</string>-->
-    <!--<string name="chord_name_G">G</string>-->
-    <!--<string name="chord_name_C">C</string>-->
-    <!--<string name="chord_name_F">F</string>-->
-    <!--<string name="chord_name_Bb">Bb</string>-->
-    <!--<string name="chord_name_Eb">Eb</string>-->
-    <!--<string name="chord_name_Ab">Ab</string>-->
-    <!--<string name="chord_name_Db">Db</string>-->
-    <!--<string name="chord_name_Gb">Gb</string>-->
-    <!--<string name="chord_name_Cb">Cb</string>-->
-    <!--<string name="chord_name_Asm">A#m</string>-->
-    <!--<string name="chord_name_Dsm">D#m</string>-->
-    <!--<string name="chord_name_Gsm">G#m</string>-->
-    <!--<string name="chord_name_Csm">C#m</string>-->
-    <!--<string name="chord_name_Fsm">F#m</string>-->
-    <!--<string name="chord_name_Bm">Bm</string>-->
-    <!--<string name="chord_name_Em">Em</string>-->
-    <!--<string name="chord_name_Am">Am</string>-->
-    <!--<string name="chord_name_Dm">Dm</string>-->
-    <!--<string name="chord_name_Gm">Gm</string>-->
-    <!--<string name="chord_name_Cm">Cm</string>-->
-    <!--<string name="chord_name_Fm">Fm</string>-->
-    <!--<string name="chord_name_Bbm">Bbm</string>-->
-    <!--<string name="chord_name_Ebm">Ebm</string>-->
-    <!--<string name="chord_name_Abm">Abm</string>-->
 
 </resources>

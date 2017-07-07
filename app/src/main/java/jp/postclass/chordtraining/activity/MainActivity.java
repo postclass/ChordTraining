@@ -55,6 +55,11 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onClickBook(View view) {
+        Intent intent = new Intent(getApplication(), BookSelectActivity.class);
+        startActivity(intent);
+    }
+
     public void onClickReference(View view) {
         Intent intent = new Intent(getApplication(), ReferenceActivity.class);
         startActivity(intent);

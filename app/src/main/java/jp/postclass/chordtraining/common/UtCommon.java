@@ -4,7 +4,14 @@ import android.content.res.AssetFileDescriptor;
 import android.content.res.AssetManager;
 import android.media.SoundPool;
 
+import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.StringReader;
+import java.io.UnsupportedEncodingException;
+import java.nio.CharBuffer;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
@@ -52,6 +59,23 @@ public final class UtCommon {
             }
         }
         return false;
+    }
+
+    public static String getStringFromStream(InputStream is) throws IOException {
+        try (InputStreamReader ir = new InputStreamReader(is, "UTF-8")) {
+            StringBuilder sb = new StringBuilder();
+            CharBuffer buff = CharBuffer.allocate(1024);
+            while(ir.read(buff) != -1){
+                buff.flip();
+                sb.append(buff.toString());
+                buff.clear();
+            }
+            return sb.toString();
+        } catch (UnsupportedEncodingException e) {
+            throw e;
+        } catch (IOException e) {
+            throw e;
+        }
     }
 
     public static String getChordLabel (String chordConstant) {
