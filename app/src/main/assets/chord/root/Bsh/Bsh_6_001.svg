@@ -1,0 +1,108 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+	"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xml:space='preserve'
+	viewBox="50 30 130 130">
+<title>Bsh_6.abc</title>
+<g transform="scale(0.750)">
+<path stroke="currentColor" fill="none"
+	d="M67.20 132.89h105.50m-105.50 -6h105.50m-105.50 -6h105.50m-105.50 -6h105.50m-105.50 -6h105.50"/>
+<defs>
+<path id="utclef" fill="currentColor" d="m-50 -90
+	c-72 -41 -72 -158 52 -188
+	c150 -10 220 188 90 256
+	c-114 52 -275 0 -293 -136
+	c-15 -181 93 -229 220 -334
+	c88 -87 79 -133 62 -210
+	c-51 33 -94 105 -89 186
+	c17 267 36 374 49 574
+	c6 96 -19 134 -77 135
+	c-80 1 -126 -93 -61 -133
+	c85 -41 133 101 31 105
+	c23 17 92 37 90 -92
+	c-10 -223 -39 -342 -50 -617
+	c0 -90 0 -162 96 -232
+	c56 72 63 230 22 289
+	c-74 106 -257 168 -255 316
+	c9 153 148 185 252 133
+	c86 -65 29 -192 -80 -176
+	c-71 12 -105 67 -59 124"/>
+<use id="tclef" transform="scale(0.045)"
+	xlink:href="#utclef"/>
+</defs>
+<use x="79.20" y="132.89" xlink:href="#tclef"/>
+<g font-family="Times" font-size="15" font-weight="bold" font-style="normal"
+	transform="translate(97.70,132.89) scale(1.2,1)">
+	<text y="-1" text-anchor="middle">4</text>
+	<text y="-13" text-anchor="middle">4</text>
+</g>
+<defs>
+<path id="hl" stroke="currentColor" d="m-6 0h12"/>
+</defs>
+<use x="136.70" y="138.89" xlink:href="#hl"/>
+<defs>
+<path id="Hd" fill="currentColor" d="m3 -1.6
+	c-1 -1.8 -7 1.4 -6 3.2
+	c1 1.8 7 -1.4 6 -3.2
+	m0.5 -0.3
+	c2 3.8 -5 7.6 -7 3.8
+	c-2 -3.8 5 -7.6 7 -3.8"/>
+</defs>
+<use x="136.70" y="141.89" xlink:href="#Hd"/>
+<defs>
+<path id="usharp" fill="currentColor" d="
+	m136 -702
+	v890
+	h32
+	v-890
+	m128 840
+	h32
+	v-888
+	h-32
+	m-232 286
+	v116
+	l338 -96
+	v-116
+	m-338 442
+	v116
+	l338 -98
+	v-114"/>
+<use id="sh0" transform="translate(-4,5) scale(0.018)"
+	xlink:href="#usharp"/>
+</defs>
+<use x="126.70" y="141.89" xlink:href="#sh0"/>
+<path d="M140.20 141.89v-33.00" stroke="currentColor" fill="none"/>
+<use x="136.70" y="135.89" xlink:href="#Hd"/>
+<defs>
+<path id="udblesharp" fill="currentColor" d="
+	m240 -282
+	c40 -38 74 -68 158 -68
+	v-96
+	h-96
+	c0 84 -30 118 -68 156
+	c-40 -38 -70 -72 -70 -156
+	h-96
+	v96
+	c86 0 120 30 158 68
+	c-38 38 -72 68 -158 68
+	v96
+	h96
+	c0 -84 30 -118 70 -156
+	c38 38 68 72 68 156
+	h96
+	v-96
+	c-84 0 -118 -30 -158 -68"/>
+<use id="dsh0" transform="translate(-4,5) scale(0.018)"
+	xlink:href="#udblesharp"/>
+</defs>
+<use x="112.70" y="135.89" xlink:href="#dsh0"/>
+<use x="136.70" y="129.89" xlink:href="#Hd"/>
+<use x="119.70" y="129.89" xlink:href="#dsh0"/>
+<use x="144.50" y="126.89" xlink:href="#Hd"/>
+<use x="126.70" y="126.89" xlink:href="#dsh0"/>
+<path stroke="currentColor" fill="none"
+	d="M172.70 132.89v-24.00"/>
+</g>
+</svg>

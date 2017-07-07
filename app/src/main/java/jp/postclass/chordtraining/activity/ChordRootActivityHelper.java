@@ -204,22 +204,20 @@ public class ChordRootActivityHelper extends Qa1ActivityHelper {
         }
 
         if (variation_6) {
-            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "6");
+            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "_6");
         }
 
         if (variation_9) {
-//            this.noChordnameMap.put(tmpChordNo++, Constants.C_Cadd9);
-            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "add9");
+            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "_9");
         }
 
         if (variation_11) {
-//            this.noChordnameMap.put(tmpChordNo++, Constants.C_C11);
-            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "11");
+            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "_11");
         }
 
-//        if (variation_13) {
-//            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "13");
-//        }
+        if (variation_13) {
+            this.noChordnameMap.put(tmpChordNo++, rootString + "__" + rootString + "_13");
+        }
 
         return tmpChordNo;
     }
@@ -228,47 +226,39 @@ public class ChordRootActivityHelper extends Qa1ActivityHelper {
 
         String rootStringMinor = rootString + "m";
 
-//        this.noChordnameMap.put(tmpChordNo++, Constants.Cm_Cm);
         this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor) ;
 
         if (this.variation_M7) {
-//            this.noChordnameMap.put(tmpChordNo++, Constants.Cm_CmM7);
             this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "M7");
         }
 
         if (variation_f5) {
-//            this.noChordnameMap.put(tmpChordNo++, Constants.Cm_Cdim);
             this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootString + "dim");
         }
 
         if (variation_s5) {
-//            this.noChordnameMap.put(tmpChordNo++, Constants.Cm_Cms5);
-            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "s5");
+            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "sh5");
         }
 
         if (variation_6) {
-//            this.noChordnameMap.put(tmpChordNo++, Constants.Cm_Cm6);
-            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "6");
+            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "_6");
         }
 
         if (variation_7) {
-//            this.noChordnameMap.put(tmpChordNo++, Constants.Cm_Cm7);
             this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "7");
         }
 
         if (variation_9) {
-//            this.noChordnameMap.put(tmpChordNo++, Constants.Cm_Cmadd9);
-            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "add9");
+            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "_9");
         }
 
         if (variation_11) {
-//            this.noChordnameMap.put(tmpChordNo++, Constants.Cm_Cm11);
-            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "11");
+            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "_11");
         }
 
-//        if (variation_13) {
-//            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "13");
-//        }
+        if (variation_13) {
+            this.noChordnameMap.put(tmpChordNo++, rootStringMinor + "_" + rootStringMinor + "_13");
+        }
 
         return tmpChordNo;
     }

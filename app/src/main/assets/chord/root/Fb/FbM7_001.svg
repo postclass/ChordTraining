@@ -46,7 +46,7 @@
 	c2 3.8 -5 7.6 -7 3.8
 	c-2 -3.8 5 -7.6 7 -3.8"/>
 </defs>
-<use x="134.20" y="111.89" xlink:href="#Hd"/>
+<use x="134.20" y="129.89" xlink:href="#Hd"/>
 <defs>
 <path id="uflat" fill="currentColor" d="
 	m100 -746
@@ -62,14 +62,16 @@
 <use id="ft0" transform="translate(-3.5,3.5) scale(0.018)"
 	xlink:href="#uflat"/>
 </defs>
-<use x="124.20" y="111.89" xlink:href="#ft0"/>
-<path d="M130.70 111.89v36.00" stroke="currentColor" fill="none"/>
-<use x="134.20" y="129.89" xlink:href="#Hd"/>
+<use x="117.20" y="129.89" xlink:href="#ft0"/>
+<path d="M137.70 129.89v-36.00" stroke="currentColor" fill="none"/>
+<use x="142.00" y="129.89" xlink:href="#Hd"/>
 <use x="124.20" y="129.89" xlink:href="#ft0"/>
 <use x="134.20" y="123.89" xlink:href="#Hd"/>
 <use x="117.20" y="123.89" xlink:href="#ft0"/>
 <use x="134.20" y="117.89" xlink:href="#Hd"/>
 <use x="112.70" y="117.89" xlink:href="#ft0"/>
+<use x="134.20" y="111.89" xlink:href="#Hd"/>
+<use x="124.20" y="111.89" xlink:href="#ft0"/>
 <path stroke="currentColor" fill="none"
 	d="M170.20 132.89v-24.00"/>
 </g>

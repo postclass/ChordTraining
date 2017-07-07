@@ -37,13 +37,13 @@ public class ReferenceChordDegreeHtmlGenerator {
 
                 writer.write(getKeyUnitString(getFlatAddMap(this.rootMapF), 100, Constants.KEY_Cb));
                 writer.write(getKeyUnitString(this.rootMapF, 100, Constants.KEY_C));
-                writer.write(getKeyUnitString(getSharpAddMap(this.rootMapF), 100, Constants.KEY_Cs));
+                writer.write(getKeyUnitString(getSharpAddMap(this.rootMapF), 100, Constants.KEY_Csh));
                 writer.write(getKeyUnitString(getFlatAddMap(this.rootMapF), 102, Constants.KEY_Db));
                 writer.write(getKeyUnitString(this.rootMapF, 102, Constants.KEY_D));
                 writer.write(getKeyUnitString(getFlatAddMap(this.rootMapF), 104, Constants.KEY_Eb));
                 writer.write(getKeyUnitString(this.rootMapF, 104, Constants.KEY_E));
                 writer.write(getKeyUnitString(this.rootMapF, 105, Constants.KEY_F));
-                writer.write(getKeyUnitString(getSharpAddMap(this.rootMapF), 105, Constants.KEY_Fs));
+                writer.write(getKeyUnitString(getSharpAddMap(this.rootMapF), 105, Constants.KEY_Fsh));
                 writer.write(getKeyUnitString(getFlatAddMap(this.rootMapF), 107, Constants.KEY_Gb));
                 writer.write(getKeyUnitString(this.rootMapF, 107, Constants.KEY_G));
                 writer.write(getKeyUnitString(getFlatAddMap(this.rootMapF), 109, Constants.KEY_Ab));
@@ -52,18 +52,18 @@ public class ReferenceChordDegreeHtmlGenerator {
                 writer.write(getKeyUnitString(this.rootMapF, 111, Constants.KEY_B));
 
                 writer.write(getKeyUnitString(this.rootMapF, 100, Constants.KEY_Cm));
-                writer.write(getKeyUnitString(getSharpAddMap(this.rootMapF), 100, Constants.KEY_Csm));
+                writer.write(getKeyUnitString(getSharpAddMap(this.rootMapF), 100, Constants.KEY_Cshm));
                 writer.write(getKeyUnitString(this.rootMapF, 102, Constants.KEY_Dm));
-                writer.write(getKeyUnitString(getSharpAddMap(this.rootMapF), 102, Constants.KEY_Dsm));
+                writer.write(getKeyUnitString(getSharpAddMap(this.rootMapF), 102, Constants.KEY_Dshm));
                 writer.write(getKeyUnitString(getFlatAddMap(this.rootMapF), 104, Constants.KEY_Ebm));
                 writer.write(getKeyUnitString(this.rootMapF, 104, Constants.KEY_Em));
                 writer.write(getKeyUnitString(this.rootMapF, 105, Constants.KEY_Fm));
-                writer.write(getKeyUnitString(getSharpAddMap(this.rootMapF), 105, Constants.KEY_Fsm));
+                writer.write(getKeyUnitString(getSharpAddMap(this.rootMapF), 105, Constants.KEY_Fshm));
                 writer.write(getKeyUnitString(this.rootMapF, 107, Constants.KEY_Gm));
-                writer.write(getKeyUnitString(getSharpAddMap(this.rootMapF), 107, Constants.KEY_Gsm));
+                writer.write(getKeyUnitString(getSharpAddMap(this.rootMapF), 107, Constants.KEY_Gshm));
                 writer.write(getKeyUnitString(getFlatAddMap(this.rootMapF), 109, Constants.KEY_Abm));
                 writer.write(getKeyUnitString(this.rootMapF, 109, Constants.KEY_Am));
-                writer.write(getKeyUnitString(getSharpAddMap(this.rootMapF), 109, Constants.KEY_Asm));
+                writer.write(getKeyUnitString(getSharpAddMap(this.rootMapF), 109, Constants.KEY_Ashm));
                 writer.write(getKeyUnitString(getFlatAddMap(this.rootMapF), 111, Constants.KEY_Bbm));
                 writer.write(getKeyUnitString(this.rootMapF, 111, Constants.KEY_Bm));
 
@@ -86,17 +86,16 @@ public class ReferenceChordDegreeHtmlGenerator {
         }
 
 
-        String result = "<tr><td>" + key.replace('s', '#') + "</td>";
+        String result = "<tr><td>" + key.replace("sh", "#") + "</td>";
 
         for (Integer chordnameNo : noChordnameMap.keySet()) {
             String digreeName = ChordDegreeActivityHelper.getDegreeName(chordnameNo, key);
             String chordName = noChordnameMap.get(chordnameNo);
-            String chordLabel = chordName.split("_")[1];
-            chordLabel = chordLabel.replace("f5", "-5");
-            chordLabel = chordLabel.replace("s", "#");
+            String chordLabel = chordName.split("__")[1];
+            chordLabel = chordLabel.replace("sh", "#");
 
             result += "<td><span>" + digreeName + "(" + chordLabel + ")" + "</span><br/>";
-            result += "<img src='" + UtCommon.getChordPath(chordName) + "_001.svg' width='120' height='120'></img></td>";
+            result += "<img src='" + "../" + UtCommon.getChordPath(chordName) + "_001.svg' width='120' height='120'></td>";
         }
 
         result += "</tr>" + newLine;

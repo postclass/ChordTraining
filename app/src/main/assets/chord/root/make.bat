@@ -1,1050 +1,1680 @@
 D:
-cd D:\tmp\a\A
+cd D:\tmp\a\chord\root\A
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v A.abc -O A_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Asus4.abc -O Asus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Af5.abc -O Af5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Aaug.abc -O Aaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v A6.abc -O A6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v A7.abc -O A7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v AM7.abc -O AM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Aadd9.abc -O Aadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v A11.abc -O A11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" A.abc -o A.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Asus4.abc -o Asus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Af5.abc -o Af5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Aaug.abc -o Aaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" A6.abc -o A6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" A7.abc -o A7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" AM7.abc -o AM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Aadd9.abc -o Aadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" A11.abc -o A11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Asus4.abc -O Asus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Asus4.abc -o Asus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ab5.abc -O Ab5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ab5.abc -o Ab5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Aaug.abc -O Aaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Aaug.abc -o Aaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v A7.abc -O A7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" A7.abc -o A7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v A7b5.abc -O A7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" A7b5.abc -o A7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v A7sh5.abc -O A7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" A7sh5.abc -o A7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v A7sus4.abc -O A7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" A7sus4.abc -o A7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v AM7.abc -O AM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" AM7.abc -o AM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v A_6.abc -O A_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" A_6.abc -o A_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v A_9.abc -O A_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" A_9.abc -o A_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v A_11.abc -O A_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" A_11.abc -o A_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v A_13.abc -O A_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" A_13.abc -o A_13.mid
 
 
 D:
-cd D:\tmp\a\Am
+cd D:\tmp\a\chord\root\Am
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Am.abc -O Am_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Adim.abc -O Adim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ams5.abc -O Ams5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Am6.abc -O Am6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Am7.abc -O Am7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Am7f5.abc -O Am7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v AmM7.abc -O AmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Amadd9.abc -O Amadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Am11.abc -O Am11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Am.abc -o Am.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Adim.abc -o Adim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ams5.abc -o Ams5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Am6.abc -o Am6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Am7.abc -o Am7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Am7f5.abc -o Am7f5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" AmM7.abc -o AmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Amadd9.abc -o Amadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Am11.abc -o Am11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Adim.abc -O Adim_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Adim.abc -o Adim.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Amsh5.abc -O Amsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Amsh5.abc -o Amsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Am7.abc -O Am7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Am7.abc -o Am7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Am7b5.abc -O Am7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Am7b5.abc -o Am7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Am7sh5.abc -O Am7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Am7sh5.abc -o Am7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v AmM7.abc -O AmM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" AmM7.abc -o AmM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Am_6.abc -O Am_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Am_6.abc -o Am_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Am_9.abc -O Am_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Am_9.abc -o Am_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Am_11.abc -O Am_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Am_11.abc -o Am_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Am_13.abc -O Am_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Am_13.abc -o Am_13.mid
 
 
 D:
-cd D:\tmp\a\Ab
+cd D:\tmp\a\chord\root\Ab
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ab.abc -O Ab_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Absus4.abc -O Absus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abf5.abc -O Abf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abaug.abc -O Abaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ab6.abc -O Ab6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ab7.abc -O Ab7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v AbM7.abc -O AbM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abadd9.abc -O Abadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ab11.abc -O Ab11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ab.abc -o Ab.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Absus4.abc -o Absus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abf5.abc -o Abf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abaug.abc -o Abaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ab6.abc -o Ab6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ab7.abc -o Ab7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" AbM7.abc -o AbM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abadd9.abc -o Abadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ab11.abc -o Ab11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Absus4.abc -O Absus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Absus4.abc -o Absus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abb5.abc -O Abb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abb5.abc -o Abb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abaug.abc -O Abaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abaug.abc -o Abaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ab7.abc -O Ab7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ab7.abc -o Ab7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ab7b5.abc -O Ab7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ab7b5.abc -o Ab7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ab7sh5.abc -O Ab7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ab7sh5.abc -o Ab7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ab7sus4.abc -O Ab7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ab7sus4.abc -o Ab7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v AbM7.abc -O AbM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" AbM7.abc -o AbM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ab_6.abc -O Ab_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ab_6.abc -o Ab_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ab_9.abc -O Ab_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ab_9.abc -o Ab_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ab_11.abc -O Ab_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ab_11.abc -o Ab_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ab_13.abc -O Ab_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ab_13.abc -o Ab_13.mid
 
 
 D:
-cd D:\tmp\a\Abm
+cd D:\tmp\a\chord\root\Abm
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abm.abc -O Abm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abdim.abc -O Abdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abms5.abc -O Abms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abm6.abc -O Abm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abm7.abc -O Abm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abm7f5.abc -O Abm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v AbmM7.abc -O AbmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abmadd9.abc -O Abmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abm11.abc -O Abm11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abm.abc -o Abm.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abdim.abc -O Abdim_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abdim.abc -o Abdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abms5.abc -o Abms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abm6.abc -o Abm6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abmsh5.abc -O Abmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abmsh5.abc -o Abmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abm7.abc -O Abm7_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abm7.abc -o Abm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abm7f5.abc -o Abm7f5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abm7b5.abc -O Abm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abm7b5.abc -o Abm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abm7sh5.abc -O Abm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abm7sh5.abc -o Abm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v AbmM7.abc -O AbmM7_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" AbmM7.abc -o AbmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abmadd9.abc -o Abmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abm11.abc -o Abm11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abm_6.abc -O Abm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abm_6.abc -o Abm_6.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abm_9.abc -O Abm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abm_9.abc -o Abm_9.mid
 
-D:
-cd D:\tmp\a\As
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abm_11.abc -O Abm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abm_11.abc -o Abm_11.mid
 
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v As.abc -O As_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Assus4.abc -O Assus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Asf5.abc -O Asf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Asaug.abc -O Asaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v As6.abc -O As6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v As7.abc -O As7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v AsM7.abc -O AsM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Asadd9.abc -O Asadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v As11.abc -O As11_.svg
-
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" As.abc -o As.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Assus4.abc -o Assus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Asf5.abc -o Asf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Asaug.abc -o Asaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" As6.abc -o As6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" As7.abc -o As7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" AsM7.abc -o AsM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Asadd9.abc -o Asadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" As11.abc -o As11.mid
-
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Abm_13.abc -O Abm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Abm_13.abc -o Abm_13.mid
 
 
 D:
-cd D:\tmp\a\Asm
+cd D:\tmp\a\chord\root\Ash
 
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Asm.abc -O Asm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Asdim.abc -O Asdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Asms5.abc -O Asms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Asm6.abc -O Asm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Asm7.abc -O Asm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Asm7f5.abc -O Asm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v AsmM7.abc -O AsmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Asmadd9.abc -O Asmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Asm11.abc -O Asm11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ash.abc -O Ash_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ash.abc -o Ash.mid
 
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Asm.abc -o Asm.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Asdim.abc -o Asdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Asms5.abc -o Asms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Asm6.abc -o Asm6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Asm7.abc -o Asm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Asm7f5.abc -o Asm7f5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" AsmM7.abc -o AsmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Asmadd9.abc -o Asmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Asm11.abc -o Asm11.mid
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ashsus4.abc -O Ashsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ashsus4.abc -o Ashsus4.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ashb5.abc -O Ashb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ashb5.abc -o Ashb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ashaug.abc -O Ashaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ashaug.abc -o Ashaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ash7.abc -O Ash7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ash7.abc -o Ash7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ash7b5.abc -O Ash7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ash7b5.abc -o Ash7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ash7sh5.abc -O Ash7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ash7sh5.abc -o Ash7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ash7sus4.abc -O Ash7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ash7sus4.abc -o Ash7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v AshM7.abc -O AshM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" AshM7.abc -o AshM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ash_6.abc -O Ash_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ash_6.abc -o Ash_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ash_9.abc -O Ash_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ash_9.abc -o Ash_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ash_11.abc -O Ash_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ash_11.abc -o Ash_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ash_13.abc -O Ash_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ash_13.abc -o Ash_13.mid
 
 
 D:
-cd D:\tmp\a\B
+cd D:\tmp\a\chord\root\Ashm
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ashm.abc -O Ashm_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ashm.abc -o Ashm.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ashdim.abc -O Ashdim_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ashdim.abc -o Ashdim.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ashmsh5.abc -O Ashmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ashmsh5.abc -o Ashmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ashm7.abc -O Ashm7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ashm7.abc -o Ashm7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ashm7b5.abc -O Ashm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ashm7b5.abc -o Ashm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ashm7sh5.abc -O Ashm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ashm7sh5.abc -o Ashm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v AshmM7.abc -O AshmM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" AshmM7.abc -o AshmM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ashm_6.abc -O Ashm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ashm_6.abc -o Ashm_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ashm_9.abc -O Ashm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ashm_9.abc -o Ashm_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ashm_11.abc -O Ashm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ashm_11.abc -o Ashm_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ashm_13.abc -O Ashm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ashm_13.abc -o Ashm_13.mid
+
+
+D:
+cd D:\tmp\a\chord\root\B
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v B.abc -O B_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsus4.abc -O Bsus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bf5.abc -O Bf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Baug.abc -O Baug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v B6.abc -O B6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v B7.abc -O B7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v BM7.abc -O BM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Badd9.abc -O Badd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v B11.abc -O B11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" B.abc -o B.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsus4.abc -o Bsus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bf5.abc -o Bf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Baug.abc -o Baug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" B6.abc -o B6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" B7.abc -o B7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" BM7.abc -o BM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Badd9.abc -o Badd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" B11.abc -o B11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsus4.abc -O Bsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsus4.abc -o Bsus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bb5.abc -O Bb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bb5.abc -o Bb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Baug.abc -O Baug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Baug.abc -o Baug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v B7.abc -O B7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" B7.abc -o B7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v B7b5.abc -O B7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" B7b5.abc -o B7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v B7sh5.abc -O B7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" B7sh5.abc -o B7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v B7sus4.abc -O B7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" B7sus4.abc -o B7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v BM7.abc -O BM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" BM7.abc -o BM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v B_6.abc -O B_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" B_6.abc -o B_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v B_9.abc -O B_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" B_9.abc -o B_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v B_11.abc -O B_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" B_11.abc -o B_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v B_13.abc -O B_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" B_13.abc -o B_13.mid
 
 
 D:
-cd D:\tmp\a\Bm
+cd D:\tmp\a\chord\root\Bm
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bm.abc -O Bm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bdim.abc -O Bdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bms5.abc -O Bms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bm6.abc -O Bm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bm7.abc -O Bm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bm7f5.abc -O Bm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v BmM7.abc -O BmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bmadd9.abc -O Bmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bm11.abc -O Bm11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bm.abc -o Bm.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bdim.abc -o Bdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bms5.abc -o Bms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bm6.abc -o Bm6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bm7.abc -o Bm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bm7f5.abc -o Bm7f5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" BmM7.abc -o BmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bmadd9.abc -o Bmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bm11.abc -o Bm11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bdim.abc -O Bdim_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bdim.abc -o Bdim.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bmsh5.abc -O Bmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bmsh5.abc -o Bmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bm7.abc -O Bm7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bm7.abc -o Bm7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bm7b5.abc -O Bm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bm7b5.abc -o Bm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bm7sh5.abc -O Bm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bm7sh5.abc -o Bm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v BmM7.abc -O BmM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" BmM7.abc -o BmM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bm_6.abc -O Bm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bm_6.abc -o Bm_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bm_9.abc -O Bm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bm_9.abc -o Bm_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bm_11.abc -O Bm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bm_11.abc -o Bm_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bm_13.abc -O Bm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bm_13.abc -o Bm_13.mid
 
 
 D:
-cd D:\tmp\a\Bb
+cd D:\tmp\a\chord\root\Bb
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bb.abc -O Bb_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbsus4.abc -O Bbsus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbf5.abc -O Bbf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbaug.abc -O Bbaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bb6.abc -O Bb6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bb7.abc -O Bb7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v BbM7.abc -O BbM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbadd9.abc -O Bbadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bb11.abc -O Bb11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bb.abc -o Bb.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbsus4.abc -o Bbsus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbf5.abc -o Bbf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbaug.abc -o Bbaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bb6.abc -o Bb6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bb7.abc -o Bb7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" BbM7.abc -o BbM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbadd9.abc -o Bbadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bb11.abc -o Bb11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbsus4.abc -O Bbsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbsus4.abc -o Bbsus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbb5.abc -O Bbb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbb5.abc -o Bbb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbaug.abc -O Bbaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbaug.abc -o Bbaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bb7.abc -O Bb7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bb7.abc -o Bb7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bb7b5.abc -O Bb7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bb7b5.abc -o Bb7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bb7sh5.abc -O Bb7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bb7sh5.abc -o Bb7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bb7sus4.abc -O Bb7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bb7sus4.abc -o Bb7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v BbM7.abc -O BbM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" BbM7.abc -o BbM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bb_6.abc -O Bb_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bb_6.abc -o Bb_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bb_9.abc -O Bb_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bb_9.abc -o Bb_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bb_11.abc -O Bb_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bb_11.abc -o Bb_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bb_13.abc -O Bb_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bb_13.abc -o Bb_13.mid
 
 
 D:
-cd D:\tmp\a\Bbm
+cd D:\tmp\a\chord\root\Bbm
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbm.abc -O Bbm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbdim.abc -O Bbdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbms5.abc -O Bbms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbm6.abc -O Bbm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbm7.abc -O Bbm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbm7f5.abc -O Bbm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v BbmM7.abc -O BbmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbmadd9.abc -O Bbmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbm11.abc -O Bbm11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbm.abc -o Bbm.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbdim.abc -O Bbdim_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbdim.abc -o Bbdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbms5.abc -o Bbms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbm6.abc -o Bbm6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbmsh5.abc -O Bbmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbmsh5.abc -o Bbmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbm7.abc -O Bbm7_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbm7.abc -o Bbm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbm7f5.abc -o Bbm7f5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbm7b5.abc -O Bbm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbm7b5.abc -o Bbm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbm7sh5.abc -O Bbm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbm7sh5.abc -o Bbm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v BbmM7.abc -O BbmM7_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" BbmM7.abc -o BbmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbmadd9.abc -o Bbmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbm11.abc -o Bbm11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbm_6.abc -O Bbm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbm_6.abc -o Bbm_6.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbm_9.abc -O Bbm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbm_9.abc -o Bbm_9.mid
 
-D:
-cd D:\tmp\a\Bs
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbm_11.abc -O Bbm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbm_11.abc -o Bbm_11.mid
 
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bs.abc -O Bs_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bssus4.abc -O Bssus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsf5.abc -O Bsf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsaug.abc -O Bsaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bs6.abc -O Bs6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bs7.abc -O Bs7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v BsM7.abc -O BsM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsadd9.abc -O Bsadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bs11.abc -O Bs11_.svg
-
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bs.abc -o Bs.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bssus4.abc -o Bssus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsf5.abc -o Bsf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsaug.abc -o Bsaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bs6.abc -o Bs6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bs7.abc -o Bs7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" BsM7.abc -o BsM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsadd9.abc -o Bsadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bs11.abc -o Bs11.mid
-
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bbm_13.abc -O Bbm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bbm_13.abc -o Bbm_13.mid
 
 
 D:
-cd D:\tmp\a\Bsm
+cd D:\tmp\a\chord\root\Bsh
 
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsm.abc -O Bsm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsdim.abc -O Bsdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsms5.abc -O Bsms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsm6.abc -O Bsm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsm7.abc -O Bsm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsm7f5.abc -O Bsm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v BsmM7.abc -O BsmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsmadd9.abc -O Bsmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsm11.abc -O Bsm11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsh.abc -O Bsh_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsh.abc -o Bsh.mid
 
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsm.abc -o Bsm.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsdim.abc -o Bsdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsms5.abc -o Bsms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsm6.abc -o Bsm6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsm7.abc -o Bsm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsm7f5.abc -o Bsm7f5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" BsmM7.abc -o BsmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsmadd9.abc -o Bsmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsm11.abc -o Bsm11.mid
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bshsus4.abc -O Bshsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bshsus4.abc -o Bshsus4.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bshb5.abc -O Bshb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bshb5.abc -o Bshb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bshaug.abc -O Bshaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bshaug.abc -o Bshaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsh7.abc -O Bsh7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsh7.abc -o Bsh7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsh7b5.abc -O Bsh7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsh7b5.abc -o Bsh7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsh7sh5.abc -O Bsh7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsh7sh5.abc -o Bsh7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsh7sus4.abc -O Bsh7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsh7sus4.abc -o Bsh7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v BshM7.abc -O BshM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" BshM7.abc -o BshM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsh_6.abc -O Bsh_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsh_6.abc -o Bsh_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsh_9.abc -O Bsh_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsh_9.abc -o Bsh_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsh_11.abc -O Bsh_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsh_11.abc -o Bsh_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bsh_13.abc -O Bsh_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bsh_13.abc -o Bsh_13.mid
 
 
 D:
-cd D:\tmp\a\C
+cd D:\tmp\a\chord\root\Bshm
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bshm.abc -O Bshm_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bshm.abc -o Bshm.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bshdim.abc -O Bshdim_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bshdim.abc -o Bshdim.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bshmsh5.abc -O Bshmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bshmsh5.abc -o Bshmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bshm7.abc -O Bshm7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bshm7.abc -o Bshm7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bshm7b5.abc -O Bshm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bshm7b5.abc -o Bshm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bshm7sh5.abc -O Bshm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bshm7sh5.abc -o Bshm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v BshmM7.abc -O BshmM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" BshmM7.abc -o BshmM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bshm_6.abc -O Bshm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bshm_6.abc -o Bshm_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bshm_9.abc -O Bshm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bshm_9.abc -o Bshm_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bshm_11.abc -O Bshm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bshm_11.abc -o Bshm_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Bshm_13.abc -O Bshm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Bshm_13.abc -o Bshm_13.mid
+
+
+D:
+cd D:\tmp\a\chord\root\C
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v C.abc -O C_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csus4.abc -O Csus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cf5.abc -O Cf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Caug.abc -O Caug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v C6.abc -O C6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v C7.abc -O C7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v CM7.abc -O CM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cadd9.abc -O Cadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v C11.abc -O C11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" C.abc -o C.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csus4.abc -o Csus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cf5.abc -o Cf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Caug.abc -o Caug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" C6.abc -o C6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" C7.abc -o C7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" CM7.abc -o CM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cadd9.abc -o Cadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" C11.abc -o C11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csus4.abc -O Csus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csus4.abc -o Csus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cb5.abc -O Cb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cb5.abc -o Cb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Caug.abc -O Caug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Caug.abc -o Caug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v C7.abc -O C7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" C7.abc -o C7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v C7b5.abc -O C7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" C7b5.abc -o C7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v C7sh5.abc -O C7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" C7sh5.abc -o C7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v C7sus4.abc -O C7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" C7sus4.abc -o C7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v CM7.abc -O CM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" CM7.abc -o CM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v C_6.abc -O C_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" C_6.abc -o C_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v C_9.abc -O C_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" C_9.abc -o C_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v C_11.abc -O C_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" C_11.abc -o C_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v C_13.abc -O C_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" C_13.abc -o C_13.mid
 
 
 D:
-cd D:\tmp\a\Cm
+cd D:\tmp\a\chord\root\Cm
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cm.abc -O Cm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cdim.abc -O Cdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cms5.abc -O Cms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cm6.abc -O Cm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cm7.abc -O Cm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cm7f5.abc -O Cm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v CmM7.abc -O CmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cmadd9.abc -O Cmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cm11.abc -O Cm11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cm.abc -o Cm.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cdim.abc -o Cdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cms5.abc -o Cms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cm6.abc -o Cm6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cm7.abc -o Cm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cm7f5.abc -o Cm7f5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" CmM7.abc -o CmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cmadd9.abc -o Cmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cm11.abc -o Cm11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cdim.abc -O Cdim_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cdim.abc -o Cdim.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cmsh5.abc -O Cmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cmsh5.abc -o Cmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cm7.abc -O Cm7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cm7.abc -o Cm7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cm7b5.abc -O Cm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cm7b5.abc -o Cm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cm7sh5.abc -O Cm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cm7sh5.abc -o Cm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v CmM7.abc -O CmM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" CmM7.abc -o CmM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cm_6.abc -O Cm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cm_6.abc -o Cm_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cm_9.abc -O Cm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cm_9.abc -o Cm_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cm_11.abc -O Cm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cm_11.abc -o Cm_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cm_13.abc -O Cm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cm_13.abc -o Cm_13.mid
 
 
 D:
-cd D:\tmp\a\Cb
+cd D:\tmp\a\chord\root\Cb
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cb.abc -O Cb_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbsus4.abc -O Cbsus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbf5.abc -O Cbf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbaug.abc -O Cbaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cb6.abc -O Cb6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cb7.abc -O Cb7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v CbM7.abc -O CbM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbadd9.abc -O Cbadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cb11.abc -O Cb11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cb.abc -o Cb.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbsus4.abc -o Cbsus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbf5.abc -o Cbf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbaug.abc -o Cbaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cb6.abc -o Cb6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cb7.abc -o Cb7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" CbM7.abc -o CbM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbadd9.abc -o Cbadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cb11.abc -o Cb11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbsus4.abc -O Cbsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbsus4.abc -o Cbsus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbb5.abc -O Cbb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbb5.abc -o Cbb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbaug.abc -O Cbaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbaug.abc -o Cbaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cb7.abc -O Cb7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cb7.abc -o Cb7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cb7b5.abc -O Cb7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cb7b5.abc -o Cb7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cb7sh5.abc -O Cb7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cb7sh5.abc -o Cb7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cb7sus4.abc -O Cb7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cb7sus4.abc -o Cb7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v CbM7.abc -O CbM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" CbM7.abc -o CbM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cb_6.abc -O Cb_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cb_6.abc -o Cb_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cb_9.abc -O Cb_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cb_9.abc -o Cb_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cb_11.abc -O Cb_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cb_11.abc -o Cb_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cb_13.abc -O Cb_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cb_13.abc -o Cb_13.mid
 
 
 D:
-cd D:\tmp\a\Cbm
+cd D:\tmp\a\chord\root\Cbm
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbm.abc -O Cbm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbdim.abc -O Cbdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbms5.abc -O Cbms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbm6.abc -O Cbm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbm7.abc -O Cbm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbm7f5.abc -O Cbm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v CbmM7.abc -O CbmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbmadd9.abc -O Cbmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbm11.abc -O Cbm11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbm.abc -o Cbm.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbdim.abc -O Cbdim_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbdim.abc -o Cbdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbms5.abc -o Cbms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbm6.abc -o Cbm6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbmsh5.abc -O Cbmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbmsh5.abc -o Cbmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbm7.abc -O Cbm7_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbm7.abc -o Cbm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbm7f5.abc -o Cbm7f5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbm7b5.abc -O Cbm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbm7b5.abc -o Cbm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbm7sh5.abc -O Cbm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbm7sh5.abc -o Cbm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v CbmM7.abc -O CbmM7_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" CbmM7.abc -o CbmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbmadd9.abc -o Cbmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbm11.abc -o Cbm11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbm_6.abc -O Cbm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbm_6.abc -o Cbm_6.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbm_9.abc -O Cbm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbm_9.abc -o Cbm_9.mid
 
-D:
-cd D:\tmp\a\Cs
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbm_11.abc -O Cbm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbm_11.abc -o Cbm_11.mid
 
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cs.abc -O Cs_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cssus4.abc -O Cssus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csf5.abc -O Csf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csaug.abc -O Csaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cs6.abc -O Cs6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cs7.abc -O Cs7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v CsM7.abc -O CsM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csadd9.abc -O Csadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cs11.abc -O Cs11_.svg
-
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cs.abc -o Cs.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cssus4.abc -o Cssus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csf5.abc -o Csf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csaug.abc -o Csaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cs6.abc -o Cs6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cs7.abc -o Cs7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" CsM7.abc -o CsM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csadd9.abc -o Csadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cs11.abc -o Cs11.mid
-
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cbm_13.abc -O Cbm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cbm_13.abc -o Cbm_13.mid
 
 
 D:
-cd D:\tmp\a\Csm
+cd D:\tmp\a\chord\root\Csh
 
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csm.abc -O Csm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csdim.abc -O Csdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csms5.abc -O Csms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csm6.abc -O Csm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csm7.abc -O Csm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csm7f5.abc -O Csm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v CsmM7.abc -O CsmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csmadd9.abc -O Csmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csm11.abc -O Csm11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csh.abc -O Csh_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csh.abc -o Csh.mid
 
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csm.abc -o Csm.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csdim.abc -o Csdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csms5.abc -o Csms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csm6.abc -o Csm6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csm7.abc -o Csm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csm7f5.abc -o Csm7f5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" CsmM7.abc -o CsmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csmadd9.abc -o Csmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csm11.abc -o Csm11.mid
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cshsus4.abc -O Cshsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cshsus4.abc -o Cshsus4.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cshb5.abc -O Cshb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cshb5.abc -o Cshb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cshaug.abc -O Cshaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cshaug.abc -o Cshaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csh7.abc -O Csh7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csh7.abc -o Csh7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csh7b5.abc -O Csh7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csh7b5.abc -o Csh7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csh7sh5.abc -O Csh7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csh7sh5.abc -o Csh7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csh7sus4.abc -O Csh7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csh7sus4.abc -o Csh7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v CshM7.abc -O CshM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" CshM7.abc -o CshM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csh_6.abc -O Csh_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csh_6.abc -o Csh_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csh_9.abc -O Csh_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csh_9.abc -o Csh_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csh_11.abc -O Csh_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csh_11.abc -o Csh_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Csh_13.abc -O Csh_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Csh_13.abc -o Csh_13.mid
 
 
 D:
-cd D:\tmp\a\D
+cd D:\tmp\a\chord\root\Cshm
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cshm.abc -O Cshm_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cshm.abc -o Cshm.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cshdim.abc -O Cshdim_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cshdim.abc -o Cshdim.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cshmsh5.abc -O Cshmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cshmsh5.abc -o Cshmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cshm7.abc -O Cshm7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cshm7.abc -o Cshm7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cshm7b5.abc -O Cshm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cshm7b5.abc -o Cshm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cshm7sh5.abc -O Cshm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cshm7sh5.abc -o Cshm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v CshmM7.abc -O CshmM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" CshmM7.abc -o CshmM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cshm_6.abc -O Cshm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cshm_6.abc -o Cshm_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cshm_9.abc -O Cshm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cshm_9.abc -o Cshm_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cshm_11.abc -O Cshm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cshm_11.abc -o Cshm_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Cshm_13.abc -O Cshm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Cshm_13.abc -o Cshm_13.mid
+
+
+D:
+cd D:\tmp\a\chord\root\D
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v D.abc -O D_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsus4.abc -O Dsus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Df5.abc -O Df5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Daug.abc -O Daug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v D6.abc -O D6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v D7.abc -O D7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v DM7.abc -O DM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dadd9.abc -O Dadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v D11.abc -O D11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" D.abc -o D.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsus4.abc -o Dsus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Df5.abc -o Df5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Daug.abc -o Daug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" D6.abc -o D6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" D7.abc -o D7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" DM7.abc -o DM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dadd9.abc -o Dadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" D11.abc -o D11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsus4.abc -O Dsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsus4.abc -o Dsus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Db5.abc -O Db5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Db5.abc -o Db5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Daug.abc -O Daug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Daug.abc -o Daug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v D7.abc -O D7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" D7.abc -o D7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v D7b5.abc -O D7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" D7b5.abc -o D7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v D7sh5.abc -O D7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" D7sh5.abc -o D7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v D7sus4.abc -O D7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" D7sus4.abc -o D7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v DM7.abc -O DM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" DM7.abc -o DM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v D_6.abc -O D_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" D_6.abc -o D_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v D_9.abc -O D_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" D_9.abc -o D_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v D_11.abc -O D_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" D_11.abc -o D_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v D_13.abc -O D_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" D_13.abc -o D_13.mid
 
 
 D:
-cd D:\tmp\a\Dm
+cd D:\tmp\a\chord\root\Dm
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dm.abc -O Dm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ddim.abc -O Ddim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dms5.abc -O Dms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dm6.abc -O Dm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dm7.abc -O Dm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dm7f5.abc -O Dm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v DmM7.abc -O DmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dmadd9.abc -O Dmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dm11.abc -O Dm11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dm.abc -o Dm.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ddim.abc -o Ddim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dms5.abc -o Dms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dm6.abc -o Dm6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dm7.abc -o Dm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dm7f5.abc -o Dm7f5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" DmM7.abc -o DmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dmadd9.abc -o Dmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dm11.abc -o Dm11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ddim.abc -O Ddim_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ddim.abc -o Ddim.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dmsh5.abc -O Dmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dmsh5.abc -o Dmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dm7.abc -O Dm7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dm7.abc -o Dm7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dm7b5.abc -O Dm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dm7b5.abc -o Dm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dm7sh5.abc -O Dm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dm7sh5.abc -o Dm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v DmM7.abc -O DmM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" DmM7.abc -o DmM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dm_6.abc -O Dm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dm_6.abc -o Dm_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dm_9.abc -O Dm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dm_9.abc -o Dm_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dm_11.abc -O Dm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dm_11.abc -o Dm_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dm_13.abc -O Dm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dm_13.abc -o Dm_13.mid
 
 
 D:
-cd D:\tmp\a\Db
+cd D:\tmp\a\chord\root\Db
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Db.abc -O Db_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbsus4.abc -O Dbsus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbf5.abc -O Dbf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbaug.abc -O Dbaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Db6.abc -O Db6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Db7.abc -O Db7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v DbM7.abc -O DbM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbadd9.abc -O Dbadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Db11.abc -O Db11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Db.abc -o Db.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbsus4.abc -o Dbsus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbf5.abc -o Dbf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbaug.abc -o Dbaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Db6.abc -o Db6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Db7.abc -o Db7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" DbM7.abc -o DbM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbadd9.abc -o Dbadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Db11.abc -o Db11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbsus4.abc -O Dbsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbsus4.abc -o Dbsus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbb5.abc -O Dbb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbb5.abc -o Dbb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbaug.abc -O Dbaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbaug.abc -o Dbaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Db7.abc -O Db7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Db7.abc -o Db7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Db7b5.abc -O Db7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Db7b5.abc -o Db7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Db7sh5.abc -O Db7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Db7sh5.abc -o Db7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Db7sus4.abc -O Db7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Db7sus4.abc -o Db7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v DbM7.abc -O DbM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" DbM7.abc -o DbM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Db_6.abc -O Db_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Db_6.abc -o Db_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Db_9.abc -O Db_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Db_9.abc -o Db_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Db_11.abc -O Db_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Db_11.abc -o Db_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Db_13.abc -O Db_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Db_13.abc -o Db_13.mid
 
 
 D:
-cd D:\tmp\a\Dbm
+cd D:\tmp\a\chord\root\Dbm
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbm.abc -O Dbm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbdim.abc -O Dbdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbms5.abc -O Dbms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbm6.abc -O Dbm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbm7.abc -O Dbm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbm7f5.abc -O Dbm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v DbmM7.abc -O DbmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbmadd9.abc -O Dbmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbm11.abc -O Dbm11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbm.abc -o Dbm.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbdim.abc -O Dbdim_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbdim.abc -o Dbdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbms5.abc -o Dbms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbm6.abc -o Dbm6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbmsh5.abc -O Dbmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbmsh5.abc -o Dbmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbm7.abc -O Dbm7_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbm7.abc -o Dbm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbm7f5.abc -o Dbm7f5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbm7b5.abc -O Dbm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbm7b5.abc -o Dbm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbm7sh5.abc -O Dbm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbm7sh5.abc -o Dbm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v DbmM7.abc -O DbmM7_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" DbmM7.abc -o DbmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbmadd9.abc -o Dbmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbm11.abc -o Dbm11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbm_6.abc -O Dbm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbm_6.abc -o Dbm_6.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbm_9.abc -O Dbm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbm_9.abc -o Dbm_9.mid
 
-D:
-cd D:\tmp\a\Ds
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbm_11.abc -O Dbm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbm_11.abc -o Dbm_11.mid
 
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ds.abc -O Ds_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dssus4.abc -O Dssus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsf5.abc -O Dsf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsaug.abc -O Dsaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ds6.abc -O Ds6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ds7.abc -O Ds7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v DsM7.abc -O DsM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsadd9.abc -O Dsadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ds11.abc -O Ds11_.svg
-
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ds.abc -o Ds.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dssus4.abc -o Dssus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsf5.abc -o Dsf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsaug.abc -o Dsaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ds6.abc -o Ds6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ds7.abc -o Ds7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" DsM7.abc -o DsM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsadd9.abc -o Dsadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ds11.abc -o Ds11.mid
-
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dbm_13.abc -O Dbm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dbm_13.abc -o Dbm_13.mid
 
 
 D:
-cd D:\tmp\a\Dsm
+cd D:\tmp\a\chord\root\Dsh
 
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsm.abc -O Dsm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsdim.abc -O Dsdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsms5.abc -O Dsms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsm6.abc -O Dsm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsm7.abc -O Dsm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsm7f5.abc -O Dsm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v DsmM7.abc -O DsmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsmadd9.abc -O Dsmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsm11.abc -O Dsm11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsh.abc -O Dsh_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsh.abc -o Dsh.mid
 
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsm.abc -o Dsm.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsdim.abc -o Dsdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsms5.abc -o Dsms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsm6.abc -o Dsm6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsm7.abc -o Dsm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsm7f5.abc -o Dsm7f5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" DsmM7.abc -o DsmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsmadd9.abc -o Dsmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsm11.abc -o Dsm11.mid
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dshsus4.abc -O Dshsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dshsus4.abc -o Dshsus4.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dshb5.abc -O Dshb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dshb5.abc -o Dshb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dshaug.abc -O Dshaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dshaug.abc -o Dshaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsh7.abc -O Dsh7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsh7.abc -o Dsh7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsh7b5.abc -O Dsh7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsh7b5.abc -o Dsh7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsh7sh5.abc -O Dsh7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsh7sh5.abc -o Dsh7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsh7sus4.abc -O Dsh7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsh7sus4.abc -o Dsh7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v DshM7.abc -O DshM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" DshM7.abc -o DshM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsh_6.abc -O Dsh_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsh_6.abc -o Dsh_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsh_9.abc -O Dsh_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsh_9.abc -o Dsh_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsh_11.abc -O Dsh_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsh_11.abc -o Dsh_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dsh_13.abc -O Dsh_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dsh_13.abc -o Dsh_13.mid
 
 
 D:
-cd D:\tmp\a\E
+cd D:\tmp\a\chord\root\Dshm
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dshm.abc -O Dshm_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dshm.abc -o Dshm.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dshdim.abc -O Dshdim_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dshdim.abc -o Dshdim.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dshmsh5.abc -O Dshmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dshmsh5.abc -o Dshmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dshm7.abc -O Dshm7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dshm7.abc -o Dshm7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dshm7b5.abc -O Dshm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dshm7b5.abc -o Dshm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dshm7sh5.abc -O Dshm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dshm7sh5.abc -o Dshm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v DshmM7.abc -O DshmM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" DshmM7.abc -o DshmM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dshm_6.abc -O Dshm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dshm_6.abc -o Dshm_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dshm_9.abc -O Dshm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dshm_9.abc -o Dshm_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dshm_11.abc -O Dshm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dshm_11.abc -o Dshm_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Dshm_13.abc -O Dshm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Dshm_13.abc -o Dshm_13.mid
+
+
+D:
+cd D:\tmp\a\chord\root\E
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v E.abc -O E_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esus4.abc -O Esus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ef5.abc -O Ef5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eaug.abc -O Eaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v E6.abc -O E6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v E7.abc -O E7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v EM7.abc -O EM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eadd9.abc -O Eadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v E11.abc -O E11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" E.abc -o E.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esus4.abc -o Esus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ef5.abc -o Ef5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eaug.abc -o Eaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" E6.abc -o E6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" E7.abc -o E7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" EM7.abc -o EM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eadd9.abc -o Eadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" E11.abc -o E11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esus4.abc -O Esus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esus4.abc -o Esus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eb5.abc -O Eb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eb5.abc -o Eb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eaug.abc -O Eaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eaug.abc -o Eaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v E7.abc -O E7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" E7.abc -o E7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v E7b5.abc -O E7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" E7b5.abc -o E7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v E7sh5.abc -O E7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" E7sh5.abc -o E7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v E7sus4.abc -O E7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" E7sus4.abc -o E7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v EM7.abc -O EM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" EM7.abc -o EM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v E_6.abc -O E_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" E_6.abc -o E_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v E_9.abc -O E_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" E_9.abc -o E_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v E_11.abc -O E_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" E_11.abc -o E_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v E_13.abc -O E_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" E_13.abc -o E_13.mid
 
 
 D:
-cd D:\tmp\a\Em
+cd D:\tmp\a\chord\root\Em
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Em.abc -O Em_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Edim.abc -O Edim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ems5.abc -O Ems5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Em6.abc -O Em6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Em7.abc -O Em7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Em7f5.abc -O Em7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v EmM7.abc -O EmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Emadd9.abc -O Emadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Em11.abc -O Em11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Em.abc -o Em.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Edim.abc -o Edim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ems5.abc -o Ems5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Em6.abc -o Em6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Em7.abc -o Em7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Em7f5.abc -o Em7f5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" EmM7.abc -o EmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Emadd9.abc -o Emadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Em11.abc -o Em11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Edim.abc -O Edim_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Edim.abc -o Edim.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Emsh5.abc -O Emsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Emsh5.abc -o Emsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Em7.abc -O Em7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Em7.abc -o Em7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Em7b5.abc -O Em7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Em7b5.abc -o Em7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Em7sh5.abc -O Em7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Em7sh5.abc -o Em7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v EmM7.abc -O EmM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" EmM7.abc -o EmM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Em_6.abc -O Em_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Em_6.abc -o Em_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Em_9.abc -O Em_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Em_9.abc -o Em_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Em_11.abc -O Em_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Em_11.abc -o Em_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Em_13.abc -O Em_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Em_13.abc -o Em_13.mid
 
 
 D:
-cd D:\tmp\a\Eb
+cd D:\tmp\a\chord\root\Eb
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eb.abc -O Eb_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebsus4.abc -O Ebsus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebf5.abc -O Ebf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebaug.abc -O Ebaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eb6.abc -O Eb6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eb7.abc -O Eb7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v EbM7.abc -O EbM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebadd9.abc -O Ebadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eb11.abc -O Eb11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eb.abc -o Eb.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebsus4.abc -o Ebsus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebf5.abc -o Ebf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebaug.abc -o Ebaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eb6.abc -o Eb6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eb7.abc -o Eb7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" EbM7.abc -o EbM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebadd9.abc -o Ebadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eb11.abc -o Eb11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebsus4.abc -O Ebsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebsus4.abc -o Ebsus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebb5.abc -O Ebb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebb5.abc -o Ebb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebaug.abc -O Ebaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebaug.abc -o Ebaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eb7.abc -O Eb7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eb7.abc -o Eb7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eb7b5.abc -O Eb7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eb7b5.abc -o Eb7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eb7sh5.abc -O Eb7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eb7sh5.abc -o Eb7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eb7sus4.abc -O Eb7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eb7sus4.abc -o Eb7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v EbM7.abc -O EbM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" EbM7.abc -o EbM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eb_6.abc -O Eb_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eb_6.abc -o Eb_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eb_9.abc -O Eb_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eb_9.abc -o Eb_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eb_11.abc -O Eb_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eb_11.abc -o Eb_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eb_13.abc -O Eb_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eb_13.abc -o Eb_13.mid
 
 
 D:
-cd D:\tmp\a\Ebm
+cd D:\tmp\a\chord\root\Ebm
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebm.abc -O Ebm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebdim.abc -O Ebdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebms5.abc -O Ebms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebm6.abc -O Ebm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebm7.abc -O Ebm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebm7f5.abc -O Ebm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v EbmM7.abc -O EbmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebmadd9.abc -O Ebmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebm11.abc -O Ebm11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebm.abc -o Ebm.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebdim.abc -O Ebdim_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebdim.abc -o Ebdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebms5.abc -o Ebms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebm6.abc -o Ebm6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebmsh5.abc -O Ebmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebmsh5.abc -o Ebmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebm7.abc -O Ebm7_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebm7.abc -o Ebm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebm7f5.abc -o Ebm7f5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebm7b5.abc -O Ebm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebm7b5.abc -o Ebm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebm7sh5.abc -O Ebm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebm7sh5.abc -o Ebm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v EbmM7.abc -O EbmM7_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" EbmM7.abc -o EbmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebmadd9.abc -o Ebmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebm11.abc -o Ebm11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebm_6.abc -O Ebm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebm_6.abc -o Ebm_6.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebm_9.abc -O Ebm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebm_9.abc -o Ebm_9.mid
 
-D:
-cd D:\tmp\a\Es
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebm_11.abc -O Ebm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebm_11.abc -o Ebm_11.mid
 
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Es.abc -O Es_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Essus4.abc -O Essus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esf5.abc -O Esf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esaug.abc -O Esaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Es6.abc -O Es6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Es7.abc -O Es7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v EsM7.abc -O EsM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esadd9.abc -O Esadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Es11.abc -O Es11_.svg
-
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Es.abc -o Es.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Essus4.abc -o Essus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esf5.abc -o Esf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esaug.abc -o Esaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Es6.abc -o Es6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Es7.abc -o Es7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" EsM7.abc -o EsM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esadd9.abc -o Esadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Es11.abc -o Es11.mid
-
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ebm_13.abc -O Ebm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ebm_13.abc -o Ebm_13.mid
 
 
 D:
-cd D:\tmp\a\Esm
+cd D:\tmp\a\chord\root\Esh
 
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esm.abc -O Esm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esdim.abc -O Esdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esms5.abc -O Esms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esm6.abc -O Esm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esm7.abc -O Esm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esm7f5.abc -O Esm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v EsmM7.abc -O EsmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esmadd9.abc -O Esmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esm11.abc -O Esm11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esh.abc -O Esh_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esh.abc -o Esh.mid
 
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esm.abc -o Esm.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esdim.abc -o Esdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esms5.abc -o Esms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esm6.abc -o Esm6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esm7.abc -o Esm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esm7f5.abc -o Esm7f5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" EsmM7.abc -o EsmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esmadd9.abc -o Esmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esm11.abc -o Esm11.mid
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eshsus4.abc -O Eshsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eshsus4.abc -o Eshsus4.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eshb5.abc -O Eshb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eshb5.abc -o Eshb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eshaug.abc -O Eshaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eshaug.abc -o Eshaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esh7.abc -O Esh7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esh7.abc -o Esh7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esh7b5.abc -O Esh7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esh7b5.abc -o Esh7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esh7sh5.abc -O Esh7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esh7sh5.abc -o Esh7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esh7sus4.abc -O Esh7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esh7sus4.abc -o Esh7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v EshM7.abc -O EshM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" EshM7.abc -o EshM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esh_6.abc -O Esh_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esh_6.abc -o Esh_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esh_9.abc -O Esh_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esh_9.abc -o Esh_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esh_11.abc -O Esh_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esh_11.abc -o Esh_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Esh_13.abc -O Esh_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Esh_13.abc -o Esh_13.mid
 
 
 D:
-cd D:\tmp\a\F
+cd D:\tmp\a\chord\root\Eshm
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eshm.abc -O Eshm_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eshm.abc -o Eshm.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eshdim.abc -O Eshdim_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eshdim.abc -o Eshdim.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eshmsh5.abc -O Eshmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eshmsh5.abc -o Eshmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eshm7.abc -O Eshm7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eshm7.abc -o Eshm7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eshm7b5.abc -O Eshm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eshm7b5.abc -o Eshm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eshm7sh5.abc -O Eshm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eshm7sh5.abc -o Eshm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v EshmM7.abc -O EshmM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" EshmM7.abc -o EshmM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eshm_6.abc -O Eshm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eshm_6.abc -o Eshm_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eshm_9.abc -O Eshm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eshm_9.abc -o Eshm_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eshm_11.abc -O Eshm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eshm_11.abc -o Eshm_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Eshm_13.abc -O Eshm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Eshm_13.abc -o Eshm_13.mid
+
+
+D:
+cd D:\tmp\a\chord\root\F
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v F.abc -O F_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsus4.abc -O Fsus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Ff5.abc -O Ff5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Faug.abc -O Faug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v F6.abc -O F6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v F7.abc -O F7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v FM7.abc -O FM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fadd9.abc -O Fadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v F11.abc -O F11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" F.abc -o F.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsus4.abc -o Fsus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Ff5.abc -o Ff5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Faug.abc -o Faug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" F6.abc -o F6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" F7.abc -o F7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" FM7.abc -o FM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fadd9.abc -o Fadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" F11.abc -o F11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsus4.abc -O Fsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsus4.abc -o Fsus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fb5.abc -O Fb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fb5.abc -o Fb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Faug.abc -O Faug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Faug.abc -o Faug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v F7.abc -O F7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" F7.abc -o F7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v F7b5.abc -O F7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" F7b5.abc -o F7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v F7sh5.abc -O F7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" F7sh5.abc -o F7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v F7sus4.abc -O F7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" F7sus4.abc -o F7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v FM7.abc -O FM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" FM7.abc -o FM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v F_6.abc -O F_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" F_6.abc -o F_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v F_9.abc -O F_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" F_9.abc -o F_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v F_11.abc -O F_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" F_11.abc -o F_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v F_13.abc -O F_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" F_13.abc -o F_13.mid
 
 
 D:
-cd D:\tmp\a\Fm
+cd D:\tmp\a\chord\root\Fm
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fm.abc -O Fm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fdim.abc -O Fdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fms5.abc -O Fms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fm6.abc -O Fm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fm7.abc -O Fm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fm7f5.abc -O Fm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v FmM7.abc -O FmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fmadd9.abc -O Fmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fm11.abc -O Fm11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fm.abc -o Fm.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fdim.abc -o Fdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fms5.abc -o Fms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fm6.abc -o Fm6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fm7.abc -o Fm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fm7f5.abc -o Fm7f5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" FmM7.abc -o FmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fmadd9.abc -o Fmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fm11.abc -o Fm11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fdim.abc -O Fdim_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fdim.abc -o Fdim.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fmsh5.abc -O Fmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fmsh5.abc -o Fmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fm7.abc -O Fm7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fm7.abc -o Fm7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fm7b5.abc -O Fm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fm7b5.abc -o Fm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fm7sh5.abc -O Fm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fm7sh5.abc -o Fm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v FmM7.abc -O FmM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" FmM7.abc -o FmM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fm_6.abc -O Fm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fm_6.abc -o Fm_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fm_9.abc -O Fm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fm_9.abc -o Fm_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fm_11.abc -O Fm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fm_11.abc -o Fm_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fm_13.abc -O Fm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fm_13.abc -o Fm_13.mid
 
 
 D:
-cd D:\tmp\a\Fb
+cd D:\tmp\a\chord\root\Fb
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fb.abc -O Fb_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbsus4.abc -O Fbsus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbf5.abc -O Fbf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbaug.abc -O Fbaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fb6.abc -O Fb6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fb7.abc -O Fb7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v FbM7.abc -O FbM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbadd9.abc -O Fbadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fb11.abc -O Fb11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fb.abc -o Fb.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbsus4.abc -o Fbsus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbf5.abc -o Fbf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbaug.abc -o Fbaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fb6.abc -o Fb6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fb7.abc -o Fb7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" FbM7.abc -o FbM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbadd9.abc -o Fbadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fb11.abc -o Fb11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbsus4.abc -O Fbsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbsus4.abc -o Fbsus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbb5.abc -O Fbb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbb5.abc -o Fbb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbaug.abc -O Fbaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbaug.abc -o Fbaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fb7.abc -O Fb7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fb7.abc -o Fb7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fb7b5.abc -O Fb7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fb7b5.abc -o Fb7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fb7sh5.abc -O Fb7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fb7sh5.abc -o Fb7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fb7sus4.abc -O Fb7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fb7sus4.abc -o Fb7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v FbM7.abc -O FbM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" FbM7.abc -o FbM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fb_6.abc -O Fb_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fb_6.abc -o Fb_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fb_9.abc -O Fb_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fb_9.abc -o Fb_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fb_11.abc -O Fb_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fb_11.abc -o Fb_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fb_13.abc -O Fb_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fb_13.abc -o Fb_13.mid
 
 
 D:
-cd D:\tmp\a\Fbm
+cd D:\tmp\a\chord\root\Fbm
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbm.abc -O Fbm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbdim.abc -O Fbdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbms5.abc -O Fbms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbm6.abc -O Fbm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbm7.abc -O Fbm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbm7f5.abc -O Fbm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v FbmM7.abc -O FbmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbmadd9.abc -O Fbmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbm11.abc -O Fbm11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbm.abc -o Fbm.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbdim.abc -O Fbdim_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbdim.abc -o Fbdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbms5.abc -o Fbms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbm6.abc -o Fbm6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbmsh5.abc -O Fbmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbmsh5.abc -o Fbmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbm7.abc -O Fbm7_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbm7.abc -o Fbm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbm7f5.abc -o Fbm7f5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbm7b5.abc -O Fbm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbm7b5.abc -o Fbm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbm7sh5.abc -O Fbm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbm7sh5.abc -o Fbm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v FbmM7.abc -O FbmM7_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" FbmM7.abc -o FbmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbmadd9.abc -o Fbmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbm11.abc -o Fbm11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbm_6.abc -O Fbm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbm_6.abc -o Fbm_6.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbm_9.abc -O Fbm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbm_9.abc -o Fbm_9.mid
 
-D:
-cd D:\tmp\a\Fs
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbm_11.abc -O Fbm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbm_11.abc -o Fbm_11.mid
 
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fs.abc -O Fs_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fssus4.abc -O Fssus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsf5.abc -O Fsf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsaug.abc -O Fsaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fs6.abc -O Fs6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fs7.abc -O Fs7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v FsM7.abc -O FsM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsadd9.abc -O Fsadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fs11.abc -O Fs11_.svg
-
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fs.abc -o Fs.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fssus4.abc -o Fssus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsf5.abc -o Fsf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsaug.abc -o Fsaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fs6.abc -o Fs6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fs7.abc -o Fs7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" FsM7.abc -o FsM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsadd9.abc -o Fsadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fs11.abc -o Fs11.mid
-
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fbm_13.abc -O Fbm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fbm_13.abc -o Fbm_13.mid
 
 
 D:
-cd D:\tmp\a\Fsm
+cd D:\tmp\a\chord\root\Fsh
 
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsm.abc -O Fsm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsdim.abc -O Fsdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsms5.abc -O Fsms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsm6.abc -O Fsm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsm7.abc -O Fsm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsm7f5.abc -O Fsm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v FsmM7.abc -O FsmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsmadd9.abc -O Fsmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsm11.abc -O Fsm11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsh.abc -O Fsh_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsh.abc -o Fsh.mid
 
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsm.abc -o Fsm.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsdim.abc -o Fsdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsms5.abc -o Fsms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsm6.abc -o Fsm6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsm7.abc -o Fsm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsm7f5.abc -o Fsm7f5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" FsmM7.abc -o FsmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsmadd9.abc -o Fsmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsm11.abc -o Fsm11.mid
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fshsus4.abc -O Fshsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fshsus4.abc -o Fshsus4.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fshb5.abc -O Fshb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fshb5.abc -o Fshb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fshaug.abc -O Fshaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fshaug.abc -o Fshaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsh7.abc -O Fsh7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsh7.abc -o Fsh7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsh7b5.abc -O Fsh7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsh7b5.abc -o Fsh7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsh7sh5.abc -O Fsh7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsh7sh5.abc -o Fsh7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsh7sus4.abc -O Fsh7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsh7sus4.abc -o Fsh7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v FshM7.abc -O FshM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" FshM7.abc -o FshM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsh_6.abc -O Fsh_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsh_6.abc -o Fsh_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsh_9.abc -O Fsh_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsh_9.abc -o Fsh_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsh_11.abc -O Fsh_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsh_11.abc -o Fsh_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fsh_13.abc -O Fsh_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fsh_13.abc -o Fsh_13.mid
 
 
 D:
-cd D:\tmp\a\G
+cd D:\tmp\a\chord\root\Fshm
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fshm.abc -O Fshm_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fshm.abc -o Fshm.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fshdim.abc -O Fshdim_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fshdim.abc -o Fshdim.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fshmsh5.abc -O Fshmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fshmsh5.abc -o Fshmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fshm7.abc -O Fshm7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fshm7.abc -o Fshm7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fshm7b5.abc -O Fshm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fshm7b5.abc -o Fshm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fshm7sh5.abc -O Fshm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fshm7sh5.abc -o Fshm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v FshmM7.abc -O FshmM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" FshmM7.abc -o FshmM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fshm_6.abc -O Fshm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fshm_6.abc -o Fshm_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fshm_9.abc -O Fshm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fshm_9.abc -o Fshm_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fshm_11.abc -O Fshm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fshm_11.abc -o Fshm_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Fshm_13.abc -O Fshm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Fshm_13.abc -o Fshm_13.mid
+
+
+D:
+cd D:\tmp\a\chord\root\G
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v G.abc -O G_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsus4.abc -O Gsus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gf5.abc -O Gf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gaug.abc -O Gaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v G6.abc -O G6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v G7.abc -O G7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v GM7.abc -O GM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gadd9.abc -O Gadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v G11.abc -O G11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" G.abc -o G.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsus4.abc -o Gsus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gf5.abc -o Gf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gaug.abc -o Gaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" G6.abc -o G6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" G7.abc -o G7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" GM7.abc -o GM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gadd9.abc -o Gadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" G11.abc -o G11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsus4.abc -O Gsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsus4.abc -o Gsus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gb5.abc -O Gb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gb5.abc -o Gb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gaug.abc -O Gaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gaug.abc -o Gaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v G7.abc -O G7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" G7.abc -o G7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v G7b5.abc -O G7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" G7b5.abc -o G7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v G7sh5.abc -O G7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" G7sh5.abc -o G7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v G7sus4.abc -O G7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" G7sus4.abc -o G7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v GM7.abc -O GM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" GM7.abc -o GM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v G_6.abc -O G_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" G_6.abc -o G_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v G_9.abc -O G_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" G_9.abc -o G_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v G_11.abc -O G_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" G_11.abc -o G_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v G_13.abc -O G_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" G_13.abc -o G_13.mid
 
 
 D:
-cd D:\tmp\a\Gm
+cd D:\tmp\a\chord\root\Gm
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gm.abc -O Gm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gdim.abc -O Gdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gms5.abc -O Gms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gm6.abc -O Gm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gm7.abc -O Gm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gm7f5.abc -O Gm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v GmM7.abc -O GmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gmadd9.abc -O Gmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gm11.abc -O Gm11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gm.abc -o Gm.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gdim.abc -o Gdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gms5.abc -o Gms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gm6.abc -o Gm6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gm7.abc -o Gm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gm7f5.abc -o Gm7f5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" GmM7.abc -o GmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gmadd9.abc -o Gmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gm11.abc -o Gm11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gdim.abc -O Gdim_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gdim.abc -o Gdim.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gmsh5.abc -O Gmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gmsh5.abc -o Gmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gm7.abc -O Gm7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gm7.abc -o Gm7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gm7b5.abc -O Gm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gm7b5.abc -o Gm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gm7sh5.abc -O Gm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gm7sh5.abc -o Gm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v GmM7.abc -O GmM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" GmM7.abc -o GmM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gm_6.abc -O Gm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gm_6.abc -o Gm_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gm_9.abc -O Gm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gm_9.abc -o Gm_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gm_11.abc -O Gm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gm_11.abc -o Gm_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gm_13.abc -O Gm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gm_13.abc -o Gm_13.mid
 
 
 D:
-cd D:\tmp\a\Gb
+cd D:\tmp\a\chord\root\Gb
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gb.abc -O Gb_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbsus4.abc -O Gbsus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbf5.abc -O Gbf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbaug.abc -O Gbaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gb6.abc -O Gb6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gb7.abc -O Gb7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v GbM7.abc -O GbM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbadd9.abc -O Gbadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gb11.abc -O Gb11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gb.abc -o Gb.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbsus4.abc -o Gbsus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbf5.abc -o Gbf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbaug.abc -o Gbaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gb6.abc -o Gb6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gb7.abc -o Gb7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" GbM7.abc -o GbM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbadd9.abc -o Gbadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gb11.abc -o Gb11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbsus4.abc -O Gbsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbsus4.abc -o Gbsus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbb5.abc -O Gbb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbb5.abc -o Gbb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbaug.abc -O Gbaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbaug.abc -o Gbaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gb7.abc -O Gb7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gb7.abc -o Gb7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gb7b5.abc -O Gb7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gb7b5.abc -o Gb7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gb7sh5.abc -O Gb7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gb7sh5.abc -o Gb7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gb7sus4.abc -O Gb7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gb7sus4.abc -o Gb7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v GbM7.abc -O GbM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" GbM7.abc -o GbM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gb_6.abc -O Gb_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gb_6.abc -o Gb_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gb_9.abc -O Gb_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gb_9.abc -o Gb_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gb_11.abc -O Gb_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gb_11.abc -o Gb_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gb_13.abc -O Gb_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gb_13.abc -o Gb_13.mid
 
 
 D:
-cd D:\tmp\a\Gbm
+cd D:\tmp\a\chord\root\Gbm
 
 "C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbm.abc -O Gbm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbdim.abc -O Gbdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbms5.abc -O Gbms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbm6.abc -O Gbm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbm7.abc -O Gbm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbm7f5.abc -O Gbm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v GbmM7.abc -O GbmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbmadd9.abc -O Gbmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbm11.abc -O Gbm11_.svg
-
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbm.abc -o Gbm.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbdim.abc -O Gbdim_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbdim.abc -o Gbdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbms5.abc -o Gbms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbm6.abc -o Gbm6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbmsh5.abc -O Gbmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbmsh5.abc -o Gbmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbm7.abc -O Gbm7_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbm7.abc -o Gbm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbm7f5.abc -o Gbm7f5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbm7b5.abc -O Gbm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbm7b5.abc -o Gbm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbm7sh5.abc -O Gbm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbm7sh5.abc -o Gbm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v GbmM7.abc -O GbmM7_.svg
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" GbmM7.abc -o GbmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbmadd9.abc -o Gbmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbm11.abc -o Gbm11.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbm_6.abc -O Gbm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbm_6.abc -o Gbm_6.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbm_9.abc -O Gbm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbm_9.abc -o Gbm_9.mid
 
-D:
-cd D:\tmp\a\Gs
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbm_11.abc -O Gbm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbm_11.abc -o Gbm_11.mid
 
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gs.abc -O Gs_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gssus4.abc -O Gssus4_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsf5.abc -O Gsf5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsaug.abc -O Gsaug_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gs6.abc -O Gs6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gs7.abc -O Gs7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v GsM7.abc -O GsM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsadd9.abc -O Gsadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gs11.abc -O Gs11_.svg
-
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gs.abc -o Gs.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gssus4.abc -o Gssus4.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsf5.abc -o Gsf5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsaug.abc -o Gsaug.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gs6.abc -o Gs6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gs7.abc -o Gs7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" GsM7.abc -o GsM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsadd9.abc -o Gsadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gs11.abc -o Gs11.mid
-
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gbm_13.abc -O Gbm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gbm_13.abc -o Gbm_13.mid
 
 
 D:
-cd D:\tmp\a\Gsm
+cd D:\tmp\a\chord\root\Gsh
 
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsm.abc -O Gsm_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsdim.abc -O Gsdim_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsms5.abc -O Gsms5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsm6.abc -O Gsm6_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsm7.abc -O Gsm7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsm7f5.abc -O Gsm7f5_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v GsmM7.abc -O GsmM7_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsmadd9.abc -O Gsmadd9_.svg
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsm11.abc -O Gsm11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsh.abc -O Gsh_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsh.abc -o Gsh.mid
 
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsm.abc -o Gsm.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsdim.abc -o Gsdim.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsms5.abc -o Gsms5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsm6.abc -o Gsm6.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsm7.abc -o Gsm7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsm7f5.abc -o Gsm7f5.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" GsmM7.abc -o GsmM7.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsmadd9.abc -o Gsmadd9.mid
-"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsm11.abc -o Gsm11.mid
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gshsus4.abc -O Gshsus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gshsus4.abc -o Gshsus4.mid
 
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gshb5.abc -O Gshb5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gshb5.abc -o Gshb5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gshaug.abc -O Gshaug_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gshaug.abc -o Gshaug.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsh7.abc -O Gsh7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsh7.abc -o Gsh7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsh7b5.abc -O Gsh7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsh7b5.abc -o Gsh7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsh7sh5.abc -O Gsh7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsh7sh5.abc -o Gsh7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsh7sus4.abc -O Gsh7sus4_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsh7sus4.abc -o Gsh7sus4.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v GshM7.abc -O GshM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" GshM7.abc -o GshM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsh_6.abc -O Gsh_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsh_6.abc -o Gsh_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsh_9.abc -O Gsh_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsh_9.abc -o Gsh_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsh_11.abc -O Gsh_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsh_11.abc -o Gsh_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gsh_13.abc -O Gsh_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gsh_13.abc -o Gsh_13.mid
+
+
+D:
+cd D:\tmp\a\chord\root\Gshm
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gshm.abc -O Gshm_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gshm.abc -o Gshm.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gshdim.abc -O Gshdim_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gshdim.abc -o Gshdim.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gshmsh5.abc -O Gshmsh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gshmsh5.abc -o Gshmsh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gshm7.abc -O Gshm7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gshm7.abc -o Gshm7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gshm7b5.abc -O Gshm7b5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gshm7b5.abc -o Gshm7b5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gshm7sh5.abc -O Gshm7sh5_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gshm7sh5.abc -o Gshm7sh5.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v GshmM7.abc -O GshmM7_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" GshmM7.abc -o GshmM7.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gshm_6.abc -O Gshm_6_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gshm_6.abc -o Gshm_6.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gshm_9.abc -O Gshm_9_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gshm_9.abc -o Gshm_9.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gshm_11.abc -O Gshm_11_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gshm_11.abc -o Gshm_11.mid
+
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v Gshm_13.abc -O Gshm_13_.svg
+"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" Gshm_13.abc -o Gshm_13.mid
 
 

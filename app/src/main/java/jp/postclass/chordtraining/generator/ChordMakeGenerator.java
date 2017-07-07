@@ -5,7 +5,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.OutputStreamWriter;
 
-import jp.postclass.chordtraining.common.Constants;
+import static jp.postclass.chordtraining.common.Constants.*;
 import jp.postclass.chordtraining.common.UtCommon;
 
 public class ChordMakeGenerator {
@@ -74,33 +74,19 @@ public class ChordMakeGenerator {
         return baseDrive + newLine
                 + "cd " + baseDir.getAbsolutePath() + "\\chord\\root\\" + root + newLine
                 + newLine
-                + getTensionCombination(root)
-                + getTensionCombination(root + "sus4")
-                + getTensionCombination(root + "b5")
-                + getTensionCombination(root + "aug")
-                + getTensionCombination(root + "7")
-                + getTensionCombination(root + "7b5")
-                + getTensionCombination(root + "7sh5")
-                + getTensionCombination(root + "7sus4")
-                + getTensionCombination(root + "M7")
-
-//
-//                + newLine
-//                + getMdString(root)
-//                + getMdString(root + "sus4")
-//                + getMdString(root + "f5")
-//                + getMdString(root + "aug")
-//                + getMdString(root + "6")
-//                + getMdString(root + "7")
-//                + getMdString(root + "7f5")
-//                + getMdString(root + "7sus4")
-//                + getMdString(root + "7sus4_9")
-//                + getMdString(root + "M7")
-//                + getMdString(root + "M7_9")
-//                + getMdString(root + "9")
-//                + getMdString(root + "11")
-//                + newLine
-//                + newLine
+                + getAbgAndMdString(root)
+                + getAbgAndMdString(root + "sus4")
+                + getAbgAndMdString(root + "b5")
+                + getAbgAndMdString(root + "aug")
+                + getAbgAndMdString(root + "7")
+                + getAbgAndMdString(root + "7b5")
+                + getAbgAndMdString(root + "7sh5")
+                + getAbgAndMdString(root + "7sus4")
+                + getAbgAndMdString(root + "M7")
+                + getAbgAndMdString(root + UtCommon.getTensionChordName(TENSION_NATURAL, TENSION_NONE, TENSION_NONE, TENSION_NONE))
+                + getAbgAndMdString(root + UtCommon.getTensionChordName(TENSION_NONE, TENSION_NATURAL, TENSION_NONE, TENSION_NONE))
+                + getAbgAndMdString(root + UtCommon.getTensionChordName(TENSION_NONE, TENSION_NONE, TENSION_NATURAL, TENSION_NONE))
+                + getAbgAndMdString(root + UtCommon.getTensionChordName(TENSION_NONE, TENSION_NONE, TENSION_NONE, TENSION_NATURAL))
                 + newLine
                 ;
     }
@@ -109,27 +95,17 @@ public class ChordMakeGenerator {
         return baseDrive + newLine
                 + "cd " + baseDir.getAbsolutePath() + "\\chord\\root\\" + root + "m" + newLine
                 + newLine
-                + getTensionCombination(root + "m")
-                + getTensionCombination(root + "dim")
-                + getTensionCombination(root + "msh5")
-                + getTensionCombination(root + "m7")
-                + getTensionCombination(root + "m7b5")
-                + getTensionCombination(root + "m7sh5")
-                + getTensionCombination(root + "mM7")
-
-//                + newLine
-//                + getMdString(root + "m")
-//                + getMdString(root + "dim")
-//                + getMdString(root + "ms5")
-//                + getMdString(root + "m6")
-//                + getMdString(root + "m7")
-//                + getMdString(root + "m7f5")
-//                + getMdString(root + "mM7")
-//                + getMdString(root + "mM7_9")
-//                + getMdString(root + "m9")
-//                + getMdString(root + "m11")
-//                + newLine
-//                + newLine
+                + getAbgAndMdString(root + "m")
+                + getAbgAndMdString(root + "dim")
+                + getAbgAndMdString(root + "msh5")
+                + getAbgAndMdString(root + "m7")
+                + getAbgAndMdString(root + "m7b5")
+                + getAbgAndMdString(root + "m7sh5")
+                + getAbgAndMdString(root + "mM7")
+                + getAbgAndMdString(root + "m" + UtCommon.getTensionChordName(TENSION_NATURAL, TENSION_NONE, TENSION_NONE, TENSION_NONE))
+                + getAbgAndMdString(root + "m" + UtCommon.getTensionChordName(TENSION_NONE, TENSION_NATURAL, TENSION_NONE, TENSION_NONE))
+                + getAbgAndMdString(root + "m" + UtCommon.getTensionChordName(TENSION_NONE, TENSION_NONE, TENSION_NATURAL, TENSION_NONE))
+                + getAbgAndMdString(root + "m" + UtCommon.getTensionChordName(TENSION_NONE, TENSION_NONE, TENSION_NONE, TENSION_NATURAL))
                 + newLine
                 ;
     }
@@ -143,36 +119,44 @@ public class ChordMakeGenerator {
     }
 
 
-    private String getTensionCombination(String chord) {
-
+    private String getAbgAndMdString(String chord) {
         String result = "";
-
-        for (int i6 = Constants.TENSION_NONE; i6 <= Constants.TENSION_FL; i6++) {
-            for (int i9 = Constants.TENSION_NONE; i9 <= Constants.TENSION_FL; i9++) {
-                for (int i11 = Constants.TENSION_NONE; i11 <= Constants.TENSION_FL; i11++) {
-                    for (int i13 = Constants.TENSION_NONE; i13 <= Constants.TENSION_FL; i13++) {
-                        String tensionString = UtCommon.getTensionChordName(i6, i9, i11, i13);
-                        result += getSvgString(chord + tensionString);
-                    }
-                }
-            }
-        }
-
-        for (int i6 = Constants.TENSION_NONE; i6 <= Constants.TENSION_FL; i6++) {
-            for (int i9 = Constants.TENSION_NONE; i9 <= Constants.TENSION_FL; i9++) {
-                for (int i11 = Constants.TENSION_NONE; i11 <= Constants.TENSION_FL; i11++) {
-                    for (int i13 = Constants.TENSION_NONE; i13 <= Constants.TENSION_FL; i13++) {
-                        String tensionString = UtCommon.getTensionChordName(i6, i9, i11, i13);
-                        result += getMdString(chord + tensionString);
-                    }
-                }
-            }
-        }
-        
+        result += getSvgString(chord );
+        result += getMdString(chord );
         result += newLine;
-
         return result;
     }
+
+//    private String getTensionCombination(String chord) {
+//
+//        String result = "";
+//
+//        for (int i6 = Constants.TENSION_NONE; i6 <= Constants.TENSION_FL; i6++) {
+//            for (int i9 = Constants.TENSION_NONE; i9 <= Constants.TENSION_FL; i9++) {
+//                for (int i11 = Constants.TENSION_NONE; i11 <= Constants.TENSION_FL; i11++) {
+//                    for (int i13 = Constants.TENSION_NONE; i13 <= Constants.TENSION_FL; i13++) {
+//                        String tensionString = UtCommon.getTensionChordName(i6, i9, i11, i13);
+//                        result += getSvgString(chord + tensionString);
+//                    }
+//                }
+//            }
+//        }
+//
+//        for (int i6 = Constants.TENSION_NONE; i6 <= Constants.TENSION_FL; i6++) {
+//            for (int i9 = Constants.TENSION_NONE; i9 <= Constants.TENSION_FL; i9++) {
+//                for (int i11 = Constants.TENSION_NONE; i11 <= Constants.TENSION_FL; i11++) {
+//                    for (int i13 = Constants.TENSION_NONE; i13 <= Constants.TENSION_FL; i13++) {
+//                        String tensionString = UtCommon.getTensionChordName(i6, i9, i11, i13);
+//                        result += getMdString(chord + tensionString);
+//                    }
+//                }
+//            }
+//        }
+//
+//        result += newLine;
+//
+//        return result;
+//    }
 
 
     

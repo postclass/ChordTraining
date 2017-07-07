@@ -1,0 +1,82 @@
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>d:
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>cd D:\app\ChordTraining\app\src\main\assets\tone\major 
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_A_svg.abc 
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_Ab_svg.abc 
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_B_svg.abc 
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_Bb_svg.abc 
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_C_svg.abc 
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_Cb_svg.abc 
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_Csh_svg.abc 
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_D_svg.abc 
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_Db_svg.abc 
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_E_svg.abc 
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_Eb_svg.abc 
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_F_svg.abc 
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_Fsh_svg.abc 
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_G_svg.abc 
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_Gb_svg.abc 
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_A_midi.abc -o tone_A.mid 
+writing MIDI file tone_A.mid
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_A_midi.abc -o tone_A.mid 
+writing MIDI file tone_A.mid
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_Ab_midi.abc -o tone_Ab.mid 
+writing MIDI file tone_Ab.mid
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_B_midi.abc -o tone_B.mid 
+writing MIDI file tone_B.mid
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_Bb_midi.abc -o tone_Bb.mid 
+writing MIDI file tone_Bb.mid
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_C_midi.abc -o tone_C.mid 
+writing MIDI file tone_C.mid
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_Cb_midi.abc -o tone_Cb.mid 
+writing MIDI file tone_Cb.mid
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_Csh_midi.abc -o tone_Csh.mid 
+writing MIDI file tone_Csh.mid
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_D_midi.abc -o tone_D.mid 
+writing MIDI file tone_D.mid
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_Db_midi.abc -o tone_Db.mid 
+writing MIDI file tone_Db.mid
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_E_midi.abc -o tone_E.mid 
+writing MIDI file tone_E.mid
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_Eb_midi.abc -o tone_Eb.mid 
+writing MIDI file tone_Eb.mid
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_F_midi.abc -o tone_F.mid 
+writing MIDI file tone_F.mid
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_Fsh_midi.abc -o tone_Fsh.mid 
+writing MIDI file tone_Fsh.mid
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_G_midi.abc -o tone_G.mid 
+writing MIDI file tone_G.mid
+
+D:\app\ChordTraining\app\src\main\assets\tone\major>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_Gb_midi.abc -o tone_Gb.mid 
+writing MIDI file tone_Gb.mid

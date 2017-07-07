@@ -70,6 +70,7 @@
 </defs>
 <use x="112.70" y="108.89" xlink:href="#sh0"/>
 <path d="M119.20 108.89v36.00" stroke="currentColor" fill="none"/>
+<use x="114.90" y="126.89" xlink:href="#Hd"/>
 <use x="122.70" y="126.89" xlink:href="#Hd"/>
 <use x="122.70" y="120.89" xlink:href="#Hd"/>
 <use x="122.70" y="114.89" xlink:href="#Hd"/>

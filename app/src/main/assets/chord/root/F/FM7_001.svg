@@ -46,11 +46,12 @@
 	c2 3.8 -5 7.6 -7 3.8
 	c-2 -3.8 5 -7.6 7 -3.8"/>
 </defs>
-<use x="116.20" y="111.89" xlink:href="#Hd"/>
-<path d="M112.70 111.89v36.00" stroke="currentColor" fill="none"/>
 <use x="116.20" y="129.89" xlink:href="#Hd"/>
+<path d="M119.70 129.89v-36.00" stroke="currentColor" fill="none"/>
+<use x="124.00" y="129.89" xlink:href="#Hd"/>
 <use x="116.20" y="123.89" xlink:href="#Hd"/>
 <use x="116.20" y="117.89" xlink:href="#Hd"/>
+<use x="116.20" y="111.89" xlink:href="#Hd"/>
 <path stroke="currentColor" fill="none"
 	d="M152.20 132.89v-24.00"/>
 </g>

@@ -19,8 +19,8 @@ public final class UtAbc {
     public static Map<String, Map<Integer, String>> rootnameAbcmapMap = new HashMap<>();
 
     static {
-        initAbcMap();
-        initRootnameMap();
+        initAbcMap(sAbcMap, fAbcMap);
+        initRootnameMap(rootnameRootnoMap, rootnameAbcmapMap);
     }
     
 
@@ -234,247 +234,246 @@ public final class UtAbc {
     }
 
 
-    public static void initAbcMap() {
+    public static void initAbcMap(Map<Integer, String> _sAbcMap, Map<Integer, String> _fAbcMap) {
         int no = 88;
 
-        sAbcMap.put(no, "C,");
-        fAbcMap.put(no, "C,");
+        _sAbcMap.put(no, "C,");
+        _fAbcMap.put(no, "C,");
 
         no++;
-        sAbcMap.put(no, "^C,");
-        fAbcMap.put(no, "_C,");
+        _sAbcMap.put(no, "^C,");
+        _fAbcMap.put(no, "_C,");
 
         no++;
-        sAbcMap.put(no, "D,");
-        fAbcMap.put(no, "D,");
+        _sAbcMap.put(no, "D,");
+        _fAbcMap.put(no, "D,");
 
         no++;
-        sAbcMap.put(no, "^D,");
-        fAbcMap.put(no, "_E,");
+        _sAbcMap.put(no, "^D,");
+        _fAbcMap.put(no, "_E,");
 
         no++;
-        sAbcMap.put(no, "E,");
-        fAbcMap.put(no, "E,");
+        _sAbcMap.put(no, "E,");
+        _fAbcMap.put(no, "E,");
 
         no++;
-        sAbcMap.put(no, "F,");
-        fAbcMap.put(no, "F,");
+        _sAbcMap.put(no, "F,");
+        _fAbcMap.put(no, "F,");
 
         no++;
-        sAbcMap.put(no, "^F,");
-        fAbcMap.put(no, "_G,");
+        _sAbcMap.put(no, "^F,");
+        _fAbcMap.put(no, "_G,");
 
         no++;
-        sAbcMap.put(no, "G,");
-        fAbcMap.put(no, "G,");
+        _sAbcMap.put(no, "G,");
+        _fAbcMap.put(no, "G,");
 
         no++;
-        sAbcMap.put(no, "^G,");
-        fAbcMap.put(no, "_A,");
+        _sAbcMap.put(no, "^G,");
+        _fAbcMap.put(no, "_A,");
 
         no++;
-        sAbcMap.put(no, "A,");
-        fAbcMap.put(no, "A,");
+        _sAbcMap.put(no, "A,");
+        _fAbcMap.put(no, "A,");
 
         no++;
-        sAbcMap.put(no, "^A,");
-        fAbcMap.put(no, "_B,");
+        _sAbcMap.put(no, "^A,");
+        _fAbcMap.put(no, "_B,");
 
         no++;
-        sAbcMap.put(no, "B,");
-        fAbcMap.put(no, "B,");
+        _sAbcMap.put(no, "B,");
+        _fAbcMap.put(no, "B,");
 
 
         no++; // 100
-        sAbcMap.put(no, "C");
-        fAbcMap.put(no, "C");
+        _sAbcMap.put(no, "C");
+        _fAbcMap.put(no, "C");
 
         no++;
-        sAbcMap.put(no, "^C");
-        fAbcMap.put(no, "_C");
+        _sAbcMap.put(no, "^C");
+        _fAbcMap.put(no, "_C");
 
         no++;
-        sAbcMap.put(no, "D");
-        fAbcMap.put(no, "D");
+        _sAbcMap.put(no, "D");
+        _fAbcMap.put(no, "D");
 
         no++;
-        sAbcMap.put(no, "^D");
-        fAbcMap.put(no, "_E");
+        _sAbcMap.put(no, "^D");
+        _fAbcMap.put(no, "_E");
 
         no++;
-        sAbcMap.put(no, "E");
-        fAbcMap.put(no, "E");
+        _sAbcMap.put(no, "E");
+        _fAbcMap.put(no, "E");
 
         no++;
-        sAbcMap.put(no, "F");
-        fAbcMap.put(no, "F");
+        _sAbcMap.put(no, "F");
+        _fAbcMap.put(no, "F");
 
         no++;
-        sAbcMap.put(no, "^F");
-        fAbcMap.put(no, "_G");
+        _sAbcMap.put(no, "^F");
+        _fAbcMap.put(no, "_G");
 
         no++;
-        sAbcMap.put(no, "G");
-        fAbcMap.put(no, "G");
+        _sAbcMap.put(no, "G");
+        _fAbcMap.put(no, "G");
 
         no++;
-        sAbcMap.put(no, "^G");
-        fAbcMap.put(no, "_A");
+        _sAbcMap.put(no, "^G");
+        _fAbcMap.put(no, "_A");
 
         no++;
-        sAbcMap.put(no, "A");
-        fAbcMap.put(no, "A");
+        _sAbcMap.put(no, "A");
+        _fAbcMap.put(no, "A");
 
         no++;
-        sAbcMap.put(no, "^A");
-        fAbcMap.put(no, "_B");
+        _sAbcMap.put(no, "^A");
+        _fAbcMap.put(no, "_B");
 
         no++;
-        sAbcMap.put(no, "B");
-        fAbcMap.put(no, "B");
+        _sAbcMap.put(no, "B");
+        _fAbcMap.put(no, "B");
 
 
         no++; // 124
-        sAbcMap.put(no, "c");
-        fAbcMap.put(no, "c");
+        _sAbcMap.put(no, "c");
+        _fAbcMap.put(no, "c");
 
         no++;
-        sAbcMap.put(no, "^c");
-        fAbcMap.put(no, "_c");
+        _sAbcMap.put(no, "^c");
+        _fAbcMap.put(no, "_c");
 
         no++;
-        sAbcMap.put(no, "d");
-        fAbcMap.put(no, "d");
+        _sAbcMap.put(no, "d");
+        _fAbcMap.put(no, "d");
 
         no++;
-        sAbcMap.put(no, "^d");
-        fAbcMap.put(no, "_e");
+        _sAbcMap.put(no, "^d");
+        _fAbcMap.put(no, "_e");
 
         no++;
-        sAbcMap.put(no, "e");
-        fAbcMap.put(no, "e");
+        _sAbcMap.put(no, "e");
+        _fAbcMap.put(no, "e");
 
         no++;
-        sAbcMap.put(no, "f");
-        fAbcMap.put(no, "f");
+        _sAbcMap.put(no, "f");
+        _fAbcMap.put(no, "f");
 
         no++;
-        sAbcMap.put(no, "^f");
-        fAbcMap.put(no, "_g");
+        _sAbcMap.put(no, "^f");
+        _fAbcMap.put(no, "_g");
 
         no++;
-        sAbcMap.put(no, "g");
-        fAbcMap.put(no, "g");
+        _sAbcMap.put(no, "g");
+        _fAbcMap.put(no, "g");
 
         no++;
-        sAbcMap.put(no, "^g");
-        fAbcMap.put(no, "_a");
+        _sAbcMap.put(no, "^g");
+        _fAbcMap.put(no, "_a");
 
         no++;
-        sAbcMap.put(no, "a");
-        fAbcMap.put(no, "a");
+        _sAbcMap.put(no, "a");
+        _fAbcMap.put(no, "a");
 
         no++;
-        sAbcMap.put(no, "^a");
-        fAbcMap.put(no, "_b");
+        _sAbcMap.put(no, "^a");
+        _fAbcMap.put(no, "_b");
 
         no++;
-        sAbcMap.put(no, "b");
-        fAbcMap.put(no, "b");
+        _sAbcMap.put(no, "b");
+        _fAbcMap.put(no, "b");
 
 
         no++; // 148
-        sAbcMap.put(no, "c'");
-        fAbcMap.put(no, "c'");
+        _sAbcMap.put(no, "c'");
+        _fAbcMap.put(no, "c'");
 
         no++;
-        sAbcMap.put(no, "^c'");
-        fAbcMap.put(no, "_c'");
+        _sAbcMap.put(no, "^c'");
+        _fAbcMap.put(no, "_c'");
 
         no++;
-        sAbcMap.put(no, "d'");
-        fAbcMap.put(no, "d'");
+        _sAbcMap.put(no, "d'");
+        _fAbcMap.put(no, "d'");
 
         no++;
-        sAbcMap.put(no, "^d'");
-        fAbcMap.put(no, "_e'");
+        _sAbcMap.put(no, "^d'");
+        _fAbcMap.put(no, "_e'");
 
         no++;
-        sAbcMap.put(no, "e'");
-        fAbcMap.put(no, "e'");
+        _sAbcMap.put(no, "e'");
+        _fAbcMap.put(no, "e'");
 
         no++;
-        sAbcMap.put(no, "f'");
-        fAbcMap.put(no, "f'");
+        _sAbcMap.put(no, "f'");
+        _fAbcMap.put(no, "f'");
 
         no++;
-        sAbcMap.put(no, "^f'");
-        fAbcMap.put(no, "_g'");
+        _sAbcMap.put(no, "^f'");
+        _fAbcMap.put(no, "_g'");
 
         no++;
-        sAbcMap.put(no, "g'");
-        fAbcMap.put(no, "g'");
+        _sAbcMap.put(no, "g'");
+        _fAbcMap.put(no, "g'");
 
         no++;
-        sAbcMap.put(no, "^g'");
-        fAbcMap.put(no, "_a'");
+        _sAbcMap.put(no, "^g'");
+        _fAbcMap.put(no, "_a'");
 
         no++;
-        sAbcMap.put(no, "a'");
-        fAbcMap.put(no, "a'");
+        _sAbcMap.put(no, "a'");
+        _fAbcMap.put(no, "a'");
 
         no++;
-        sAbcMap.put(no, "^a'");
-        fAbcMap.put(no, "_b'");
+        _sAbcMap.put(no, "^a'");
+        _fAbcMap.put(no, "_b'");
 
         no++;
-        sAbcMap.put(no, "b'");
-        fAbcMap.put(no, "b'");
+        _sAbcMap.put(no, "b'");
+        _fAbcMap.put(no, "b'");
     }
 
-
-    private static void initRootnameMap() {
-        rootnameRootnoMap.put("A", 97);
-        rootnameAbcmapMap.put("A", sAbcMap);
-        rootnameRootnoMap.put("Ab", 97);
-        rootnameAbcmapMap.put("Ab", getFlatMap(sAbcMap));
-        rootnameRootnoMap.put("Ash", 97);
-        rootnameAbcmapMap.put("Ash", getSharpMap(sAbcMap));
-        rootnameRootnoMap.put("B", 99);
-        rootnameAbcmapMap.put("B", sAbcMap);
-        rootnameRootnoMap.put("Bb", 99);
-        rootnameAbcmapMap.put("Bb", getFlatMap(sAbcMap));
-        rootnameRootnoMap.put("Bsh", 99);
-        rootnameAbcmapMap.put("Bsh", getSharpMap(sAbcMap));
-        rootnameRootnoMap.put("C", 100);
-        rootnameAbcmapMap.put("C", sAbcMap);
-        rootnameRootnoMap.put("Cb", 100);
-        rootnameAbcmapMap.put("Cb", getFlatMap(sAbcMap));
-        rootnameRootnoMap.put("Csh", 100);
-        rootnameAbcmapMap.put("Csh", getSharpMap(sAbcMap));
-        rootnameRootnoMap.put("D", 102);
-        rootnameAbcmapMap.put("D", sAbcMap);
-        rootnameRootnoMap.put("Db", 102);
-        rootnameAbcmapMap.put("Db", getFlatMap(sAbcMap));
-        rootnameRootnoMap.put("Dsh", 102);
-        rootnameAbcmapMap.put("Dsh", getSharpMap(sAbcMap));
-        rootnameRootnoMap.put("E", 104);
-        rootnameAbcmapMap.put("E", sAbcMap);
-        rootnameRootnoMap.put("Eb", 104);
-        rootnameAbcmapMap.put("Eb", getFlatMap(sAbcMap));
-        rootnameRootnoMap.put("Esh", 104);
-        rootnameAbcmapMap.put("Esh", getSharpMap(sAbcMap));
-        rootnameRootnoMap.put("F", 105);
-        rootnameAbcmapMap.put("F", sAbcMap);
-        rootnameRootnoMap.put("Fb", 105);
-        rootnameAbcmapMap.put("Fb", getFlatMap(sAbcMap));
-        rootnameRootnoMap.put("Fsh", 105);
-        rootnameAbcmapMap.put("Fsh", getSharpMap(sAbcMap));
-        rootnameRootnoMap.put("G", 107);
-        rootnameAbcmapMap.put("G", sAbcMap);
-        rootnameRootnoMap.put("Gb", 107);
-        rootnameAbcmapMap.put("Gb", getFlatMap(sAbcMap));
-        rootnameRootnoMap.put("Gsh", 107);
-        rootnameAbcmapMap.put("Gsh", getSharpMap(sAbcMap));
+    public static void initRootnameMap(Map<String, Integer> _rootnameRootnoMap, Map<String, Map<Integer, String>> _rootnameAbcmapMap) {
+        _rootnameRootnoMap.put("A", 97);
+        _rootnameAbcmapMap.put("A", sAbcMap);
+        _rootnameRootnoMap.put("Ab", 97);
+        _rootnameAbcmapMap.put("Ab", getFlatMap(sAbcMap));
+        _rootnameRootnoMap.put("Ash", 97);
+        _rootnameAbcmapMap.put("Ash", getSharpMap(sAbcMap));
+        _rootnameRootnoMap.put("B", 99);
+        _rootnameAbcmapMap.put("B", sAbcMap);
+        _rootnameRootnoMap.put("Bb", 99);
+        _rootnameAbcmapMap.put("Bb", getFlatMap(sAbcMap));
+        _rootnameRootnoMap.put("Bsh", 99);
+        _rootnameAbcmapMap.put("Bsh", getSharpMap(sAbcMap));
+        _rootnameRootnoMap.put("C", 100);
+        _rootnameAbcmapMap.put("C", sAbcMap);
+        _rootnameRootnoMap.put("Cb", 100);
+        _rootnameAbcmapMap.put("Cb", getFlatMap(sAbcMap));
+        _rootnameRootnoMap.put("Csh", 100);
+        _rootnameAbcmapMap.put("Csh", getSharpMap(sAbcMap));
+        _rootnameRootnoMap.put("D", 102);
+        _rootnameAbcmapMap.put("D", sAbcMap);
+        _rootnameRootnoMap.put("Db", 102);
+        _rootnameAbcmapMap.put("Db", getFlatMap(sAbcMap));
+        _rootnameRootnoMap.put("Dsh", 102);
+        _rootnameAbcmapMap.put("Dsh", getSharpMap(sAbcMap));
+        _rootnameRootnoMap.put("E", 104);
+        _rootnameAbcmapMap.put("E", sAbcMap);
+        _rootnameRootnoMap.put("Eb", 104);
+        _rootnameAbcmapMap.put("Eb", getFlatMap(sAbcMap));
+        _rootnameRootnoMap.put("Esh", 104);
+        _rootnameAbcmapMap.put("Esh", getSharpMap(sAbcMap));
+        _rootnameRootnoMap.put("F", 105);
+        _rootnameAbcmapMap.put("F", sAbcMap);
+        _rootnameRootnoMap.put("Fb", 105);
+        _rootnameAbcmapMap.put("Fb", getFlatMap(sAbcMap));
+        _rootnameRootnoMap.put("Fsh", 105);
+        _rootnameAbcmapMap.put("Fsh", getSharpMap(sAbcMap));
+        _rootnameRootnoMap.put("G", 107);
+        _rootnameAbcmapMap.put("G", sAbcMap);
+        _rootnameRootnoMap.put("Gb", 107);
+        _rootnameAbcmapMap.put("Gb", getFlatMap(sAbcMap));
+        _rootnameRootnoMap.put("Gsh", 107);
+        _rootnameAbcmapMap.put("Gsh", getSharpMap(sAbcMap));
     }
 }

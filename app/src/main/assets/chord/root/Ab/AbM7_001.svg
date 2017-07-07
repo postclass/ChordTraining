@@ -8,7 +8,7 @@
 <title>AbM7.abc</title>
 <g transform="scale(0.750)">
 <path stroke="currentColor" fill="none"
-	d="M67.20 132.89h96.00m-96.00 -6h96.00m-96.00 -6h96.00m-96.00 -6h96.00m-96.00 -6h96.00"/>
+	d="M67.20 132.89h103.00m-103.00 -6h103.00m-103.00 -6h103.00m-103.00 -6h103.00m-103.00 -6h103.00"/>
 <defs>
 <path id="utclef" fill="currentColor" d="m-50 -90
 	c-72 -41 -72 -158 52 -188
@@ -41,8 +41,8 @@
 <defs>
 <path id="hl" stroke="currentColor" d="m-6 0h12"/>
 </defs>
-<use x="127.20" y="138.89" xlink:href="#hl"/>
-<use x="127.20" y="144.89" xlink:href="#hl"/>
+<use x="134.20" y="138.89" xlink:href="#hl"/>
+<use x="134.20" y="144.89" xlink:href="#hl"/>
 <defs>
 <path id="Hd" fill="currentColor" d="m3 -1.6
 	c-1 -1.8 -7 1.4 -6 3.2
@@ -51,7 +51,7 @@
 	c2 3.8 -5 7.6 -7 3.8
 	c-2 -3.8 5 -7.6 7 -3.8"/>
 </defs>
-<use x="127.20" y="144.89" xlink:href="#Hd"/>
+<use x="134.20" y="144.89" xlink:href="#Hd"/>
 <defs>
 <path id="uflat" fill="currentColor" d="
 	m100 -746
@@ -68,12 +68,15 @@
 	xlink:href="#uflat"/>
 </defs>
 <use x="112.70" y="144.89" xlink:href="#ft0"/>
-<path d="M130.70 144.89v-36.00" stroke="currentColor" fill="none"/>
-<use x="127.20" y="138.89" xlink:href="#Hd"/>
-<use x="127.20" y="132.89" xlink:href="#Hd"/>
-<use x="117.20" y="132.89" xlink:href="#ft0"/>
-<use x="127.20" y="126.89" xlink:href="#Hd"/>
+<path d="M137.70 144.89v-36.00" stroke="currentColor" fill="none"/>
+<use x="142.00" y="144.89" xlink:href="#hl"/>
+<use x="142.00" y="144.89" xlink:href="#Hd"/>
+<use x="119.70" y="144.89" xlink:href="#ft0"/>
+<use x="134.20" y="138.89" xlink:href="#Hd"/>
+<use x="134.20" y="132.89" xlink:href="#Hd"/>
+<use x="124.20" y="132.89" xlink:href="#ft0"/>
+<use x="134.20" y="126.89" xlink:href="#Hd"/>
 <path stroke="currentColor" fill="none"
-	d="M163.20 132.89v-24.00"/>
+	d="M170.20 132.89v-24.00"/>
 </g>
 </svg>

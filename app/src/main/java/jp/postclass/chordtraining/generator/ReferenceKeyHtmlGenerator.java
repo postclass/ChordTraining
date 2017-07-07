@@ -32,8 +32,8 @@ public class ReferenceKeyHtmlGenerator {
                 writer.write("<html><table border='1' cellspacing='0'>" + newLine);
                 writer.write("<tr>" + newLine);
 
-                writer.write(getKeyUnitString(Constants.KEY_Cs));
-                writer.write(getKeyUnitString(Constants.KEY_Fs));
+                writer.write(getKeyUnitString(Constants.KEY_Csh));
+                writer.write(getKeyUnitString(Constants.KEY_Fsh));
                 writer.write(getKeyUnitString(Constants.KEY_B));
                 writer.write(getKeyUnitString(Constants.KEY_E));
                 writer.write(getKeyUnitString(Constants.KEY_A));
@@ -50,11 +50,11 @@ public class ReferenceKeyHtmlGenerator {
 
                 writer.write("</tr><tr>" + newLine);
 
-                writer.write(getKeyUnitString(Constants.KEY_Asm));
-                writer.write(getKeyUnitString(Constants.KEY_Dsm));
-                writer.write(getKeyUnitString(Constants.KEY_Gsm));
-                writer.write(getKeyUnitString(Constants.KEY_Csm));
-                writer.write(getKeyUnitString(Constants.KEY_Fsm));
+                writer.write(getKeyUnitString(Constants.KEY_Ashm));
+                writer.write(getKeyUnitString(Constants.KEY_Dshm));
+                writer.write(getKeyUnitString(Constants.KEY_Gshm));
+                writer.write(getKeyUnitString(Constants.KEY_Cshm));
+                writer.write(getKeyUnitString(Constants.KEY_Fshm));
                 writer.write(getKeyUnitString(Constants.KEY_Bm));
                 writer.write(getKeyUnitString(Constants.KEY_Em));
                 writer.write(getKeyUnitString(Constants.KEY_Am));
@@ -82,8 +82,8 @@ public class ReferenceKeyHtmlGenerator {
             keymode = Constants.KEYMODE_MINOR;
         }
 
-        String result = "<td><span>" +  key.replace('s', '#') + "</span><br/>";
-        result += "<img src='" +"tone/" + keymode + "/tone_" + key + "_svg001.svg' width='120' height='120'></img></td>" + newLine;
+        String result = "<td><span>" +  key.replace("sh", "#") + "</span><br/>";
+        result += "<img src='" +"../tone/" + keymode + "/tone_" + key + "_svg001.svg' width='120' height='120'></td>" + newLine;
         return result;
     }
 

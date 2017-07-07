@@ -58,8 +58,8 @@ public class ToneActivityHelper extends Qa1ActivityHelper {
 
         if (Constants.KEYMODE_MAJOR.equals(this.keymode)) {
             if (this.includeHigh) {
-                this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Cs);
-                this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Fs);
+                this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Csh);
+                this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Fsh);
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_B);
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_E);
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_A);
@@ -82,11 +82,11 @@ public class ToneActivityHelper extends Qa1ActivityHelper {
 
         if (Constants.KEYMODE_MINOR.equals(this.keymode)) {
             if (this.includeHigh) {
-                this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Asm);
-                this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Dsm);
-                this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Gsm);
-                this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Csm);
-                this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Fsm);
+                this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Ashm);
+                this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Dshm);
+                this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Gshm);
+                this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Cshm);
+                this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Fshm);
             }
             if (this.includeMiddle) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Bm);

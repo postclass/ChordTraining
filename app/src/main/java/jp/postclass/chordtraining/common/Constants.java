@@ -5,13 +5,13 @@ public final class Constants {
 
     public static final String KEY_Cb = "Cb"; // =B
     public static final String KEY_C = "C";
-    public static final String KEY_Cs = "Cs"; // =Db
+    public static final String KEY_Csh = "Csh"; // =Db
     public static final String KEY_Db = "Db";
     public static final String KEY_D = "D";
     public static final String KEY_Eb = "Eb";
     public static final String KEY_E = "E";
     public static final String KEY_F = "F";
-    public static final String KEY_Fs = "Fs"; // =Gb
+    public static final String KEY_Fsh = "Fsh"; // =Gb
     public static final String KEY_Gb = "Gb";
     public static final String KEY_G = "G";
     public static final String KEY_Ab = "Ab";
@@ -20,18 +20,18 @@ public final class Constants {
     public static final String KEY_B = "B";
 
     public static final String KEY_Cm = "Cm";
-    public static final String KEY_Csm = "Csm";
+    public static final String KEY_Cshm = "Cshm";
     public static final String KEY_Dm = "Dm";
-    public static final String KEY_Dsm = "Dsm"; // = Ebm
+    public static final String KEY_Dshm = "Dshm"; // = Ebm
     public static final String KEY_Ebm = "Ebm";
     public static final String KEY_Em = "Em";
     public static final String KEY_Fm = "Fm";
-    public static final String KEY_Fsm = "Fsm";
+    public static final String KEY_Fshm = "Fshm";
     public static final String KEY_Gm = "Gm";
-    public static final String KEY_Gsm = "Gsm"; // =Abm
+    public static final String KEY_Gshm = "Gshm"; // =Abm
     public static final String KEY_Abm = "Abm";
     public static final String KEY_Am = "Am";
-    public static final String KEY_Asm = "Asm"; // =Bbm
+    public static final String KEY_Ashm = "Ashm"; // =Bbm
     public static final String KEY_Bbm = "Bbm";
     public static final String KEY_Bm = "Bm";
 

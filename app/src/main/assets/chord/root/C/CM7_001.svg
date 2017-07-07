@@ -52,6 +52,8 @@
 </defs>
 <use x="116.20" y="138.89" xlink:href="#Hd"/>
 <path d="M119.70 138.89v-36.00" stroke="currentColor" fill="none"/>
+<use x="124.00" y="138.89" xlink:href="#hl"/>
+<use x="124.00" y="138.89" xlink:href="#Hd"/>
 <use x="116.20" y="132.89" xlink:href="#Hd"/>
 <use x="116.20" y="126.89" xlink:href="#Hd"/>
 <use x="116.20" y="120.89" xlink:href="#Hd"/>

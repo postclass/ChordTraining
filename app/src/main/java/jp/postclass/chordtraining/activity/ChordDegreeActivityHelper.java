@@ -63,7 +63,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
             tmpChordNo = setChordnameMapMajor(getFlatAddMap(this.rootMapF), 100, tmpChordNo, this.noChordnameMap);
         } else if (Constants.KEY_C.equals(this.key)) {
             tmpChordNo = setChordnameMapMajor(this.rootMapF, 100, tmpChordNo, this.noChordnameMap);
-        } else if (Constants.KEY_Cs.equals(this.key)) {
+        } else if (Constants.KEY_Csh.equals(this.key)) {
             tmpChordNo = setChordnameMapMajor(getSharpAddMap(this.rootMapF), 100, tmpChordNo, this.noChordnameMap);
         } else if (Constants.KEY_Db.equals(this.key)) {
             tmpChordNo = setChordnameMapMajor(getFlatAddMap(this.rootMapF), 102, tmpChordNo, this.noChordnameMap);
@@ -75,7 +75,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
             tmpChordNo = setChordnameMapMajor(this.rootMapF, 104, tmpChordNo, this.noChordnameMap);
         } else if (Constants.KEY_F.equals(this.key)) {
             tmpChordNo = setChordnameMapMajor(this.rootMapF, 105, tmpChordNo, this.noChordnameMap);
-        } else if (Constants.KEY_Fs.equals(this.key)) {
+        } else if (Constants.KEY_Fsh.equals(this.key)) {
             tmpChordNo = setChordnameMapMajor(getSharpAddMap(this.rootMapF), 105, tmpChordNo, this.noChordnameMap);
         } else if (Constants.KEY_Gb.equals(this.key)) {
             tmpChordNo = setChordnameMapMajor(getFlatAddMap(this.rootMapF), 107, tmpChordNo, this.noChordnameMap);
@@ -92,11 +92,11 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
 
         } else if (Constants.KEY_Cm.equals(this.key)) {
             tmpChordNo = setChordnameMapMinor(this.rootMapF, 100, tmpChordNo, this.noChordnameMap);
-        } else if (Constants.KEY_Csm.equals(this.key)) {
+        } else if (Constants.KEY_Cshm.equals(this.key)) {
             tmpChordNo = setChordnameMapMinor(getSharpAddMap(this.rootMapF), 100, tmpChordNo, this.noChordnameMap);
         } else if (Constants.KEY_Dm.equals(this.key)) {
             tmpChordNo = setChordnameMapMinor(this.rootMapF, 102, tmpChordNo, this.noChordnameMap);
-        } else if (Constants.KEY_Dsm.equals(this.key)) {
+        } else if (Constants.KEY_Dshm.equals(this.key)) {
             tmpChordNo = setChordnameMapMinor(getSharpAddMap(this.rootMapF), 102, tmpChordNo, this.noChordnameMap);
         } else if (Constants.KEY_Ebm.equals(this.key)) {
             tmpChordNo = setChordnameMapMinor(getFlatAddMap(this.rootMapF), 104, tmpChordNo, this.noChordnameMap);
@@ -104,17 +104,17 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
             tmpChordNo = setChordnameMapMinor(this.rootMapF, 104, tmpChordNo, this.noChordnameMap);
         } else if (Constants.KEY_Fm.equals(this.key)) {
             tmpChordNo = setChordnameMapMinor(this.rootMapF, 105, tmpChordNo, this.noChordnameMap);
-        } else if (Constants.KEY_Fsm.equals(this.key)) {
+        } else if (Constants.KEY_Fshm.equals(this.key)) {
             tmpChordNo = setChordnameMapMinor(getSharpAddMap(this.rootMapF), 105, tmpChordNo, this.noChordnameMap);
         } else if (Constants.KEY_Gm.equals(this.key)) {
             tmpChordNo = setChordnameMapMinor(this.rootMapF, 107, tmpChordNo, this.noChordnameMap);
-        } else if (Constants.KEY_Gsm.equals(this.key)) {
+        } else if (Constants.KEY_Gshm.equals(this.key)) {
             tmpChordNo = setChordnameMapMinor(getSharpAddMap(this.rootMapF), 107, tmpChordNo, this.noChordnameMap);
         } else if (Constants.KEY_Abm.equals(this.key)) {
             tmpChordNo = setChordnameMapMinor(getFlatAddMap(this.rootMapF), 109, tmpChordNo, this.noChordnameMap);
         } else if (Constants.KEY_Am.equals(this.key)) {
             tmpChordNo = setChordnameMapMinor(this.rootMapF, 109, tmpChordNo, this.noChordnameMap);
-        } else if (Constants.KEY_Asm.equals(this.key)) {
+        } else if (Constants.KEY_Ashm.equals(this.key)) {
             tmpChordNo = setChordnameMapMinor(getSharpAddMap(this.rootMapF), 109, tmpChordNo, this.noChordnameMap);
         } else if (Constants.KEY_Bbm.equals(this.key)) {
             tmpChordNo = setChordnameMapMinor(getFlatAddMap(this.rootMapF), 111, tmpChordNo, this.noChordnameMap);
@@ -325,45 +325,45 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
             return rootMap.get(rootNo - 1);
         } else {
             rootName += "b";
-            rootName = rootName.replace("sb", "");
-            rootName = rootName.replace("bs", "");
+            rootName = rootName.replace("shb", "");
+            rootName = rootName.replace("bsh", "");
             return rootName;
         }
     }
 
     public static String getSharpRootName(Map<Integer, String> rootMap, int rootNo) {
         String rootName = rootMap.get(rootNo);
-        if (rootName.endsWith("s")) {
+        if (rootName.endsWith("sh")) {
             return rootMap.get(rootNo + 1);
         } else {
-            rootName += "s";
-            rootName = rootName.replace("sb", "");
-            rootName = rootName.replace("bs", "");
+            rootName += "sh";
+            rootName = rootName.replace("shb", "");
+            rootName = rootName.replace("bsh", "");
             return rootName;
         }
     }
 
     public static int setChordnameMapMajor(Map<Integer, String> rootMap, int rootNo, int tmpChordNo, Map<Integer, String> noChordnameMap) {
         String rootName1 = rootMap.get(rootNo);
-        noChordnameMap.put(tmpChordNo++, rootName1 + "_" + rootName1 + "M7");
+        noChordnameMap.put(tmpChordNo++, rootName1 + "__" + rootName1 + "M7");
 
         String rootName2 = rootMap.get(rootNo + 2);
-        noChordnameMap.put(tmpChordNo++, rootName2 + "m_" + rootName2 + "m7");
+        noChordnameMap.put(tmpChordNo++, rootName2 + "m__" + rootName2 + "m7");
 
         String rootName3 = rootMap.get(rootNo + 4);
-        noChordnameMap.put(tmpChordNo++, rootName3 + "m_" + rootName3 + "m7");
+        noChordnameMap.put(tmpChordNo++, rootName3 + "m__" + rootName3 + "m7");
 
         String rootName4 = rootMap.get(rootNo + 5);
-        noChordnameMap.put(tmpChordNo++, rootName4 + "_" + rootName4 + "M7");
+        noChordnameMap.put(tmpChordNo++, rootName4 + "__" + rootName4 + "M7");
 
         String rootName5 = rootMap.get(rootNo + 7);
-        noChordnameMap.put(tmpChordNo++, rootName5 + "_" + rootName5 + "7");
+        noChordnameMap.put(tmpChordNo++, rootName5 + "__" + rootName5 + "7");
 
         String rootName6 = rootMap.get(rootNo + 9);
-        noChordnameMap.put(tmpChordNo++, rootName6 + "m_" + rootName6 + "m7");
+        noChordnameMap.put(tmpChordNo++, rootName6 + "m__" + rootName6 + "m7");
 
         String rootName7 = rootMap.get(rootNo + 11);
-        noChordnameMap.put(tmpChordNo++, rootName7 + "m_" + rootName7 + "m7f5");
+        noChordnameMap.put(tmpChordNo++, rootName7 + "m__" + rootName7 + "m7b5");
 
         return tmpChordNo;
     }
@@ -371,25 +371,25 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
     public static int setChordnameMapMinor(Map<Integer, String> rootMap, int rootNo, int tmpChordNo, Map<Integer, String> noChordnameMap) {
 
         String rootName1 = rootMap.get(rootNo);
-        noChordnameMap.put(tmpChordNo++, rootName1 + "m_" + rootName1 + "m7");
+        noChordnameMap.put(tmpChordNo++, rootName1 + "m__" + rootName1 + "m7");
 
         String rootName2 = rootMap.get(rootNo + 2);
-        noChordnameMap.put(tmpChordNo++, rootName2 + "m_" + rootName2 + "m7f5");
+        noChordnameMap.put(tmpChordNo++, rootName2 + "m__" + rootName2 + "m7b5");
 
         String rootName3 = getFlatRootName(rootMap, rootNo + 4);
-        noChordnameMap.put(tmpChordNo++, rootName3 + "_" + rootName3 + "M7");
+        noChordnameMap.put(tmpChordNo++, rootName3 + "__" + rootName3 + "M7");
 
         String rootName4 = rootMap.get(rootNo + 5);
-        noChordnameMap.put(tmpChordNo++, rootName4 + "m_" + rootName4 + "m7");
+        noChordnameMap.put(tmpChordNo++, rootName4 + "m__" + rootName4 + "m7");
 
         String rootName5 = rootMap.get(rootNo + 7);
-        noChordnameMap.put(tmpChordNo++, rootName5 + "m_" + rootName5 + "m7");
+        noChordnameMap.put(tmpChordNo++, rootName5 + "m__" + rootName5 + "m7");
 
         String rootName6 = getFlatRootName(rootMap, rootNo + 9);
-        noChordnameMap.put(tmpChordNo++, rootName6 + "_" + rootName6 + "M7");
+        noChordnameMap.put(tmpChordNo++, rootName6 + "__" + rootName6 + "M7");
 
         String rootName7 = getFlatRootName(rootMap, rootNo + 11);
-        noChordnameMap.put(tmpChordNo++, rootName7 + "_" + rootName7 + "7");
+        noChordnameMap.put(tmpChordNo++, rootName7 + "__" + rootName7 + "7");
 
         return tmpChordNo;
     }
@@ -403,7 +403,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         rootMapF.put(no, "C");
 
         no++;
-        rootMapS.put(no, "Cs");
+        rootMapS.put(no, "Csh");
         rootMapF.put(no, "Db");
 
         no++;
@@ -411,7 +411,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         rootMapF.put(no, "D");
 
         no++;
-        rootMapS.put(no, "Ds");
+        rootMapS.put(no, "Dsh");
         rootMapF.put(no, "Eb");
 
         no++;
@@ -423,7 +423,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         rootMapF.put(no, "F");
 
         no++;
-        rootMapS.put(no, "Fs");
+        rootMapS.put(no, "Fsh");
         rootMapF.put(no, "Gb");
 
         no++;
@@ -431,7 +431,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         rootMapF.put(no, "G");
 
         no++;
-        rootMapS.put(no, "Gs");
+        rootMapS.put(no, "Gsh");
         rootMapF.put(no, "Ab");
 
         no++;
@@ -439,7 +439,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         rootMapF.put(no, "A");
 
         no++;
-        rootMapS.put(no, "As");
+        rootMapS.put(no, "Ash");
         rootMapF.put(no, "Bb");
 
         no++;
@@ -453,7 +453,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         rootMapF.put(no, "C");
 
         no++;
-        rootMapS.put(no, "Cs");
+        rootMapS.put(no, "Csh");
         rootMapF.put(no, "Db");
 
         no++;
@@ -461,7 +461,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         rootMapF.put(no, "D");
 
         no++;
-        rootMapS.put(no, "Ds");
+        rootMapS.put(no, "Dsh");
         rootMapF.put(no, "Eb");
 
         no++;
@@ -473,7 +473,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         rootMapF.put(no, "F");
 
         no++;
-        rootMapS.put(no, "Fs");
+        rootMapS.put(no, "Fsh");
         rootMapF.put(no, "Gb");
 
         no++;
@@ -481,7 +481,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         rootMapF.put(no, "G");
 
         no++;
-        rootMapS.put(no, "Gs");
+        rootMapS.put(no, "Gsh");
         rootMapF.put(no, "Ab");
 
         no++;
@@ -489,7 +489,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         rootMapF.put(no, "A");
 
         no++;
-        rootMapS.put(no, "As");
+        rootMapS.put(no, "Ash");
         rootMapF.put(no, "Bb");
 
         no++;
@@ -505,7 +505,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         rootMapF.put(no, "C");
 
         no++;
-        rootMapS.put(no, "Cs");
+        rootMapS.put(no, "Csh");
         rootMapF.put(no, "Db");
 
         no++;
@@ -513,7 +513,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         rootMapF.put(no, "D");
 
         no++;
-        rootMapS.put(no, "Ds");
+        rootMapS.put(no, "Dsh");
         rootMapF.put(no, "Eb");
 
         no++;
@@ -525,7 +525,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         rootMapF.put(no, "F");
 
         no++;
-        rootMapS.put(no, "Fs");
+        rootMapS.put(no, "Fsh");
         rootMapF.put(no, "Gb");
 
         no++;
@@ -533,7 +533,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         rootMapF.put(no, "G");
 
         no++;
-        rootMapS.put(no, "Gs");
+        rootMapS.put(no, "Gsh");
         rootMapF.put(no, "Ab");
 
         no++;
@@ -541,7 +541,7 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         rootMapF.put(no, "A");
 
         no++;
-        rootMapS.put(no, "As");
+        rootMapS.put(no, "Ash");
         rootMapF.put(no, "Bb");
 
         no++;

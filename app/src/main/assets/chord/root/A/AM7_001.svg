@@ -53,6 +53,8 @@
 </defs>
 <use x="129.70" y="144.89" xlink:href="#Hd"/>
 <path d="M133.20 144.89v-36.00" stroke="currentColor" fill="none"/>
+<use x="137.50" y="144.89" xlink:href="#hl"/>
+<use x="137.50" y="144.89" xlink:href="#Hd"/>
 <use x="129.70" y="138.89" xlink:href="#Hd"/>
 <defs>
 <path id="usharp" fill="currentColor" d="
