@@ -49,21 +49,24 @@ public final class UtAbc {
     }
 
     public static final String getScoreTag(String abc) {
-        return getScoreTag(abc, "C treble");
+        return "<div class=\"score\">" + NEW_LINE +
+                abc + NEW_LINE +
+                "</div>";
+
     }
 
-    public static final String getScoreTag(String abc, String key) {
+    public static final String getAbcHeader() {
+        return getAbcHeader("C treble");
+    }
 
-        return "<div class=\"score\">" + NEW_LINE +
+    public static final String getAbcHeader(String key) {
+        return
                 "I:abc-charset utf-8" + NEW_LINE +
                 "X:1" + NEW_LINE +
                 "T:" + NEW_LINE +
                 "M:4/4" + NEW_LINE +
                 "L:1/8" + NEW_LINE +
-                "K:" + key + NEW_LINE +
-                abc + NEW_LINE +
-                "</div>";
-
+                "K:" + key + NEW_LINE;
     }
 
     public static String getChordAbc(String chordConstants) {

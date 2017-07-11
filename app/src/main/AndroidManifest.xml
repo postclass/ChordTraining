@@ -31,7 +31,12 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/title_activity_reference"
             android:theme="@style/FullscreenTheme" />
-        <activity android:name=".activity.BookSelectActivity"></activity>
+        <activity android:name=".activity.BookSelectActivity" />
+        <activity
+            android:name=".activity.BookReadActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_book_view"
+            android:theme="@style/FullscreenTheme"></activity>
     </application>
 
 </manifest>

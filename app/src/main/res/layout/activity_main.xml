@@ -45,7 +45,7 @@
         android:layout_height="60dp"
         android:layout_margin="0dp"
         android:onClick="onClickBook"
-        android:text="@string/main_reference_button"
+        android:text="@string/main_book_button"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/mainButtonChordDegree" />

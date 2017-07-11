@@ -1,5 +1,6 @@
 package jp.postclass.chordtraining.activity;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,6 +12,7 @@ import android.widget.Spinner;
 import jp.postclass.chordtraining.Exception.ApplicationRuntimeException;
 import jp.postclass.chordtraining.R;
 import jp.postclass.chordtraining.common.BookData;
+import jp.postclass.chordtraining.common.Globals;
 import jp.postclass.chordtraining.common.LabelValueBean;
 
 public class BookSelectActivity extends AppCompatActivity {
@@ -65,6 +67,17 @@ public class BookSelectActivity extends AppCompatActivity {
             @Override
             public void onNothingSelected(AdapterView<?> adapterView) {
 
+            }
+        });
+
+        pieceSelectList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                selectedPiece = selectedComposer.getPiece(i);
+                Globals.bookReadUrl = "file:///android_asset/book/" + selectedComposer.getValue() + "/" + selectedPiece.getValue() + ".html";
+                Globals.bookSoundUrl = "book/" + selectedComposer.getValue() + "/" + selectedPiece.getValue() + ".mid";
+                Intent intent = new Intent(getApplication(), BookReadActivity.class);
+                startActivity(intent);
             }
         });
 

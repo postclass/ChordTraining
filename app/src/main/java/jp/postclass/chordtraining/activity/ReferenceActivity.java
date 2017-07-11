@@ -96,7 +96,7 @@ public class ReferenceActivity extends AppCompatActivity {
 
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);
-        mContentView = (WebView) findViewById(R.id.viewerWebView);
+        mContentView = (WebView) findViewById(R.id.referenceWebView);
         mContentView.getSettings().setJavaScriptEnabled(true);
         mContentView.getSettings().setBuiltInZoomControls(true);
         mContentView.getSettings().setDisplayZoomControls(false);

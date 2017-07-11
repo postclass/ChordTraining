@@ -82,6 +82,10 @@ public class BookData {
             return null;
         }
 
+        public LabelValueBean getPiece(int idx) {
+            return pieces.get(idx);
+        }
+
         public List<String> getPieceLabelList() {
             List<String> result = new ArrayList<>();
             for (LabelValueBean piece : pieces) {
