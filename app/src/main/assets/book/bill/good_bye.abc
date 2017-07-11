@@ -1,0 +1,26 @@
+I:abc-charset utf-8
+X:1
+T:
+M:4/4
+L:1/8
+K:C treble
+z2 z2 "G7b5"[GB_df]2 "C7/+9"[CEG_B^d]2 | "Fm7"[F_Ac_e]2 "B7/9"[B,^D^FA^c]2 "Bb7sus4/9"[_B,_EF_Ac]2 "Em7"[EGBd]2 | "EbM7"[_EG_Bd]3 "A7/9"[A,^CEGB]1 "AbM7"[_A,C_EG]4 | 
+"Dm7b5"[DF_Ac]4 "G7/-9"[GBdf_a]2 "Db7/9/+11"[_DF_A_c_eg]2 | "Cm7"[C_EG_B]4 "G7b5"[GB_df]2 "C7/+9"[CEG_B^d]2 | "Fm7"[F_Ac_e]3 "B7/9/+11/13"[B,^D^FA^c^e^g]1 "Bb7sus4"[_B,_EF_A]3 "E7/9/+11/13"[E^GBd^f^a^c']1 | 
+"EbM7"[_EG_Bd]3 "A7"[A,^CEG]1 "AbM7"[_A,C_EG]4 | "Dm7b5"[DF_Ac]4 "G7/-9"[GBdf_a]4 | "Cm7/9"[C_EG_Bd]4 "EbM7"[_EG_Bd]4 | 
+"AbM7"[_A,C_EG]4 "Eb"[_EG_B]4 | "Fm7/9"[F_Ac_eg]2 "Eb/6"[_EG_Bc]2 "AbM7"[_A,C_EG]2 "G7/-9"[GBdf_a]2 | "Cm7"[C_EG_B]4 "Cm"[C_EG]4 | 
+"Am7b5"[A,C_EG]8 | "D7/9"[D^FAce]8 | "CM7"[CEGB]4 "D7"[D^FAc]4 | 
+"Bm7b5"[B,DFA]4 "E7/+9"[E^GBd^^f]4 | "Am7/9"[A,CEGB]4 "AmM7"[A,CE^G]2 "Am7"[A,CEG]2 | 
+"F#m7b5"[^FAce]4 "C7/13"[CEG_Ba]2 "B7/13"[B,^D^FA^g]2 | "Em"[EGB]4 "Em"[EGB]4 | 
+"C#m7b5"[^CEGB]4 "F#7"[^F^A^ce]4 | "Bm7b5"[B,DFA]4 "E7"[E^GBd]4 | "Bbm7b5"[_B,_D_F_A]4 "Eb7"[_EG_B_d]4 | 
+"Am7b5"[A,C_EG]4 "G7/+9"[GBdf^a]2 "C7/+13"[CEG_B^a]2 | 
+"Fm7/9"[F_Ac_eg]2 "F7/+9"[FAc_e^g]2 "Fm7"[F_Ac_e]2 "Bb7/13"[_B,DF_Ag]2 | "Eb/6/9"[_EG_Bcf]4 "AbM7"[_A,C_EG]4 | "Dm7b5/9"[DF_Ace]4 "G7/-13"[GBdf_e']4 | 
+"Cm/6/9"[C_EGAd]4 "G7/-13"[GBdf_e']2 "C7/+9"[CEG_B^d]2 | "Fm7/9"[F_Ac_eg]2 "F7/+9"[FAc_e^g]2 "Fm7/9"[F_Ac_eg]2 "Bb7/13"[_B,DF_Ag]2 | 
+"Eb/6"[_EG_Bc]4 "AbM7"[_A,C_EG]4 | "DbM7"[_DF_Ac]4 "G7/-13"[GBdf_e']4 | 
+"Cm/6/9"[C_EGAd]8 | "AbM7"[_A,C_EG]4 "Gm7/9"[G_Bdfa]4 | 
+"Fm7/9"[F_Ac_eg]6 "G7/-13"[GBdf_e']2 | "Cm/6/9"[C_EGAd]8 | 
+"Am7b5"[A,C_EG]8 | "D7/6/-9/11/13"[D^FAcB_egb]8 | 
+"Am7"[A,CEG]4 "D7"[D^FAc]4 | "Bm7b5"[B,DFA]4 "Bm7b5"[B,DFA]2 "D7/+9"[D^FAc^e]2 | 
+"Am7/9"[A,CEGB]8 | "F#m7b5"[^FAce]4 "C7/13"[CEG_Ba]2 "B7/13"[B,^D^FA^g]2 | 
+"Em7"[EGBd]6 "Em"[EGB]2 | "C#m7b5"[^CEGB]4 "F#7"[^F^A^ce]4 | 
+"Bm7b5"[B,DFA]4 "E7"[E^GBd]4 | "Bbm7b5"[_B,_D_F_A]4 "Eb7"[_EG_B_d]4 | 
+"Am7b5"[A,C_EG]8 
