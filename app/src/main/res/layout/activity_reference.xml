@@ -68,6 +68,18 @@
                 android:onClick="onClickReferenceDegreeAbsolute"
                 />
 
+            <Button
+                android:id="@+id/reference_scale_button"
+                style="?metaButtonBarButtonStyle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textColor="@color/colorButtonReferenceSelect"
+                android:textSize="20sp"
+                android:text="@string/reference_scale_button"
+                android:onClick="onClickReferenceScale"
+                />
+
         </LinearLayout>
     </FrameLayout>
 

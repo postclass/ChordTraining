@@ -36,6 +36,27 @@ public final class Constants {
     public static final String KEY_Bm = "Bm";
 
 
+    public static final String SCALE_major = "major";
+    public static final String SCALE_natural_minor = "natural_minor";
+    public static final String SCALE_harmonic_minor = "harmonic_minor";
+    public static final String SCALE_melodic_minor = "melodic_minor";
+    public static final String SCALE_major_2_dorian = "major_2_dorian";
+    public static final String SCALE_major_3_phrygian = "major_3_phrygian";
+    public static final String SCALE_major_4_lydian = "major_4_lydian";
+    public static final String SCALE_major_5_mixolydian = "major_5_mixolydian";
+    public static final String SCALE_major_6_aeolian = "major_6_aeolian";
+    public static final String SCALE_major_7_locrian = "major_7_locrian";
+    public static final String SCALE_melodic_minor_2_dorian_b2 = "melodic_minor_2_dorian_b2";
+    public static final String SCALE_melodic_minor_3_lydian_augmented = "melodic_minor_3_lydian_augmented";
+    public static final String SCALE_melodic_minor_4_lydian_dominant = "melodic_minor_4_lydian_dominant";
+    public static final String SCALE_melodic_minor_5_mixolydian_b6 = "melodic_minor_5_mixolydian_b6";
+    public static final String SCALE_melodic_minor_6_locrian_n2 = "melodic_minor_6_locrian_n2";
+    public static final String SCALE_melodic_minor_7_altered = "melodic_minor_7_altered";
+    public static final String SCALE_melodic_minor_acoustic = "melodic_minor_acoustic";
+    public static final String SCALE_blues = "blues";
+
+
+
     public static final String DATE_FORMAT_YYYYMMDD = "yyyyMMdd";
     public static final String DATE_FORMAT_YYYYslMMslDD = "yyyy/MM/dd";
 

@@ -30,7 +30,8 @@
     <string name="chord_degree_title">Chord(degree) training</string>
 
     <string name="reference_key_button">Key</string>
-    <string name="reference_degree_absolute_button">Degree absolute</string>
+    <string name="reference_degree_absolute_button">Degree</string>
+    <string name="reference_scale_button">Scale</string>
 
 
     <!-- pref start -->

@@ -185,6 +185,11 @@ public class ReferenceActivity extends AppCompatActivity {
         mContentView.setOnTouchListener(onToucheReferenceListener);
     }
 
+    public void onClickReferenceScale(View view) {
+        mContentView.loadUrl("file:///android_asset/reference/reference_scale.html");
+        mContentView.setOnTouchListener(onToucheReferenceListener);
+    }
+
 
     public class OnToucheReferenceListener implements View.OnTouchListener {
 
