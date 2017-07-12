@@ -1,21 +1,21 @@
 d:
 cd D:\app\ChordTraining\app\src\main\assets\tone\major
 
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_A_svg.abc
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_Ab_svg.abc
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_B_svg.abc
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_Bb_svg.abc
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_C_svg.abc
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_Cb_svg.abc
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_Csh_svg.abc
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_D_svg.abc
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_Db_svg.abc
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_E_svg.abc
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_Eb_svg.abc
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_F_svg.abc
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_Fsh_svg.abc
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_G_svg.abc
-"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -v -O = tone_Gb_svg.abc
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -g tone_A_svg.abc -O tone_A_svg.svg -w 3cm
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -g tone_Ab_svg.abc -O tone_Ab_svg.svg -w 3cm
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -g tone_B_svg.abc -O tone_B_svg.svg -w 3cm
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -g tone_Bb_svg.abc -O tone_Bb_svg.svg -w 3cm
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -g tone_C_svg.abc -O tone_C_svg.svg -w 3cm
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -g tone_Cb_svg.abc -O tone_Cb_svg.svg -w 3cm
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -g tone_Csh_svg.abc -O tone_Csh_svg.svg -w 3cm
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -g tone_D_svg.abc -O tone_D_svg.svg -w 3cm
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -g tone_Db_svg.abc -O tone_Db_svg.svg -w 3cm
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -g tone_E_svg.abc -O tone_E_svg.svg -w 3cm
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -g tone_Eb_svg.abc -O tone_Eb_svg.svg -w 3cm
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -g tone_F_svg.abc -O tone_F_svg.svg -w 3cm
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -g tone_Fsh_svg.abc -O tone_Fsh_svg.svg -w 3cm
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -g tone_G_svg.abc -O tone_G_svg.svg -w 3cm
+"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -g tone_Gb_svg.abc -O tone_Gb_svg.svg -w 3cm
 
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_A_midi.abc -o tone_A.mid
 "C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" tone_A_midi.abc -o tone_A.mid

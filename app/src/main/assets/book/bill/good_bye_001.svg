@@ -12,9 +12,18 @@ text{white-space: pre}
 </style>
 <title>good_bye.abc (1) tune 1</title>
 <!-- Creator: abcm2ps-8.13.12 -->
-<!-- CreationDate: Jul 11, 2017 17:09 -->
-<!-- CommandLine: -g good_bye.abc -O good_bye.svg -B 2 -->
-<g stroke-width="0.70">
+<!-- CreationDate: Jul 12, 2017 15:58 -->
+<!-- CommandLine: -g good_bye.abc -O good_bye_.svg -B 2 -->
+<g stroke-width="0.70" transform="scale(0.700)">
+<defs>
+<ellipse id="hd" rx="4.1" ry="2.9"
+	transform="rotate(-20)" class="fill"/>
+</defs>
+<use x="84.43" y="38.43" xlink:href="#hd"/>
+<path d="M87.93 38.43v-21.00" class="stroke"/>
+</g>
+<g stroke-width="0.70" font-family="Times" font-size="15.00" font-weight="bold">
+<text x="66.80" y="29.00">= 100</text>
 <path class="stroke" stroke-width="1"
 	d="M345.10 73.00v-24.00"/>
 <path class="stroke" stroke-width="1"
@@ -76,10 +85,6 @@ text{white-space: pre}
 </defs>
 <use x="58.50" y="61.00" xlink:href="#r4"/>
 <use x="138.10" y="61.00" xlink:href="#r4"/>
-<defs>
-<ellipse id="hd" rx="4.1" ry="2.9"
-	transform="rotate(-20)" class="fill"/>
-</defs>
 <use x="217.70" y="49.00" xlink:href="#hd"/>
 <path d="M214.20 49.00v37.00" class="stroke"/>
 <use x="217.70" y="67.00" xlink:href="#hd"/>

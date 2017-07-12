@@ -1,0 +1,63 @@
+
+D:\tmp\a\book\bill>d:
+
+D:\tmp\a\book\bill>cd D:\tmp\a\book\bill 
+
+D:\tmp\a\book\bill>"C:\Program Files (x86)\EasyABC\bin\abcm2ps.exe" -g good_bye.abc -O good_bye_.svg -B 2 
+
+D:\tmp\a\book\bill>"C:\Program Files (x86)\EasyABC\bin\abc2midi.exe" good_bye.abc -o good_bye.mid 
+3.97 June 10 2017 abc2midi
+Warning in line-char 7-0 : clef= is overriding octave= setting
+Error in line-char 8-6 : Unrecognized chord name "7b5"
+(Hint: use %MIDI chordname to define it. eg %MIDI chordname sus4 0 4 7).
+Error in line-char 8-21 :  / must be followed by A-G or a-g in gchord
+Error in line-char 8-56 :  / must be followed by A-G or a-g in gchord
+Error in line-char 8-75 :  / must be followed by A-G or a-g in gchord
+Error in line-char 8-130 :  / must be followed by A-G or a-g in gchord
+Error in line-char 9-16 :  / must be followed by A-G or a-g in gchord
+Error in line-char 9-33 :  / must be followed by A-G or a-g in gchord
+Error in line-char 9-75 : Unrecognized chord name "7b5"
+(Hint: use %MIDI chordname to define it. eg %MIDI chordname sus4 0 4 7).
+Error in line-char 9-90 :  / must be followed by A-G or a-g in gchord
+Error in line-char 9-125 :  / must be followed by A-G or a-g in gchord
+Error in line-char 9-176 :  / must be followed by A-G or a-g in gchord
+Error in line-char 10-65 :  / must be followed by A-G or a-g in gchord
+Error in line-char 10-84 :  / must be followed by A-G or a-g in gchord
+Error in line-char 11-32 :  / must be followed by A-G or a-g in gchord
+Error in line-char 11-50 :  / must be followed by A-G or a-g in gchord
+Error in line-char 11-83 :  / must be followed by A-G or a-g in gchord
+Error in line-char 12-19 :  / must be followed by A-G or a-g in gchord
+Error in line-char 13-16 :  / must be followed by A-G or a-g in gchord
+Error in line-char 13-37 :  / must be followed by A-G or a-g in gchord
+Error in line-char 13-54 : Unrecognized chord name "mM7"
+(Hint: use %MIDI chordname to define it. eg %MIDI chordname sus4 0 4 7).
+Error in line-char 14-17 :  / must be followed by A-G or a-g in gchord
+Error in line-char 14-34 :  / must be followed by A-G or a-g in gchord
+Error in line-char 16-17 :  / must be followed by A-G or a-g in gchord
+Error in line-char 16-34 :  / must be followed by A-G or a-g in gchord
+Error in line-char 17-0 :  / must be followed by A-G or a-g in gchord
+Error in line-char 17-18 :  / must be followed by A-G or a-g in gchord
+Error in line-char 17-51 :  / must be followed by A-G or a-g in gchord
+Error in line-char 17-73 :  / must be followed by A-G or a-g in gchord
+Error in line-char 17-111 :  / must be followed by A-G or a-g in gchord
+Error in line-char 17-130 :  / must be followed by A-G or a-g in gchord
+Error in line-char 18-0 :  / must be followed by A-G or a-g in gchord
+Error in line-char 18-18 :  / must be followed by A-G or a-g in gchord
+Error in line-char 18-37 :  / must be followed by A-G or a-g in gchord
+Error in line-char 18-57 :  / must be followed by A-G or a-g in gchord
+Error in line-char 18-75 :  / must be followed by A-G or a-g in gchord
+Error in line-char 18-93 :  / must be followed by A-G or a-g in gchord
+Error in line-char 18-111 :  / must be followed by A-G or a-g in gchord
+Error in line-char 19-0 :  / must be followed by A-G or a-g in gchord
+Error in line-char 19-51 :  / must be followed by A-G or a-g in gchord
+Error in line-char 20-0 :  / must be followed by A-G or a-g in gchord
+Error in line-char 20-37 :  / must be followed by A-G or a-g in gchord
+Error in line-char 21-0 :  / must be followed by A-G or a-g in gchord
+Error in line-char 21-18 :  / must be followed by A-G or a-g in gchord
+Error in line-char 21-39 :  / must be followed by A-G or a-g in gchord
+Error in line-char 22-19 :  / must be followed by A-G or a-g in gchord
+Error in line-char 23-61 :  / must be followed by A-G or a-g in gchord
+Error in line-char 24-0 :  / must be followed by A-G or a-g in gchord
+Error in line-char 24-36 :  / must be followed by A-G or a-g in gchord
+Error in line-char 24-53 :  / must be followed by A-G or a-g in gchord
+writing MIDI file good_bye.mid

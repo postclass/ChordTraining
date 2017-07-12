@@ -1,4 +1,6 @@
 <resources>
     <dimen name="fab_margin">16dp</dimen>
     <dimen name="button_height_answer">60dp</dimen>
+    <dimen name="bookReadSoundControleButton_width">50dp</dimen>
+    <dimen name="bookReadSoundControleButton_margin">10dp</dimen>
 </resources>

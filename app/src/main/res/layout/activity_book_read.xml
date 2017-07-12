@@ -2,6 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#0099cc"
     tools:context="jp.postclass.chordtraining.activity.BookReadActivity">
 
@@ -12,5 +13,86 @@
         android:gravity="center"
         android:keepScreenOn="true"
         />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:id="@+id/bookReadFullscreenContentControls"
+            style="?metaButtonBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/black_overlay"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:padding="0dp"
+            android:layout_margin="0dp"
+            tools:ignore="UselessParent">
+
+            <ImageButton
+                android:id="@+id/bookReadRestartSoundButton"
+                android:layout_width="@dimen/bookReadSoundControleButton_width"
+                android:layout_height="@dimen/bookReadSoundControleButton_width"
+                app:srcCompat="@drawable/ic_skip_previous_white_24dp"
+                android:background="@null"
+                android:onClick="onClickBookReadRestartSound"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_margin="@dimen/bookReadSoundControleButton_margin"
+                />
+
+            <ImageButton
+                android:id="@+id/bookReadPauseSoundButton"
+                android:layout_width="@dimen/bookReadSoundControleButton_width"
+                android:layout_height="@dimen/bookReadSoundControleButton_width"
+                app:srcCompat="@drawable/ic_pause_circle_outline_white_24dp"
+                android:onClick="onClickBookReadPauseSound"
+                android:background="@null"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_margin="@dimen/bookReadSoundControleButton_margin"
+                />
+
+            <ImageButton
+                android:id="@+id/bookReadSpeedDownSoundButton"
+                android:layout_width="@dimen/bookReadSoundControleButton_width"
+                android:layout_height="@dimen/bookReadSoundControleButton_width"
+                app:srcCompat="@drawable/ic_fast_rewind_white_24dp"
+                android:onClick="onClickBookReadSpeedDownSound"
+                android:background="@null"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_margin="@dimen/bookReadSoundControleButton_margin"
+                />
+
+            <ImageButton
+                android:id="@+id/bookReadSpeedUpSoundButton"
+                android:layout_width="@dimen/bookReadSoundControleButton_width"
+                android:layout_height="@dimen/bookReadSoundControleButton_width"
+                app:srcCompat="@drawable/ic_fast_forward_white_24dp"
+                android:onClick="onClickBookReadSpeedUpSound"
+                android:background="@null"
+                android:adjustViewBounds="true"
+                android:scaleType="fitCenter"
+                android:layout_margin="@dimen/bookReadSoundControleButton_margin"
+                />
+
+            <TextView
+                android:id="@+id/bookReadSppedText"
+                android:layout_width="@dimen/bookReadSoundControleButton_width"
+                android:layout_height="@dimen/bookReadSoundControleButton_width"
+                android:text="1.00"
+                android:textSize="20dp"
+                android:gravity="center_vertical"
+                android:textColor="#ffffff"
+                android:layout_margin="@dimen/bookReadSoundControleButton_margin"
+                />
+
+        </LinearLayout>
+
+    </FrameLayout>
 
 </FrameLayout>

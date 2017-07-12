@@ -56,16 +56,17 @@ public final class UtAbc {
     }
 
     public static final String getAbcHeader() {
-        return getAbcHeader("C treble");
+        return getAbcHeader("C treble", 100);
     }
 
-    public static final String getAbcHeader(String key) {
+    public static final String getAbcHeader(String key, int tempo) {
         return
                 "I:abc-charset utf-8" + NEW_LINE +
                 "X:1" + NEW_LINE +
                 "T:" + NEW_LINE +
                 "M:4/4" + NEW_LINE +
                 "L:1/8" + NEW_LINE +
+                "Q:1/4=" + tempo + NEW_LINE +
                 "K:" + key + NEW_LINE;
     }
 

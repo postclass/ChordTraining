@@ -1,6 +1,7 @@
 package jp.postclass.chordtraining.activity;
 
 import android.content.Intent;
+import android.media.AudioManager;
 import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -34,6 +35,8 @@ public class Qa1Activity extends AppCompatActivity {
         } else {
             throw new ApplicationRuntimeException("illegal state : category : " + Globals.category);
         }
+
+        setVolumeControlStream(AudioManager.STREAM_MUSIC);
     }
 
     @Override

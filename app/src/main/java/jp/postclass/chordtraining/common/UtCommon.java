@@ -12,6 +12,8 @@ import java.io.InputStreamReader;
 import java.io.StringReader;
 import java.io.UnsupportedEncodingException;
 import java.nio.CharBuffer;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
@@ -25,6 +27,11 @@ import jp.postclass.chordtraining.Exception.ApplicationRuntimeException;
  */
 
 public final class UtCommon {
+
+    public static String decimalFormat(double n, String formatString) {
+        DecimalFormat decimalFormat = new DecimalFormat(formatString);
+        return decimalFormat.format(n);
+    }
 
     public static int loadSound(
             SoundPool soundPool,

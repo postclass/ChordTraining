@@ -95,7 +95,7 @@ public class ReferenceChordDegreeHtmlGenerator {
             chordLabel = chordLabel.replace("sh", "#");
 
             result += "<td><span>" + digreeName + "(" + chordLabel + ")" + "</span><br/>";
-            result += "<img src='" + "../" + UtCommon.getChordPath(chordName) + "_001.svg' width='120' height='120'></td>";
+            result += "<img src='" + "../" + UtCommon.getChordPath(chordName) + "_001.svg'></td>";
         }
 
         result += "</tr>" + newLine;

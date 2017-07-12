@@ -111,7 +111,7 @@ public class ChordMakeGenerator {
     }
 
     private String getSvgString(String chord) {
-        return psPath + " -v " + chord + ".abc -O " + chord + "_.svg" + newLine;
+        return psPath + " -g " + chord + ".abc -O " + chord + "_.svg -w 3cm" + newLine;
     }
 
     private String getMdString(String chord) {

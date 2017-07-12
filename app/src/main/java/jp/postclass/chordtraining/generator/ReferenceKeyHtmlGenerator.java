@@ -83,7 +83,7 @@ public class ReferenceKeyHtmlGenerator {
         }
 
         String result = "<td><span>" +  key.replace("sh", "#") + "</span><br/>";
-        result += "<img src='" +"../tone/" + keymode + "/tone_" + key + "_svg001.svg' width='120' height='120'></td>" + newLine;
+        result += "<img src='" +"../tone/" + keymode + "/tone_" + key + "_svg001.svg'></td>" + newLine;
         return result;
     }
 

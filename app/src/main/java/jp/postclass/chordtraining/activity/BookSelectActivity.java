@@ -74,7 +74,7 @@ public class BookSelectActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 selectedPiece = selectedComposer.getPiece(i);
-                Globals.bookReadUrl = "file:///android_asset/book/" + selectedComposer.getValue() + "/" + selectedPiece.getValue() + ".html";
+                Globals.bookReadUrl = "file:///android_asset/book/" + selectedComposer.getValue() + "/" + selectedPiece.getValue() + "_001.svg";
                 Globals.bookSoundUrl = "book/" + selectedComposer.getValue() + "/" + selectedPiece.getValue() + ".mid";
                 Intent intent = new Intent(getApplication(), BookReadActivity.class);
                 startActivity(intent);
