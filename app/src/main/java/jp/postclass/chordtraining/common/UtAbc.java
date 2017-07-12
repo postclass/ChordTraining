@@ -59,15 +59,20 @@ public final class UtAbc {
         return getAbcHeader("C treble", 100);
     }
 
-    public static final String getAbcHeader(String key, int tempo) {
-        return
+    public static final String getAbcHeader(String key, Integer tempo) {
+        String result =
                 "I:abc-charset utf-8" + NEW_LINE +
                 "X:1" + NEW_LINE +
                 "T:" + NEW_LINE +
                 "M:4/4" + NEW_LINE +
                 "L:1/8" + NEW_LINE +
-                "Q:1/4=" + tempo + NEW_LINE +
                 "K:" + key + NEW_LINE;
+
+        if (tempo != null) {
+            result += "Q:1/4=" + tempo + NEW_LINE;
+        }
+
+        return result;
     }
 
     public static String getChordAbc(String chordConstants) {

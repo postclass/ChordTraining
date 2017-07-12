@@ -175,9 +175,17 @@ public class BookBillGoodByeHtmlGenerator {
         chordAbc += "| \n";
         chordAbc += UtAbc.getChordAbc(ChordConstants.CHORD_Am__Am7b5, 8);
 
-        String abc = UtAbc.getAbcHeader() + chordAbc;
+        try (FileOutputStream outputStream = new FileOutputStream(new File(baseDir, "good_bye_mid.abc"))) {
+            try (OutputStreamWriter writer = new OutputStreamWriter(outputStream, "utf-8")) {
+                String noChordAbd = chordAbc.replaceAll("\".*?\"", "");
+                writer.write(UtAbc.getAbcHeader() + noChordAbd);
+                writer.flush();
+            }
+        }
 
-        try (FileOutputStream outputStream = new FileOutputStream(new File(baseDir, "good_bye.abc"))) {
+        String abc = UtAbc.getAbcHeader("C treble", null) + chordAbc;
+
+        try (FileOutputStream outputStream = new FileOutputStream(new File(baseDir, "good_bye_svg.abc"))) {
             try (OutputStreamWriter writer = new OutputStreamWriter(outputStream, "utf-8")) {
                 writer.write(abc);
                 writer.flush();

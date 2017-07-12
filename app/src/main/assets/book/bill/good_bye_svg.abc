@@ -1,13 +1,3 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link href="../../abcjs/abcjs-midi.css" media="all" rel="stylesheet" type="text/css" />
-	<script src="../../abcjs/abcjs_basic_3.1.2-min.js" type="text/javascript"></script>
-</head>
-<body>
-<div class="score">
 I:abc-charset utf-8
 X:1
 T:
@@ -34,13 +24,3 @@ z2 z2 "G7b5"[GB_df]2 "C7/+9"[CEG_B^d]2 | "Fm7"[F_Ac_e]2 "B7/9"[B,^D^FA^c]2 "Bb7s
 "Em7"[EGBd]6 "Em"[EGB]2 | "C#m7b5"[^CEGB]4 "F#7"[^F^A^ce]4 | 
 "Bm7b5"[B,DFA]4 "E7"[E^GBd]4 | "Bbm7b5"[_B,_D_F_A]4 "Eb7"[_EG_B_d]4 | 
 "Am7b5"[A,C_EG]8 
-</div>
-<script>
-	var scoreObj = document.getElementsByClassName("score");
-	for( var i in scoreObj ){
-		ABCJS.renderAbc( scoreObj[i], scoreObj[i].innerHTML );
-	}
-</script>
-
-</body>
-</html>

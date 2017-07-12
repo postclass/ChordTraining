@@ -1,0 +1,27 @@
+I:abc-charset utf-8
+X:1
+T:
+M:4/4
+L:1/8
+K:C treble
+Q:1/4=100
+z2 z2 [GB_df]2 [CEG_B^d]2 | [F_Ac_e]2 [B,^D^FA^c]2 [_B,_EF_Ac]2 [EGBd]2 | [_EG_Bd]3 [A,^CEGB]1 [_A,C_EG]4 | 
+[DF_Ac]4 [GBdf_a]2 [_DF_A_c_eg]2 | [C_EG_B]4 [GB_df]2 [CEG_B^d]2 | [F_Ac_e]3 [B,^D^FA^c^e^g]1 [_B,_EF_A]3 [E^GBd^f^a^c']1 | 
+[_EG_Bd]3 [A,^CEG]1 [_A,C_EG]4 | [DF_Ac]4 [GBdf_a]4 | [C_EG_Bd]4 [_EG_Bd]4 | 
+[_A,C_EG]4 [_EG_B]4 | [F_Ac_eg]2 [_EG_Bc]2 [_A,C_EG]2 [GBdf_a]2 | [C_EG_B]4 [C_EG]4 | 
+[A,C_EG]8 | [D^FAce]8 | [CEGB]4 [D^FAc]4 | 
+[B,DFA]4 [E^GBd^^f]4 | [A,CEGB]4 [A,CE^G]2 [A,CEG]2 | 
+[^FAce]4 [CEG_Ba]2 [B,^D^FA^g]2 | [EGB]4 [EGB]4 | 
+[^CEGB]4 [^F^A^ce]4 | [B,DFA]4 [E^GBd]4 | [_B,_D_F_A]4 [_EG_B_d]4 | 
+[A,C_EG]4 [GBdf^a]2 [CEG_B^a]2 | 
+[F_Ac_eg]2 [FAc_e^g]2 [F_Ac_e]2 [_B,DF_Ag]2 | [_EG_Bcf]4 [_A,C_EG]4 | [DF_Ace]4 [GBdf_e']4 | 
+[C_EGAd]4 [GBdf_e']2 [CEG_B^d]2 | [F_Ac_eg]2 [FAc_e^g]2 [F_Ac_eg]2 [_B,DF_Ag]2 | 
+[_EG_Bc]4 [_A,C_EG]4 | [_DF_Ac]4 [GBdf_e']4 | 
+[C_EGAd]8 | [_A,C_EG]4 [G_Bdfa]4 | 
+[F_Ac_eg]6 [GBdf_e']2 | [C_EGAd]8 | 
+[A,C_EG]8 | [D^FAcB_egb]8 | 
+[A,CEG]4 [D^FAc]4 | [B,DFA]4 [B,DFA]2 [D^FAc^e]2 | 
+[A,CEGB]8 | [^FAce]4 [CEG_Ba]2 [B,^D^FA^g]2 | 
+[EGBd]6 [EGB]2 | [^CEGB]4 [^F^A^ce]4 | 
+[B,DFA]4 [E^GBd]4 | [_B,_D_F_A]4 [_EG_B_d]4 | 
+[A,C_EG]8 
