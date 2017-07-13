@@ -9,22 +9,177 @@
         android:positiveButtonText="@null"
         android:title="@string/pref_tone_keymode_title" />
 
-    <SwitchPreference
-        android:defaultValue="true"
-        android:key="pref.tone.includeHigh"
-        android:summary="@string/pref_tone_includeHigh_description"
-        android:title="@string/pref_tone_includeHigh_title" />
+    <!--<SwitchPreference-->
+        <!--android:defaultValue="true"-->
+        <!--android:key="pref.tone.includeHigh"-->
+        <!--android:summary="@string/pref_tone_includeHigh_description"-->
+        <!--android:title="@string/pref_tone_includeHigh_title" />-->
 
-    <SwitchPreference
-        android:defaultValue="true"
-        android:key="pref.tone.includeMiddle"
-        android:summary="@string/pref_tone_includeMiddle_description"
-        android:title="@string/pref_tone_includeMiddle_title" />
+    <!--<SwitchPreference-->
+        <!--android:defaultValue="true"-->
+        <!--android:key="pref.tone.includeMiddle"-->
+        <!--android:summary="@string/pref_tone_includeMiddle_description"-->
+        <!--android:title="@string/pref_tone_includeMiddle_title" />-->
 
-    <SwitchPreference
-        android:defaultValue="true"
-        android:key="pref.tone.includeLow"
-        android:summary="@string/pref_tone_includeLow_description"
-        android:title="@string/pref_tone_includeLow_title" />
+    <!--<SwitchPreference-->
+        <!--android:defaultValue="true"-->
+        <!--android:key="pref.tone.includeLow"-->
+        <!--android:summary="@string/pref_tone_includeLow_description"-->
+        <!--android:title="@string/pref_tone_includeLow_title" />-->
+
+    <PreferenceCategory android:key="pref.tone.category.major">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Csh"
+            android:title="@string/key_name_Csh" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Fsh"
+            android:title="@string/key_name_Fsh" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.B"
+            android:title="@string/key_name_B" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.E"
+            android:title="@string/key_name_E" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.A"
+            android:title="@string/key_name_A" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.D"
+            android:title="@string/key_name_D" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.G"
+            android:title="@string/key_name_G" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.C"
+            android:title="@string/key_name_C" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.F"
+            android:title="@string/key_name_F" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Bb"
+            android:title="@string/key_name_Bb" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Eb"
+            android:title="@string/key_name_Eb" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Ab"
+            android:title="@string/key_name_Ab" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Db"
+            android:title="@string/key_name_Db" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Gb"
+            android:title="@string/key_name_Gb" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Cb"
+            android:title="@string/key_name_Cb" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:key="pref.tone.category.minor">
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Ashm"
+            android:title="@string/key_name_Ashm" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Dshm"
+            android:title="@string/key_name_Dshm" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Gshm"
+            android:title="@string/key_name_Gshm" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Cshm"
+            android:title="@string/key_name_Cshm" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Fshm"
+            android:title="@string/key_name_Fshm" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Bm"
+            android:title="@string/key_name_Bm" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Em"
+            android:title="@string/key_name_Em" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Am"
+            android:title="@string/key_name_Am" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Dm"
+            android:title="@string/key_name_Dm" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Gm"
+            android:title="@string/key_name_Gm" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Cm"
+            android:title="@string/key_name_Cm" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Fm"
+            android:title="@string/key_name_Fm" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Bbm"
+            android:title="@string/key_name_Bbm" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Ebm"
+            android:title="@string/key_name_Ebm" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pref.tone.Abm"
+            android:title="@string/key_name_Abm" />
+    </PreferenceCategory>
 
 </PreferenceScreen>

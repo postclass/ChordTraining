@@ -28,9 +28,9 @@ public class ToneActivityHelper extends Qa1ActivityHelper {
     private Map<Integer, String> noTonenameMap = new HashMap<>();
 
     private String keymode;
-    private boolean includeHigh;
-    private boolean includeMiddle;
-    private boolean includeLow;
+//    private boolean includeHigh;
+//    private boolean includeMiddle;
+//    private boolean includeLow;
 
     public ToneActivityHelper(Qa1Activity activity) {
         super(activity);
@@ -39,11 +39,47 @@ public class ToneActivityHelper extends Qa1ActivityHelper {
     @Override
     protected void init() {
         this.keymode = preferences.getString(Constants.PREF_TONE_KEYMODE, Constants.KEYMODE_MAJOR);
-        this.includeHigh = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_HIGH, true);
-        this.includeMiddle = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_MIDDLE, true);
-        this.includeLow = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_LOW, true);
+//        this.includeHigh = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_HIGH, true);
+//        this.includeMiddle = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_MIDDLE, true);
+//        this.includeLow = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_LOW, true);
 
-        this.highestScorePrefKeySuffix = "_" + this.keymode + this.includeHigh + this.includeMiddle + this.includeLow + this.countDownSecond;
+        this.highestScorePrefKeySuffix = "_" + this.keymode + this.countDownSecond;
+        if (Constants.KEYMODE_MAJOR.equals(this.keymode)) {
+            this.highestScorePrefKeySuffix += "" + preferences.getBoolean("pref.tone." + Constants.KEY_Csh, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Fsh, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_B, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_E, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_A, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_D, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_G, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_C, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_F, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Bb, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Eb, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Ab, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Db, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Gb, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Cb, true);
+        } else {
+            this.highestScorePrefKeySuffix += "" + preferences.getBoolean("pref.tone." + Constants.KEY_Ashm, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Dshm, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Gshm, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Cshm, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Fshm, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Bm, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Em, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Am, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Dm, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Gm, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Cm, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Fm, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Bbm, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Ebm, true)
+                    + preferences.getBoolean("pref.tone." + Constants.KEY_Abm, true);
+        }
+
+
+
         this.highestScore = preferences.getInt(Constants.DATA_TONE_HIGHESTSCORE + this.highestScorePrefKeySuffix, 0);
         this.highestScoreDate = preferences.getString(Constants.DATA_TONE_HIGHESTSCORE_DATE + this.highestScorePrefKeySuffix, "");
 
@@ -58,49 +94,97 @@ public class ToneActivityHelper extends Qa1ActivityHelper {
         int tmpToneNo = 0;
 
         if (Constants.KEYMODE_MAJOR.equals(this.keymode)) {
-            if (this.includeHigh) {
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Csh, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Csh);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Fsh, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Fsh);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_B, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_B);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_E, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_E);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_A, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_A);
             }
-            if (this.includeMiddle) {
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_D, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_D);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_G, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_G);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_C, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_C);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_F, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_F);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Bb, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Bb);
             }
-            if (this.includeLow) {
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Eb, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Eb);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Ab, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Ab);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Db, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Db);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Gb, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Gb);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Cb, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Cb);
             }
         }
 
         if (Constants.KEYMODE_MINOR.equals(this.keymode)) {
-            if (this.includeHigh) {
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Ashm, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Ashm);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Dshm, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Dshm);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Gshm, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Gshm);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Cshm, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Cshm);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Fshm, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Fshm);
             }
-            if (this.includeMiddle) {
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Bm, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Bm);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Em, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Em);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Am, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Am);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Dm, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Dm);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Gm, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Gm);
             }
-            if (this.includeLow) {
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Cm, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Cm);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Fm, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Fm);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Bbm, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Bbm);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Ebm, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Ebm);
+            }
+            if (preferences.getBoolean("pref.tone." + Constants.KEY_Abm, true)) {
                 this.noTonenameMap.put(tmpToneNo++, Constants.KEY_Abm);
             }
         }

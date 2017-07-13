@@ -75,9 +75,11 @@ public final class Constants {
 
     public static final String PREF_COMMON_COUNTDOWN_SECOND = "pref.common.countdown.second";
     public static final String PREF_TONE_KEYMODE = "pref.tone.keymode";
-    public static final String PREF_TONE_INCLUDE_HIGH = "pref.tone.includeHigh";
-    public static final String PREF_TONE_INCLUDE_MIDDLE = "pref.tone.includeMiddle";
-    public static final String PREF_TONE_INCLUDE_LOW = "pref.tone.includeLow";
+    public static final String PREF_TONE_CATEGORY_MAJOR = "pref.tone.category.major";
+    public static final String PREF_TONE_CATEGORY_MINOR = "pref.tone.category.minor";
+//    public static final String PREF_TONE_INCLUDE_HIGH = "pref.tone.includeHigh";
+//    public static final String PREF_TONE_INCLUDE_MIDDLE = "pref.tone.includeMiddle";
+//    public static final String PREF_TONE_INCLUDE_LOW = "pref.tone.includeLow";
     public static final String PREF_CHORD_ROOT_A = "pref.chord.root.A";
     public static final String PREF_CHORD_ROOT_Am = "pref.chord.root.Am";
     public static final String PREF_CHORD_ROOT_B = "pref.chord.root.B";

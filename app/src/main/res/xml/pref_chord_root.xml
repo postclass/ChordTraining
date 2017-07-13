@@ -78,7 +78,8 @@
 
 
     <PreferenceCategory
-        android:title="@string/pref_chord_category_variation">
+        android:title="@string/pref_chord_category_variation"
+        android:key="pref.chord.root.category.variation">
 
         <CheckBoxPreference
             android:defaultValue="false"

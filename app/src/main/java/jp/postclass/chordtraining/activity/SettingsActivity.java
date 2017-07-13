@@ -15,6 +15,7 @@ import android.os.Bundle;
 import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
+import android.preference.PreferenceCategory;
 import android.preference.PreferenceFragment;
 import android.preference.PreferenceManager;
 import android.preference.RingtonePreference;
@@ -214,33 +215,8 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     public static class TonePreferenceFragment extends PreferenceFragment {
 
-        private Preference.OnPreferenceChangeListener includeChangeListener = new Preference.OnPreferenceChangeListener() {
-            @Override
-            public boolean onPreferenceChange(Preference preference, Object newValue) {
-
-                SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
-                boolean high = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_HIGH, false);
-                boolean middle = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_MIDDLE, false);
-                boolean low = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_LOW, false);
-
-                switch (preference.getKey()) {
-                    case Constants.PREF_TONE_INCLUDE_HIGH:
-                        high = (boolean) newValue;
-                        break;
-                    case Constants.PREF_TONE_INCLUDE_MIDDLE:
-                        middle = (boolean) newValue;
-                        break;
-                    case Constants.PREF_TONE_INCLUDE_LOW:
-                        low = (boolean) newValue;
-                        break;
-                    default:
-                        throw new ApplicationRuntimeException(preference.getKey());
-                }
-
-                return validateRequiredAnyFlag(getContext(), high, middle, low);
-            }
-        };
-
+        private PreferenceCategory categoryMajor;
+        private PreferenceCategory categoryMinor;
 
         @Override
         public void onCreate(Bundle savedInstanceState) {
@@ -249,10 +225,65 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             setHasOptionsMenu(true);
             bindPreferenceSummaryToValue(findPreference(Constants.PREF_TONE_KEYMODE));
 
-            findPreference(Constants.PREF_TONE_INCLUDE_HIGH).setOnPreferenceChangeListener(includeChangeListener);
-            findPreference(Constants.PREF_TONE_INCLUDE_MIDDLE).setOnPreferenceChangeListener(includeChangeListener);
-            findPreference(Constants.PREF_TONE_INCLUDE_LOW).setOnPreferenceChangeListener(includeChangeListener);
+            categoryMajor = (PreferenceCategory) findPreference(Constants.PREF_TONE_CATEGORY_MAJOR);
+            categoryMinor = (PreferenceCategory) findPreference(Constants.PREF_TONE_CATEGORY_MINOR);
+//
+//            findPreference(Constants.PREF_TONE_INCLUDE_HIGH).setOnPreferenceChangeListener(includeChangeListener);
+//            findPreference(Constants.PREF_TONE_INCLUDE_MIDDLE).setOnPreferenceChangeListener(includeChangeListener);
+//            findPreference(Constants.PREF_TONE_INCLUDE_LOW).setOnPreferenceChangeListener(includeChangeListener);
+
+            findPreference(Constants.PREF_TONE_KEYMODE).setOnPreferenceChangeListener(keymodeChangeListener);
+
+            SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
+            changeKeyMode(preferences.getString(Constants.PREF_TONE_KEYMODE, Constants.KEYMODE_MAJOR));
         }
+
+        private void changeKeyMode(String keymode) {
+            if (Constants.KEYMODE_MAJOR.equals(keymode)) {
+                getPreferenceScreen().addPreference(categoryMajor);
+                getPreferenceScreen().removePreference(categoryMinor);
+            } else {
+                getPreferenceScreen().addPreference(categoryMinor);
+                getPreferenceScreen().removePreference(categoryMajor);
+            }
+        }
+
+//
+//        private Preference.OnPreferenceChangeListener includeChangeListener = new Preference.OnPreferenceChangeListener() {
+//            @Override
+//            public boolean onPreferenceChange(Preference preference, Object newValue) {
+//
+//                SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
+//                boolean high = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_HIGH, false);
+//                boolean middle = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_MIDDLE, false);
+//                boolean low = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_LOW, false);
+//
+//                switch (preference.getKey()) {
+//                    case Constants.PREF_TONE_INCLUDE_HIGH:
+//                        high = (boolean) newValue;
+//                        break;
+//                    case Constants.PREF_TONE_INCLUDE_MIDDLE:
+//                        middle = (boolean) newValue;
+//                        break;
+//                    case Constants.PREF_TONE_INCLUDE_LOW:
+//                        low = (boolean) newValue;
+//                        break;
+//                    default:
+//                        throw new ApplicationRuntimeException(preference.getKey());
+//                }
+//
+//                return validateRequiredAnyFlag(getContext(), high, middle, low);
+//            }
+//        };
+
+        private Preference.OnPreferenceChangeListener keymodeChangeListener = new Preference.OnPreferenceChangeListener() {
+            @Override
+            public boolean onPreferenceChange(Preference preference, Object newValue) {
+                changeKeyMode((String) newValue);
+
+                return sBindPreferenceSummaryToValueListener.onPreferenceChange(preference, newValue);
+            }
+        };
 
         @Override
         public boolean onOptionsItemSelected(MenuItem item) {
@@ -273,6 +304,8 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
      */
     @TargetApi(Build.VERSION_CODES.HONEYCOMB)
     public static class ChordRootPreferenceFragment extends PreferenceFragment {
+
+        private PreferenceCategory categoryVariation;
 
         private Preference.OnPreferenceChangeListener rootChangeListener = new Preference.OnPreferenceChangeListener() {
             @Override
@@ -366,6 +399,8 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             findPreference(Constants.PREF_CHORD_ROOT_Fm).setOnPreferenceChangeListener(rootChangeListener);
             findPreference(Constants.PREF_CHORD_ROOT_G).setOnPreferenceChangeListener(rootChangeListener);
             findPreference(Constants.PREF_CHORD_ROOT_Gm).setOnPreferenceChangeListener(rootChangeListener);
+
+            categoryVariation = (PreferenceCategory) findPreference("pref.chord.root.category.variation");
         }
 
         @Override
