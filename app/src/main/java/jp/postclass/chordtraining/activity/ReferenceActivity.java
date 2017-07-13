@@ -57,10 +57,10 @@ public class ReferenceActivity extends AppCompatActivity {
         @Override
         public void run() {
             // Delayed display of UI elements
-            ActionBar actionBar = getSupportActionBar();
-            if (actionBar != null) {
-                actionBar.show();
-            }
+//            ActionBar actionBar = getSupportActionBar();
+//            if (actionBar != null) {
+//                actionBar.show();
+//            }
             mControlsView.setVisibility(View.VISIBLE);
         }
     };
@@ -115,6 +115,11 @@ public class ReferenceActivity extends AppCompatActivity {
                 toggle();
             }
         });
+
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.hide();
+        }
 
         // Upon interacting with UI controls, delay any scheduled hide()
         // operations to prevent the jarring behavior of controls going away

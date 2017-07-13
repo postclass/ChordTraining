@@ -87,6 +87,11 @@ public class BookReadActivity extends AppCompatActivity {
             }
         });
 
+        ActionBar actionBar = getSupportActionBar();
+        if (actionBar != null) {
+            actionBar.hide();
+        }
+
         hide();
     }
 
@@ -139,10 +144,10 @@ public class BookReadActivity extends AppCompatActivity {
         @Override
         public void run() {
             // Delayed display of UI elements
-            ActionBar actionBar = getSupportActionBar();
-            if (actionBar != null) {
-                actionBar.show();
-            }
+//            ActionBar actionBar = getSupportActionBar();
+//            if (actionBar != null) {
+//                actionBar.show();
+//            }
             mControlsView.setVisibility(View.VISIBLE);
         }
     };

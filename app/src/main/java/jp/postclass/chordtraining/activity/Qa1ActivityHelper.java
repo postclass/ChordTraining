@@ -77,7 +77,7 @@ public abstract class Qa1ActivityHelper extends ActivityHelper {
         this.webView = (WebView) findViewById(R.id.qa1WebView);
         this.textViewCountDown = (TextView) findViewById(R.id.qa1TextViewCountDown);
 
-        webView.setInitialScale(600);
+        webView.setInitialScale(500);
 
         this.correctImageView = new ImageView(getApplicationContext());
         this.correctImageView.setImageDrawable(getResources().getDrawable(R.drawable.ic_correct, getTheme()));
