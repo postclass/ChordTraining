@@ -7,7 +7,7 @@ android {
         applicationId "jp.postclass.chordtraining"
         minSdkVersion 23
         targetSdkVersion 23
-        versionCode 43
+        versionCode 44
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }

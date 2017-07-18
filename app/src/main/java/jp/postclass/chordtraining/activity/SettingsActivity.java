@@ -227,12 +227,39 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
 
             categoryMajor = (PreferenceCategory) findPreference(Constants.PREF_TONE_CATEGORY_MAJOR);
             categoryMinor = (PreferenceCategory) findPreference(Constants.PREF_TONE_CATEGORY_MINOR);
-//
-//            findPreference(Constants.PREF_TONE_INCLUDE_HIGH).setOnPreferenceChangeListener(includeChangeListener);
-//            findPreference(Constants.PREF_TONE_INCLUDE_MIDDLE).setOnPreferenceChangeListener(includeChangeListener);
-//            findPreference(Constants.PREF_TONE_INCLUDE_LOW).setOnPreferenceChangeListener(includeChangeListener);
 
             findPreference(Constants.PREF_TONE_KEYMODE).setOnPreferenceChangeListener(keymodeChangeListener);
+
+            findPreference(Constants.PREF_TONE_Csh).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Fsh).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_B).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_E).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_A).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_D).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_G).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_C).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_F).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Bb).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Eb).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Ab).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Db).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Gb).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Cb).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Ashm).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Dshm).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Gshm).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Cshm).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Fshm).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Bm).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Em).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Am).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Dm).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Gm).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Cm).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Fm).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Bbm).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Ebm).setOnPreferenceChangeListener(includeChangeListener);
+            findPreference(Constants.PREF_TONE_Abm).setOnPreferenceChangeListener(includeChangeListener);
 
             SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
             changeKeyMode(preferences.getString(Constants.PREF_TONE_KEYMODE, Constants.KEYMODE_MAJOR));
@@ -248,35 +275,148 @@ public class SettingsActivity extends AppCompatPreferenceActivity {
             }
         }
 
-//
-//        private Preference.OnPreferenceChangeListener includeChangeListener = new Preference.OnPreferenceChangeListener() {
-//            @Override
-//            public boolean onPreferenceChange(Preference preference, Object newValue) {
-//
-//                SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
-//                boolean high = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_HIGH, false);
-//                boolean middle = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_MIDDLE, false);
-//                boolean low = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_LOW, false);
-//
-//                switch (preference.getKey()) {
-//                    case Constants.PREF_TONE_INCLUDE_HIGH:
-//                        high = (boolean) newValue;
-//                        break;
-//                    case Constants.PREF_TONE_INCLUDE_MIDDLE:
-//                        middle = (boolean) newValue;
-//                        break;
-//                    case Constants.PREF_TONE_INCLUDE_LOW:
-//                        low = (boolean) newValue;
-//                        break;
-//                    default:
-//                        throw new ApplicationRuntimeException(preference.getKey());
-//                }
-//
-//                return validateRequiredAnyFlag(getContext(), high, middle, low);
-//            }
-//        };
 
-        private Preference.OnPreferenceChangeListener keymodeChangeListener = new Preference.OnPreferenceChangeListener() {
+        private Preference.OnPreferenceChangeListener includeChangeListener = new Preference.OnPreferenceChangeListener() {
+            @Override
+            public boolean onPreferenceChange(Preference preference, Object newValue) {
+
+                SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(getContext());
+
+                boolean keyCsh = preferences.getBoolean(Constants.PREF_TONE_Csh, true);
+                boolean keyFsh = preferences.getBoolean(Constants.PREF_TONE_Fsh, true);
+                boolean keyB = preferences.getBoolean(Constants.PREF_TONE_B, true);
+                boolean keyE = preferences.getBoolean(Constants.PREF_TONE_E, true);
+                boolean keyA = preferences.getBoolean(Constants.PREF_TONE_A, true);
+                boolean keyD = preferences.getBoolean(Constants.PREF_TONE_D, true);
+                boolean keyG = preferences.getBoolean(Constants.PREF_TONE_G, true);
+                boolean keyC = preferences.getBoolean(Constants.PREF_TONE_C, true);
+                boolean keyF = preferences.getBoolean(Constants.PREF_TONE_F, true);
+                boolean keyBb = preferences.getBoolean(Constants.PREF_TONE_Bb, true);
+                boolean keyEb = preferences.getBoolean(Constants.PREF_TONE_Eb, true);
+                boolean keyAb = preferences.getBoolean(Constants.PREF_TONE_Ab, true);
+                boolean keyDb = preferences.getBoolean(Constants.PREF_TONE_Db, true);
+                boolean keyGb = preferences.getBoolean(Constants.PREF_TONE_Gb, true);
+                boolean keyCb = preferences.getBoolean(Constants.PREF_TONE_Cb, true);
+
+                boolean keyAshm = preferences.getBoolean(Constants.PREF_TONE_Ashm, true);
+                boolean keyDshm = preferences.getBoolean(Constants.PREF_TONE_Dshm, true);
+                boolean keyGshm = preferences.getBoolean(Constants.PREF_TONE_Gshm, true);
+                boolean keyCshm = preferences.getBoolean(Constants.PREF_TONE_Cshm, true);
+                boolean keyFshm = preferences.getBoolean(Constants.PREF_TONE_Fshm, true);
+                boolean keyBm = preferences.getBoolean(Constants.PREF_TONE_Bm, true);
+                boolean keyEm = preferences.getBoolean(Constants.PREF_TONE_Em, true);
+                boolean keyAm = preferences.getBoolean(Constants.PREF_TONE_Am, true);
+                boolean keyDm = preferences.getBoolean(Constants.PREF_TONE_Dm, true);
+                boolean keyGm = preferences.getBoolean(Constants.PREF_TONE_Gm, true);
+                boolean keyCm = preferences.getBoolean(Constants.PREF_TONE_Cm, true);
+                boolean keyFm = preferences.getBoolean(Constants.PREF_TONE_Fm, true);
+                boolean keyBbm = preferences.getBoolean(Constants.PREF_TONE_Bbm, true);
+                boolean keyEbm = preferences.getBoolean(Constants.PREF_TONE_Ebm, true);
+                boolean keyAbm = preferences.getBoolean(Constants.PREF_TONE_Abm, true);
+
+                switch (preference.getKey()) {
+                    case Constants.PREF_TONE_Csh:
+                        keyCsh = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Fsh:
+                        keyFsh = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_B:
+                        keyB = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_E:
+                        keyE = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_A:
+                        keyA = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_D:
+                        keyD = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_G:
+                        keyG = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_C:
+                        keyC = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_F:
+                        keyF = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Bb:
+                        keyBb = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Eb:
+                        keyEb = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Ab:
+                        keyAb = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Db:
+                        keyDb = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Gb:
+                        keyGb = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Cb:
+                        keyCb = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Ashm:
+                        keyAshm = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Dshm:
+                        keyDshm = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Gshm:
+                        keyGshm = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Cshm:
+                        keyCshm = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Fshm:
+                        keyFshm = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Bm:
+                        keyBm = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Em:
+                        keyEm = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Am:
+                        keyAm = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Dm:
+                        keyDm = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Gm:
+                        keyGm = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Cm:
+                        keyCm = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Fm:
+                        keyFm = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Bbm:
+                        keyBbm = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Ebm:
+                        keyEbm = (boolean) newValue;
+                        break;
+                    case Constants.PREF_TONE_Abm:
+                        keyAbm = (boolean) newValue;
+                        break;
+                }
+
+                if (Constants.KEYMODE_MAJOR.equals(preferences.getString(Constants.PREF_TONE_KEYMODE, Constants.KEYMODE_MAJOR))) {
+                    return validateRequiredAnyFlag(getContext(), keyCsh, keyFsh, keyB, keyE, keyA, keyD, keyG, keyC, keyF, keyBb, keyEb, keyAb, keyDb, keyGb, keyCb);
+                } else {
+                    return validateRequiredAnyFlag(getContext(), keyAshm, keyDshm, keyGshm, keyCshm, keyFshm, keyBm, keyEm, keyAm, keyDm, keyGm, keyCm, keyFm, keyBbm, keyEbm, keyAbm);
+                }
+            }
+        };
+
+        private Preference.OnPreferenceChangeListener keymodeChangeListener =
+                new Preference.OnPreferenceChangeListener() {
             @Override
             public boolean onPreferenceChange(Preference preference, Object newValue) {
                 changeKeyMode((String) newValue);
