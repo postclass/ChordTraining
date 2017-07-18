@@ -8,6 +8,7 @@
     <string name="main_tone_button">Key</string>
     <string name="main_chord_root_button">Chord(Root)</string>
     <string name="main_chord_degree_button">Chord(Degree)</string>
+    <string name="main_scale_button">Scale</string>
     <string name="main_book_button">Book</string>
     <string name="main_reference_button">Reference</string>
 
@@ -26,12 +27,15 @@
     <string name="qa1_listen_collect">Listen collect sound.</string>
 
     <string name="tone_title">answer bellow key (%1$s)</string>
-    <string name="chord_root_title">Chord(root) training</string>
-    <string name="chord_degree_title">Chord(degree) training</string>
+    <string name="chord_root_title">Answer collect code</string>
+    <string name="chord_degree_title">Answer collect code</string>
+    <string name="scale_title">Answer collect scale</string>
 
     <string name="reference_key_button">Key</string>
     <string name="reference_degree_absolute_button">Degree</string>
     <string name="reference_scale_button">Scale</string>
+
+
 
 
     <!-- pref start -->

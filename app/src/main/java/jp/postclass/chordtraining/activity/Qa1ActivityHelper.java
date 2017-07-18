@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.SharedPreferences;
 import android.graphics.PixelFormat;
+import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AlertDialog;
 import android.view.Gravity;
@@ -77,7 +78,7 @@ public abstract class Qa1ActivityHelper extends ActivityHelper {
         this.webView = (WebView) findViewById(R.id.qa1WebView);
         this.textViewCountDown = (TextView) findViewById(R.id.qa1TextViewCountDown);
 
-        webView.setInitialScale(500);
+//        webView.setInitialScale(500);
 
         this.correctImageView = new ImageView(getApplicationContext());
         this.correctImageView.setImageDrawable(getResources().getDrawable(R.drawable.ic_correct, getTheme()));
@@ -97,9 +98,12 @@ public abstract class Qa1ActivityHelper extends ActivityHelper {
         this.correctImageViewLayoutParams.format  = PixelFormat.TRANSPARENT;
     }
 
+    protected void onCreate(Bundle savedInstanceState) {
+
+    }
+
     public void onResume() {
         this.countDownSecond = Integer.parseInt(preferences.getString(Constants.PREF_COMMON_COUNTDOWN_SECOND, "30"));
-        init();
     }
 
     public void onPause() {
@@ -240,9 +244,6 @@ public abstract class Qa1ActivityHelper extends ActivityHelper {
     public void onClickAnswer3(View view) {
         judge(view, this.answerNo3);
     }
-
-
-    abstract void init();
 
     abstract void onClickStart(View view);
 

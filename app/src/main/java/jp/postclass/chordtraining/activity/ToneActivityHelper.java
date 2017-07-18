@@ -9,6 +9,7 @@ import android.support.v7.app.ActionBar;
 import android.view.View;
 import android.widget.Button;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -17,6 +18,7 @@ import java.util.Map;
 import java.util.Timer;
 import java.util.TimerTask;
 
+import jp.postclass.chordtraining.Exception.ApplicationRuntimeException;
 import jp.postclass.chordtraining.R;
 import jp.postclass.chordtraining.common.Constants;
 import jp.postclass.chordtraining.common.UtCommon;
@@ -37,7 +39,9 @@ public class ToneActivityHelper extends Qa1ActivityHelper {
     }
 
     @Override
-    protected void init() {
+    public void onResume() {
+        super.onResume();
+
         this.keymode = preferences.getString(Constants.PREF_TONE_KEYMODE, Constants.KEYMODE_MAJOR);
 //        this.includeHigh = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_HIGH, true);
 //        this.includeMiddle = preferences.getBoolean(Constants.PREF_TONE_INCLUDE_MIDDLE, true);
@@ -283,7 +287,11 @@ public class ToneActivityHelper extends Qa1ActivityHelper {
         this.collectNo = getRandomNo(this.collectNo);
         String toneString = this.noTonenameMap.get(this.collectNo);
 
-        webView.loadUrl("file:///android_asset/tone/" + this.keymode + "/tone_" + toneString + "_svg001.svg");
+        try {
+            UtCommon.loadSvg(getResources().getAssets(), webView, "tone/" + this.keymode + "/tone_" + toneString + "_svg001.svg");
+        } catch (IOException e) {
+            throw new ApplicationRuntimeException(e);
+        }
 
         this.soundPool.play(this.soundPoolElements[this.collectNo], 1, 1, 0, 0, 1);
 

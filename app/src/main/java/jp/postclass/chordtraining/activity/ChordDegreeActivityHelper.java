@@ -8,6 +8,7 @@ import android.support.v7.app.ActionBar;
 import android.view.View;
 import android.widget.Button;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
@@ -36,7 +37,8 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
     }
 
     @Override
-    protected void init() {
+    public void onResume() {
+        super.onResume();
 
         this.key = preferences.getString(Constants.PREF_CHORD_KEY, Constants.KEY_C);
 
@@ -150,15 +152,6 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         super.onPause();
     }
 
-//    @Override
-//    public void onDestroy() {
-//        super.onDestroy();
-//
-//        this.soundPool.release();
-//        this.soundPool = null;
-//    }
-
-
     @Override
     public void onClickStart(View view) {
 
@@ -227,7 +220,11 @@ public class ChordDegreeActivityHelper extends Qa1ActivityHelper {
         this.collectNo = getRandomNo(this.collectNo);
         String chordName = this.noChordnameMap.get(this.collectNo);
 
-        webView.loadUrl("file:///android_asset/" + UtCommon.getChordPath(chordName) + "_001.svg");
+        try {
+            UtCommon.loadSvg(getResources().getAssets(), webView, UtCommon.getChordPath(chordName) + "_001.svg");
+        } catch (IOException e) {
+            throw new ApplicationRuntimeException(e);
+        }
 
         this.soundPool.play(this.soundPoolElements[this.collectNo], 1, 1, 0, 0, 1);
 

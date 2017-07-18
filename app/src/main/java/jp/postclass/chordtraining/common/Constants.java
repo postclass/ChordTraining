@@ -66,12 +66,17 @@ public final class Constants {
     public static final String CATEGORY_TONE = "tone";
     public static final String CATEGORY_CHORD_ROOT = "chord_root";
     public static final String CATEGORY_CHORD_DEGREE = "chord_degree";
+    public static final String CATEGORY_SCALE = "scale";
 
     public static final String DATA_TONE_HIGHESTSCORE = "data.tone.highestscore";
     public static final String DATA_TONE_HIGHESTSCORE_DATE = "data.tone.highestscore.date";
 
     public static final String DATA_CHORD_HIGHESTSCORE = "data.chord.highestscore";
     public static final String DATA_CHORD_HIGHESTSCORE_DATE = "data.chord.highestscore.date";
+
+    public static final String DATA_SCALE_HIGHESTSCORE = "data.scale.highestscore";
+    public static final String DATA_SCALE_HIGHESTSCORE_DATE = "data.scale.highestscore.date";
+
 
     public static final String PREF_COMMON_COUNTDOWN_SECOND = "pref.common.countdown.second";
     public static final String PREF_TONE_KEYMODE = "pref.tone.keymode";

@@ -55,6 +55,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onClickScale(View view) {
+        Globals.category = Constants.CATEGORY_SCALE;
+        Intent intent = new Intent(getApplication(), Qa1Activity.class);
+        startActivity(intent);
+    }
+
     public void onClickBook(View view) {
         Intent intent = new Intent(getApplication(), BookSelectActivity.class);
         startActivity(intent);

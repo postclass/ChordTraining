@@ -3,9 +3,11 @@ package jp.postclass.chordtraining.common;
 import android.content.res.AssetFileDescriptor;
 import android.content.res.AssetManager;
 import android.media.SoundPool;
+import android.webkit.WebView;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -83,6 +85,31 @@ public final class UtCommon {
         } catch (IOException e) {
             throw e;
         }
+    }
+
+    public static String readTemplate(
+            InputStream is,
+            Map<String, String> param) throws IOException {
+
+        String template = UtCommon.getStringFromStream(is);
+
+        for (String key : param.keySet()) {
+            template = template.replaceAll("%" + key + "%", param.get(key));
+        }
+
+        return template;
+    }
+
+    public static void loadSvg(AssetManager assetManager, WebView webView, String svgPath) throws IOException {
+        Map<String, String> templateParam = new HashMap<>();
+        templateParam.put("SVG_URL", svgPath);
+
+        webView.loadDataWithBaseURL(
+                "file:///android_asset/",
+                readTemplate(assetManager.open("template_svg.html"), templateParam),
+                "text/html",
+                "utf−8",
+                null);
     }
 
     public static String getChordLabel (String chordConstant) {

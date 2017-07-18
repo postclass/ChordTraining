@@ -25,6 +25,7 @@ public class Qa1Activity extends AppCompatActivity {
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
+        setVolumeControlStream(AudioManager.STREAM_MUSIC);
 
         if (Constants.CATEGORY_TONE.equals(Globals.category)) {
             this.helper = new ToneActivityHelper(this);
@@ -32,11 +33,13 @@ public class Qa1Activity extends AppCompatActivity {
             this.helper = new ChordRootActivityHelper(this);
         } else if (Constants.CATEGORY_CHORD_DEGREE.equals(Globals.category)) {
             this.helper = new ChordDegreeActivityHelper(this);
+        } else if (Constants.CATEGORY_SCALE.equals(Globals.category)) {
+            this.helper = new ScaleActivityHelper(this);
         } else {
             throw new ApplicationRuntimeException("illegal state : category : " + Globals.category);
         }
 
-        setVolumeControlStream(AudioManager.STREAM_MUSIC);
+        this.helper.onCreate(savedInstanceState);
     }
 
     @Override
