@@ -144,6 +144,25 @@ public final class Constants {
 
     public static final String PREF_CHORD_KEY = "pref.chord.key";
 
+    public static final String PREF_SCALE_major = "pref.scale." + SCALE_major;
+    public static final String PREF_SCALE_natural_minor = "pref.scale." + SCALE_natural_minor;
+    public static final String PREF_SCALE_harmonic_minor = "pref.scale." + SCALE_harmonic_minor;
+    public static final String PREF_SCALE_melodic_minor = "pref.scale." + SCALE_melodic_minor;
+    public static final String PREF_SCALE_major_2_dorian = "pref.scale." + SCALE_major_2_dorian;
+    public static final String PREF_SCALE_major_3_phrygian = "pref.scale." + SCALE_major_3_phrygian;
+    public static final String PREF_SCALE_major_4_lydian = "pref.scale." + SCALE_major_4_lydian;
+    public static final String PREF_SCALE_major_5_mixolydian = "pref.scale." + SCALE_major_5_mixolydian;
+    public static final String PREF_SCALE_major_6_aeolian = "pref.scale." + SCALE_major_6_aeolian;
+    public static final String PREF_SCALE_major_7_locrian = "pref.scale." + SCALE_major_7_locrian;
+    public static final String PREF_SCALE_melodic_minor_2_dorian_b2 = "pref.scale." + SCALE_melodic_minor_2_dorian_b2;
+    public static final String PREF_SCALE_melodic_minor_3_lydian_augmented = "pref.scale." + SCALE_melodic_minor_3_lydian_augmented;
+    public static final String PREF_SCALE_melodic_minor_4_lydian_dominant = "pref.scale." + SCALE_melodic_minor_4_lydian_dominant;
+    public static final String PREF_SCALE_melodic_minor_5_mixolydian_b6 = "pref.scale." + SCALE_melodic_minor_5_mixolydian_b6;
+    public static final String PREF_SCALE_melodic_minor_6_locrian_n2 = "pref.scale." + SCALE_melodic_minor_6_locrian_n2;
+    public static final String PREF_SCALE_melodic_minor_7_altered = "pref.scale." + SCALE_melodic_minor_7_altered;
+    public static final String PREF_SCALE_melodic_minor_acoustic = "pref.scale." + SCALE_melodic_minor_acoustic;
+    public static final String PREF_SCALE_blues = "pref.scale." + SCALE_blues;
+
 
     public static final int TENSION_NONE = 0;
     public static final int TENSION_NATURAL = 1;
