@@ -9,23 +9,6 @@
         android:positiveButtonText="@null"
         android:title="@string/pref_tone_keymode_title" />
 
-    <!--<SwitchPreference-->
-        <!--android:defaultValue="true"-->
-        <!--android:key="pref.tone.includeHigh"-->
-        <!--android:summary="@string/pref_tone_includeHigh_description"-->
-        <!--android:title="@string/pref_tone_includeHigh_title" />-->
-
-    <!--<SwitchPreference-->
-        <!--android:defaultValue="true"-->
-        <!--android:key="pref.tone.includeMiddle"-->
-        <!--android:summary="@string/pref_tone_includeMiddle_description"-->
-        <!--android:title="@string/pref_tone_includeMiddle_title" />-->
-
-    <!--<SwitchPreference-->
-        <!--android:defaultValue="true"-->
-        <!--android:key="pref.tone.includeLow"-->
-        <!--android:summary="@string/pref_tone_includeLow_description"-->
-        <!--android:title="@string/pref_tone_includeLow_title" />-->
 
     <PreferenceCategory android:key="pref.tone.category.major">
         <CheckBoxPreference

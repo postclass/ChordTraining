@@ -44,6 +44,7 @@
     <string name="pref_header_tone">Key training settings</string>
     <string name="pref_header_chord_root">Chord(root) training settings</string>
     <string name="pref_header_chord_degree">Chord(degree) training settings</string>
+    <string name="pref_header_scale">scale training settings</string>
 
     <string name="pref_common_countdown_second_title">count down second</string>
     <string-array name="pref_common_countdown_second_list_values">
@@ -181,6 +182,25 @@
     <string name="key_name_Bbm">変ロ短調(Bbm)</string>
     <string name="key_name_Ebm">変ホ短調(Ebm)</string>
     <string name="key_name_Abm">変イ短調(Abm)</string>
+
+    <string name="scale_name_major">major</string>
+    <string name="scale_name_natural_minor">natural minor</string>
+    <string name="scale_name_harmonic_minor">harmonic minor</string>
+    <string name="scale_name_melodic_minor">melodic minor</string>
+    <string name="scale_name_major_2_dorian">major 2 dorian</string>
+    <string name="scale_name_major_3_phrygian">major 3 phrygian</string>
+    <string name="scale_name_major_4_lydian">major 4 lydian</string>
+    <string name="scale_name_major_5_mixolydian">major 5 mixolydian</string>
+    <string name="scale_name_major_6_aeolian">major 6 aeolian</string>
+    <string name="scale_name_major_7_locrian">major 7 locrian</string>
+    <string name="scale_name_melodic_minor_2_dorian_b2">melodic minor 2 dorian b2</string>
+    <string name="scale_name_melodic_minor_3_lydian_augmented">melodic minor 3 lydian augmented</string>
+    <string name="scale_name_melodic_minor_4_lydian_dominant">melodic minor 4 lydian dominant</string>
+    <string name="scale_name_melodic_minor_5_mixolydian_b6">melodic minor 5 mixolydian b6</string>
+    <string name="scale_name_melodic_minor_6_locrian_n2">melodic minor 6 locrian n2</string>
+    <string name="scale_name_melodic_minor_7_altered">melodic minor 7 altered</string>
+    <string name="scale_name_melodic_minor_acoustic">melodic minor acoustic</string>
+    <string name="scale_name_blues">blues</string>
 
     <string name="title_activity_reference">ReferenceActivity</string>
     <string name="dummy_button">Dummy Button</string>

@@ -22,4 +22,9 @@
         android:icon="@drawable/ic_audiotrack_black_24dp"
         android:title="@string/pref_header_chord_degree" />
 
+    <header
+        android:fragment="jp.postclass.chordtraining.activity.SettingsActivity$ScalePreferenceFragment"
+        android:icon="@drawable/ic_audiotrack_black_24dp"
+        android:title="@string/pref_header_scale" />
+
 </preference-headers>

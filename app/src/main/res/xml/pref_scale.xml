@@ -1,0 +1,94 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.major"
+        android:title="@string/scale_name_major" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.natural_minor"
+        android:title="@string/scale_name_natural_minor" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.harmonic_minor"
+        android:title="@string/scale_name_harmonic_minor" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.melodic_minor"
+        android:title="@string/scale_name_melodic_minor" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.major_2_dorian"
+        android:title="@string/scale_name_major_2_dorian" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.major_3_phrygian"
+        android:title="@string/scale_name_major_3_phrygian" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.major_4_lydian"
+        android:title="@string/scale_name_major_4_lydian" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.major_5_mixolydian"
+        android:title="@string/scale_name_major_5_mixolydian" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.major_6_aeolian"
+        android:title="@string/scale_name_major_6_aeolian" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.major_7_locrian"
+        android:title="@string/scale_name_major_7_locrian" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.melodic_minor_2_dorian_b2"
+        android:title="@string/scale_name_melodic_minor_2_dorian_b2" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.melodic_minor_3_lydian_augmented"
+        android:title="@string/scale_name_melodic_minor_3_lydian_augmented" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.melodic_minor_4_lydian_dominant"
+        android:title="@string/scale_name_melodic_minor_4_lydian_dominant" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.melodic_minor_5_mixolydian_b6"
+        android:title="@string/scale_name_melodic_minor_5_mixolydian_b6" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.melodic_minor_6_locrian_n2"
+        android:title="@string/scale_name_melodic_minor_6_locrian_n2" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.melodic_minor_7_altered"
+        android:title="@string/scale_name_melodic_minor_7_altered" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.melodic_minor_acoustic"
+        android:title="@string/scale_name_melodic_minor_acoustic" />
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="pref.scale.blues"
+        android:title="@string/scale_name_blues" />
+
+
+</PreferenceScreen>

@@ -49,7 +49,26 @@ public class ScaleActivityHelper extends Qa1ActivityHelper {
     public void onResume() {
         super.onResume();
 
-        this.highestScorePrefKeySuffix = "_" + this.countDownSecond;
+        this.highestScorePrefKeySuffix = "_" + this.countDownSecond
+                + preferences.getBoolean(Constants.PREF_SCALE_major, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_natural_minor, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_harmonic_minor, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_melodic_minor, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_major_2_dorian, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_major_3_phrygian, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_major_4_lydian, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_major_5_mixolydian, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_major_6_aeolian, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_major_7_locrian, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_melodic_minor_2_dorian_b2, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_melodic_minor_3_lydian_augmented, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_melodic_minor_4_lydian_dominant, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_melodic_minor_5_mixolydian_b6, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_melodic_minor_6_locrian_n2, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_melodic_minor_7_altered, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_melodic_minor_acoustic, true)
+                + preferences.getBoolean(Constants.PREF_SCALE_blues, true);
+
         this.highestScore = preferences.getInt(Constants.DATA_TONE_HIGHESTSCORE + this.highestScorePrefKeySuffix, 0);
         this.highestScoreDate = preferences.getString(Constants.DATA_TONE_HIGHESTSCORE_DATE + this.highestScorePrefKeySuffix, "");
 
@@ -62,24 +81,61 @@ public class ScaleActivityHelper extends Qa1ActivityHelper {
                 .build();
 
         int tmpToneNo = 0;
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_major);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_natural_minor);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_harmonic_minor);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_melodic_minor);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_major_2_dorian);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_major_3_phrygian);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_major_4_lydian);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_major_5_mixolydian);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_major_6_aeolian);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_major_7_locrian);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_melodic_minor_2_dorian_b2);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_melodic_minor_3_lydian_augmented);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_melodic_minor_4_lydian_dominant);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_melodic_minor_5_mixolydian_b6);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_melodic_minor_6_locrian_n2);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_melodic_minor_7_altered);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_melodic_minor_acoustic);
-        this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_blues);
+
+        if (preferences.getBoolean(Constants.PREF_SCALE_major, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_major);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_natural_minor, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_natural_minor);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_harmonic_minor, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_harmonic_minor);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_melodic_minor, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_melodic_minor);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_major_2_dorian, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_major_2_dorian);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_major_3_phrygian, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_major_3_phrygian);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_major_4_lydian, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_major_4_lydian);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_major_5_mixolydian, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_major_5_mixolydian);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_major_6_aeolian, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_major_6_aeolian);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_major_7_locrian, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_major_7_locrian);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_melodic_minor_2_dorian_b2, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_melodic_minor_2_dorian_b2);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_melodic_minor_3_lydian_augmented, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_melodic_minor_3_lydian_augmented);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_melodic_minor_4_lydian_dominant, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_melodic_minor_4_lydian_dominant);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_melodic_minor_5_mixolydian_b6, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_melodic_minor_5_mixolydian_b6);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_melodic_minor_6_locrian_n2, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_melodic_minor_6_locrian_n2);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_melodic_minor_7_altered, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_melodic_minor_7_altered);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_melodic_minor_acoustic, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_melodic_minor_acoustic);
+        }
+        if (preferences.getBoolean(Constants.PREF_SCALE_blues, true)) {
+            this.noScaleNameMap.put(tmpToneNo++, Constants.SCALE_blues);
+        }
 
         this.maxIdx = tmpToneNo;
         this.soundPoolElements = new int[maxIdx];
